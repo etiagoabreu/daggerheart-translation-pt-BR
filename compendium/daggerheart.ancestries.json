@@ -1,0 +1,281 @@
+{
+  "label": "Ancestralidades",
+  "folders": {
+    "Ancestry Features": "Habilidades de Ancestralidade"
+  },
+  "mapping": {
+    "description": "system.description"
+  },
+  "entries": [
+    {
+      "id": "Dwarf",
+      "name": "Anão",
+      "description": "Anões são humanoides de baixa estatura, com estrutura corporal compacta, musculatura densa e cabelos abundantes. Sua altura média varia entre 1,2 m e 1,65 m, e sua constituição tende a ser larga em relação à estatura. A elevada concentração de queratina na pele e nas unhas confere a eles uma resistência natural significativa.\n\nEssa característica permite que anões incorporem pedras preciosas em seus corpos e utilizem tatuagens e piercings como forma de ornamentação. Seus cabelos crescem de maneira espessa, principalmente na cabeça, embora alguns também apresentem pelos corporais mais densos. Anões de todos os gêneros tradicionalmente possuem barba, frequentemente estilizada em arranjos complexos e elaborados.\n\nEm geral, anões podem viver até cerca de 250 anos, mantendo sua massa muscular mesmo em idades avançadas."
+    },
+    {
+      "id": "Thick Skin",
+      "name": "Pele Espessa",
+      "description": "quando sofre dano menor, você pode marcar 2 Pontos de Fadiga em vez de marcar 1 Ponto de Vida."
+    },
+    {
+      "id": "Increased Fortitude",
+      "name": "Vigoroso",
+      "description": "gaste 3 Pontos de Esperança para reduzir à metade o dano físico sofrido."
+    },
+    {
+      "id": "Clank",
+      "name": "Clank",
+      "description": "Clanks são seres mecânicos sencientes, construídos a partir de uma variedade de materiais como madeira, metal e pedra. Sua aparência pode variar amplamente, assumindo formas animais, humanoides ou até mesmo a de objetos inanimados. Assim como criaturas orgânicas, seus corpos apresentam grande diversidade de tamanhos e proporções.\n\nPor serem fabricados de maneira personalizada, muitos clanks possuem estruturas físicas altamente especializadas. Entre os exemplos estão membros com garras adaptadas para agarrar objetos, rodas ou mecanismos que facilitam a locomoção, além de armamentos integrados ao próprio corpo. É comum que clanks adotem modificações corporais tanto por estética quanto por funcionalidade.\n\nDevido a isso, indivíduos de outras ancestralidades frequentemente recorrem a artesãos clanks para a criação de dispositivos de mobilidade e ornamentos físicos. Clanks podem ser construídos por diferentes povos, às vezes inspirados nas próprias características de seus criadores, embora também seja frequente que eles fabriquem uns aos outros.\n\nA existência física de um clank permanece válida enquanto ele for capaz de obter ou produzir novas peças, o que lhe confere uma forma efetivamente imortal. No entanto, sua mente ainda está sujeita ao desgaste do tempo, podendo se deteriorar à medida que a magia que o sustenta enfraquece."
+    },
+    {
+      "id": "Purposeful Design",
+      "name": "Projeto Intencional",
+      "description": "decida quem construiu você e para que propósito. Durante a criação de personagem, escolha uma de suas Experiências que seja mais alinhada a esse propósito e receba um bônus permanente de +1 nela."
+    },
+    {
+      "id": "Efficient",
+      "name": "Eficiente",
+      "description": "ao fazer um descanso curto, você pode escolher um movimento de descanso longo em vez de um de descanso curto."
+    },
+    {
+      "id": "Drakona",
+      "name": "Drakona",
+      "description": "Drakonas são humanoides semelhantes a dragões, porém sem asas, dotados de um poderoso sopro elemental. Todos os drakonas possuem escamas espessas que funcionam como uma armadura natural eficiente contra ataques físicos e forças ambientais. Em geral, são de grande porte, variando entre 1,5 m e 2,1 m de altura, e apresentam dentes longos e afiados.\n\nAo longo de sua vida média de aproximadamente 350 anos, novos dentes continuam a crescer, garantindo que nunca fiquem sem sua dentição. Diferentemente de seus ancestrais dracônicos, drakonas não possuem asas e não conseguem voar sem auxílio mágico.\n\nEntre os membros dessa ancestralidade, o tipo de elemento associado ao sopro costuma ser herdado pelos descendentes, embora, em casos raros, um drakona possa manifestar um poder elemental diferente daquele de sua família."
+    },
+    {
+      "id": "Scales",
+      "name": "Escamas",
+      "description": "suas escamas servem como proteção natural. Quando sofrer dano grave, você pode marcar 1 PF para marcar 1 PV a menos."
+    },
+    {
+      "id": "Elemental Breath",
+      "name": "Sopro Elemental",
+      "description": "escolha um elemento para seu sopro (como eletricidade, fogo ou gelo). Você pode usar esse sopro contra um alvo ou grupo de alvos muito próximo, tratando-o como uma arma que usa Instinto e causa d8 de dano mágico com sua Proficiência."
+    },
+    {
+      "id": "Elf",
+      "name": "Elfo",
+      "description": "Elfos são humanoides altos, dotados de orelhas pontiagudas e sentidos aguçados. Suas orelhas variam em tamanho e forma, e, com o avanço da idade, suas pontas tendem a se inclinar levemente para baixo. Embora exista diversidade entre os corpos élficos, seus membros geralmente possuem grande estatura, variando entre 1,8 m e 1,95 m.\n\nElfos possuem a capacidade de entrar em um transe celestial em vez de dormir, o que lhes permite obter descanso completo em um período reduzido.\n\nAlguns elfos manifestam o que é conhecido como “forma mística”, um estado em que sua dedicação intensa ao estudo ou à proteção do mundo natural altera sua própria constituição física. Essa forma pode se expressar por meio de elementos naturais como folhas, vinhas ou flores em seus cabelos, sardas de aspecto etéreo ou olhos que brilham como fogo. Em certos casos, esses traços são herdados de seus pais, mas também podem se transformar ao longo da vida caso o elfo mude seu ambiente ou foco mágico.\n\nConsiderando sua longevidade de cerca de 350 anos, essas mudanças podem ocorrer mais de uma vez ao longo de sua existência."
+    },
+    {
+      "id": "Quick Reactions",
+      "name": "Reação Rápida",
+      "description": "marque 1 Ponto de Fadiga para receber vantagem em um teste de reação."
+    },
+    {
+      "id": "Celestial Trance",
+      "name": "Transe Celestial",
+      "description": "durante um descanso, você pode entrar em um transe celestial para escolher um movimento de repouso adicional."
+    },
+    {
+      "id": "Faerie",
+      "name": "Fada",
+      "description": "Fadas são humanoides alados com características insetoides. Sua aparência pode variar amplamente, indo de traços mais humanos até formas mais claramente insetoides. Algumas apresentam membros adicionais, exoesqueletos de quitina, ferrões, olhos compostos ou órgãos bioluminescentes.\n\nDevido à forte conexão com o mundo natural, é comum que fadas possuam atributos físicos que favoreçam a camuflagem entre plantas e ambientes selvagens. Sua altura média varia entre 60 cm e 1,5 m, embora existam indivíduos que possam atingir até 2,1 m.\n\nTodas as fadas possuem asas membranosas e passam por um processo de metamorfose. Esse processo varia de indivíduo para indivíduo, sendo durante essa transformação que cada fada define a aparência única que manterá ao longo de sua vida, que dura aproximadamente 50 anos."
+    },
+    {
+      "id": "Luckbender",
+      "name": "Testar a Sorte",
+      "description": "uma vez por sessão, após você ou um aliado voluntário próximo fazer um teste, você pode gastar 3 Pontos de Esperança para rolar novamente os Dados de Dualidade."
+    },
+    {
+      "id": "Wings",
+      "name": "Asas",
+      "description": "você pode voar. Enquanto estiver voando, e após um adversário atacar você, você pode marcar 1 Ponto de Fadiga para receber um bônus de +2 na Evasão contra esse ataque."
+    },
+    {
+      "id": "Faun",
+      "name": "Fauno",
+      "description": "Faunos são humanoides com traços caprinos, lembrando cabras antropomorfizadas, dotados de cascos fendidos, chifres curvados e pupilas de formato retangular. Embora apresentem variações individuais, em geral possuem um torso humanoide e uma parte inferior do corpo semelhante à de uma cabra, coberta por pelos espessos.\n\nSuas feições podem oscilar entre mais humanas ou mais caprinas, incluindo diferentes formatos de orelhas e chifres. Estes podem ser curtos, com uma curvatura discreta, ou longos, exibindo curvas mais marcantes e expressivas.\n\nEm média, sua altura varia entre 1,2 m e 1,95 m, podendo parecer diferente conforme a postura adotada pelo indivíduo. A maioria dos faunos possui membros proporcionalmente alongados, independentemente de seu porte ou variação corporal. São também reconhecidos pela força dos golpes desferidos com seus cascos.\n\nFaunos possuem expectativa de vida em torno de 225 anos e, com o envelhecimento, sua aparência tende a se tornar ainda mais próxima de características caprinas."
+    },
+    {
+      "id": "Caprine Leap",
+      "name": "Salto Caprino",
+      "description": "você pode saltar para qualquer ponto no alcance próximo como se estivesse usando seu movimento normal, o que lhe permite transpor obstáculos, atravessar fendas no solo ou escalar barreiras com facilidade."
+    },
+    {
+      "id": "Kick",
+      "name": "Coice",
+      "description": "quando você acerta um ataque contra um alvo corpo a corpo, você pode marcar 1 Ponto de Fadiga para dar um coice, causando 2d6 de dano adicional. Ao fazer isso, você empurra o adversário ou a si mesmo para um ponto em alcance muito próximo."
+    },
+    {
+      "id": "Firbolg",
+      "name": "Firbolg",
+      "description": "Firbolgs são humanoides com traços bovinos, geralmente identificados por um focinho largo e orelhas longas e pendentes. Seus rostos podem variar bastante, combinando características humanoides com aspectos de bisões, touros, vacas ou outras criaturas bovinas. Em alguns casos, indivíduos com traços totalmente bovinos são conhecidos como minotauros.\n\nEssas criaturas costumam ser altas, com estatura entre 1,5 m e 2,1 m. Seu corpo musculoso lhes confere grande força física, independentemente da idade. Alguns firbolgs utilizam essa força de forma ofensiva, investindo contra adversários , uma técnica ainda mais eficaz quando combinada com diferentes tipos de chifres comuns à ancestralidade.\n\nApesar das variações de aparência, todos os firbolgs possuem uma pelagem que pode apresentar tons discretos e terrosos ou, em alguns casos, cores mais incomuns como azul e rosa-claro. Sua expectativa de vida média é de cerca de 150 anos."
+    },
+    {
+      "id": "Charge",
+      "name": "Investida",
+      "description": "ao obter sucesso em um teste de Agilidade para se movimentar de distante ou muito distante para corpo a corpo em relação a um ou mais alvos, você pode marcar 1 Ponto de Fadiga para causar 1d12 de dano físico a todos os alvos em alcance corpo a corpo."
+    },
+    {
+      "id": "Unshakeable",
+      "name": "Inabalável",
+      "description": "quando for marcar 1 Ponto de Fadiga, role 1d6. Se tirar 6, não o marque."
+    },
+    {
+      "id": "Fungril",
+      "name": "Fungril",
+      "description": "Fungrils são cogumelos humanoides, com aparência que pode variar entre formas mais fúngicas ou mais humanoides. Apresentam grande diversidade de cores, indo de tons terrosos até matizes vibrantes como azul, vermelho, amarelo e púrpura.\n\nEssa ancestralidade não possui um padrão corporal fixo, exibindo ampla variação em membros, estruturas e fisionomias. Sua altura também é extremamente variável, podendo ir de apenas 60 cm até cerca de 2,1 m.\n\nEmbora a expectativa de vida média de um fungril seja de aproximadamente 300 anos, há registros de indivíduos que ultrapassaram significativamente essa marca. Fungrils são capazes de se comunicar de forma não verbal, e muitos utilizam uma rede micelial para trocar informações químicas a grandes distâncias."
+    },
+    {
+      "id": "Fungril Network",
+      "name": "Conexão Fungril",
+      "description": "faça um teste de Instinto (12) para conversar com outros membros de sua ancestralidade por meio da rede micelial. Em um sucesso, você pode se comunicar a qualquer distância."
+    },
+    {
+      "id": "Death Connection",
+      "name": "Vínculo Mortal",
+      "description": "enquanto estiver tocando um cadáver que tenha morrido recentemente, você pode marcar 1 PF para extrair dele uma memória relacionada a uma emoção ou sensação específica à sua escolha."
+    },
+    {
+      "id": "Galapa",
+      "name": "Galapa",
+      "description": "Galapas são tartarugas antropomórficas, caracterizadas por carapaças amplas e arredondadas nas quais podem se recolher completamente. Em média, possuem entre 1,2 m e 1,8 m de altura, e tanto o formato do corpo quanto o da cabeça pode variar, lembrando diferentes espécies de tartarugas.\n\nSua coloração geralmente apresenta tons terrosos, como marrom e verde, e cada indivíduo possui padrões únicos em seu casco. Membros dessa ancestralidade são capazes de se defender retraindo cabeça, braços e pernas para dentro da carapaça, utilizando-a como um escudo natural quando necessário.\n\nAlguns galapas realizam modificações em seus cascos, adicionando armaduras ou entalhes decorativos, embora esse processo seja extremamente doloroso. A maioria apresenta movimentação lenta, independentemente da idade. Sua expectativa de vida média é de cerca de 150 anos."
+    },
+    {
+      "id": "Shell",
+      "name": "Carapaça",
+      "description": "você recebe um bônus nos seus limiares de dano igual à sua Proficiência."
+    },
+    {
+      "id": "Retract",
+      "name": "Retração",
+      "description": "marque 1 Ponto de Fadiga para entrar na sua carapaça. Enquanto estiver dentro dela, você tem resistência a dano físico, desvantagem em testes e não pode se mover."
+    },
+    {
+      "id": "Giant",
+      "name": "Gigante",
+      "description": "Gigantes são humanoides de grande porte, com braços longos, ombros largos e uma quantidade variável de olhos, que pode ir de um a três. Em idade adulta, medem entre 1,8 m e 2,55 m de altura e apresentam musculatura naturalmente desenvolvida, independentemente de seu tipo físico. Sua estrutura ampla, combinada com braços e pescoços alongados, torna sua identificação relativamente fácil.\n\nEmbora possam possuir até três olhos, todos os gigantes nascem sem nenhum, permanecendo nessa condição até cerca de um ano de idade. Seu desenvolvimento físico se completa por volta dos 10 anos, período durante o qual a formação ocular pode variar entre indivíduos. Aqueles que desenvolvem apenas um olho são comumente chamados de “ciclopes”.\n\nA expectativa de vida média de um gigante é de aproximadamente 75 anos."
+    },
+    {
+      "id": "Endurance",
+      "name": "Resistência",
+      "description": "receba 1 Ponto de Vida adicional durante a criação de personagem."
+    },
+    {
+      "id": "Reach",
+      "name": "Alcance",
+      "description": "trate qualquer arma, talento, magia ou outra habilidade com alcance corpo a corpo como se ela possuísse alcance muito próximo."
+    },
+    {
+      "id": "Goblin",
+      "name": "Goblin",
+      "description": "Goblins são pequenos humanoides, facilmente reconhecíveis por seus grandes olhos e orelhas membranosas de proporções exageradas. Possuem audição e visão bastante apuradas, o que lhes permite notar detalhes a grandes distâncias e em ambientes escuros, facilitando sua locomoção em locais de baixa visibilidade.\n\nApresentam ampla variação de cores de pele e olhos, sem predominância de tonalidades específicas, podendo exibir desde tons discretos até cores mais intensas e vibrantes. Um goblin típico mede entre 90 cm e 1,2 m de altura, e suas orelhas podem alcançar dimensões equivalentes ao tamanho da cabeça.\n\nGoblins são conhecidos por utilizar movimentos sutis e específicos de suas orelhas como forma de comunicação não verbal. Sua expectativa de vida gira em torno de 100 anos, e muitos mantêm parte significativa de sua acuidade auditiva e visual mesmo na velhice."
+    },
+    {
+      "id": "Surefooted",
+      "name": "Passo Firme",
+      "description": "você ignora desvantagem em testes de Agilidade."
+    },
+    {
+      "id": "Danger Sense",
+      "name": "Cheiro de Perigo",
+      "description": "uma vez por descanso, marque 1 Ponto de Fadiga para forçar um adversário a fazer novamente um teste de ataque contra você ou um aliado muito próximo."
+    },
+    {
+      "id": "Human",
+      "name": "Humano",
+      "description": "Humanos são facilmente reconhecíveis por suas mãos hábeis, orelhas arredondadas e resistência física moderada. Sua altura média varia de pouco menos de 1,5 m até cerca de 1,95 m. Apresentam grande diversidade de constituições corporais, indo de estruturas mais robustas a formas bastante esguias.\n\nMembros dessa ancestralidade possuem alta adaptabilidade física, conseguindo se ajustar com relativa facilidade a diferentes condições climáticas e ambientes adversos. Em geral, sua expectativa de vida gira em torno de 100 anos, com transformações físicas marcantes ocorrendo entre a juventude e a velhice."
+    },
+    {
+      "id": "High Stamina",
+      "name": "Resiliência",
+      "description": "receba 1 Ponto de Fadiga adicional durante a criação de personagem."
+    },
+    {
+      "id": "Adaptability",
+      "name": "Adaptabilidade",
+      "description": "ao rolar uma falha em um teste que usou uma de suas Experiências, você pode marcar 1 Ponto de Fadiga para fazer a rolagem novamente."
+    },
+    {
+      "id": "Infernis",
+      "name": "Infernis",
+      "description": "Infernis são humanoides descendentes de demônios dos Círculos Inferiores. Possuem chifres, caninos afiados e orelhas pontiagudas, geralmente medindo entre 1,5 m e 2,1 m de altura. São reconhecidos também por dedos longos com unhas proeminentes.\n\nAlguns apresentam caudas finas e alongadas, com extremidades pontiagudas, bifurcadas ou em formato de flecha. Em regra, infernis possuem entre dois e quatro chifres, embora existam indivíduos com apenas um ou com verdadeiras coroas de múltiplos chifres. Esses chifres podem crescer de forma assimétrica, em padrões únicos e quase sempre curvados, sendo frequentemente decorados com entalhes e ornamentos.\n\nA coloração de seus cabelos, pele e chifres varia amplamente, indo de tons suaves e pastel até cores intensas e vibrantes, como escarlate, roxo profundo e preto absoluto."
+    },
+    {
+      "id": "Fearless",
+      "name": "Destemido",
+      "description": "quando rolar com Medo, você pode marcar 2 Pontos de Fadiga para rolar com Esperança em vez disso."
+    },
+    {
+      "id": "Dread Visage",
+      "name": "Aspecto Apavorante",
+      "description": "você tem vantagem em testes para intimidar criaturas hostis."
+    },
+    {
+      "id": "Katari",
+      "name": "Katari",
+      "description": "Kataris são humanoides felinos, dotados de garras retráteis, pupilas verticalmente fendidas e orelhas triangulares posicionadas no topo da cabeça. Podem apresentar dentes caninos levemente afiados, pelagem suave e longos bigodes, que auxiliam na orientação e na percepção do ambiente. Suas orelhas possuem grande mobilidade, podendo girar quase 180°, o que contribui para sentidos auditivos bastante apurados.\n\nSua aparência pode variar entre formas mais humanoides ou mais animalescas, incluindo traços como focinho, bigodes e diferentes graus de cobertura de pelos. Cerca de metade da população katari possui cauda. Há ampla diversidade de cores e padrões de pelagem, incluindo tons sólidos, malhados e rajados, além de listras, manchas e outras marcações variadas.\n\nSua altura média varia entre 1,5 m e 1,95 m, e sua expectativa de vida gira em torno de 150 anos."
+    },
+    {
+      "id": "Feline Instincts",
+      "name": "Instinto Felino",
+      "description": "ao fazer uma teste de Agilidade, você pode gastar 2 Pontos de Esperança para rolar seu Dado de Esperança novamente."
+    },
+    {
+      "id": "Retracting Claws",
+      "name": "Garras Retráteis",
+      "description": "faça um teste de Agilidade para arranhar um alvo corpo a corpo. Em um sucesso, ele fica temporariamente Vulnerável."
+    },
+    {
+      "id": "Orc",
+      "name": "Orc",
+      "description": "Orcs são humanoides caracterizados por feições marcadamente angulares e presas mandibulares protuberantes, semelhantes às de javalis. Essas presas variam em tamanho e, embora estejam localizadas na região da boca, não são utilizadas para alimentação. Em vez disso, muitos orcs escolhem adorná-las com ornamentos simbólicos ou pessoais.\n\nSua expectativa de vida é de aproximadamente 125 anos e, quando não modificadas, as presas tendem a crescer continuamente ao longo de toda a vida. Orcs também possuem orelhas pontiagudas e apresentam grande variação de cores de pele e cabelo, incluindo tons de azul, cinza, rosa e verde.\n\nEm geral, possuem constituição física mais robusta, com altura média entre 1,5 m e 1,95 m."
+    },
+    {
+      "id": "Sturdy",
+      "name": "Robusto",
+      "description": "quando você tem apenas 1 Ponto de Vida restante, ataques contra você têm desvantagem."
+    },
+    {
+      "id": "Tusks",
+      "name": "Presas",
+      "description": "quando acerta um ataque contra um alvo corpo a corpo, você pode gastar 1 Ponto de Esperança para perfurá-lo com suas presas, causando 1d6 de dano adicional."
+    },
+    {
+      "id": "Halfling",
+      "name": "Pequenino",
+      "description": "Pequeninos são humanoides de baixa estatura, caracterizados por grandes pés cobertos de pelos e orelhas arredondadas e bastante proeminentes. Em média, medem entre 90 cm e 1,2 m, e apresentam nariz, orelhas e pés relativamente maiores em proporção ao restante do corpo.\n\nMembros dessa ancestralidade possuem expectativa de vida de aproximadamente 150 anos e costumam manter uma aparência jovem mesmo na fase adulta e ao longo da velhice. Pequeninos possuem uma conexão natural com os campos magnéticos do plano mortal, o que lhes confere um senso de direção altamente apurado. Além disso, contam com audição e olfato aguçados, sendo capazes de reconhecer frequentemente indivíduos conhecidos apenas pelo som de seus movimentos."
+    },
+    {
+      "id": "Luckbringer",
+      "name": "Talismã da Sorte",
+      "description": "no início de cada sessão, todos os membros de seu grupo recebem 1 Ponto de Esperança."
+    },
+    {
+      "id": "Internal Compass",
+      "name": "Senso de Direção",
+      "description": "ao rolar 1 no Dado de Esperança, você pode rolá-lo novamente."
+    },
+    {
+      "id": "Ribbet",
+      "name": "Quacho",
+      "description": "Quachos são humanoides de aparência anfíbia, semelhantes a sapos antropomórficos, com olhos protuberantes e mãos e pés membranosos. Possuem pele úmida e lisa, que pode variar entre textura suave ou levemente rugosa, além de olhos posicionados nas laterais da cabeça.\n\nSua estrutura corporal varia bastante: alguns apresentam patas traseiras significativamente maiores que o tronco, enquanto outros possuem membros mais curtos. Independentemente da altura , que varia entre 90 cm e 1,35 m ,, quachos se locomovem principalmente por meio de saltos. Todos possuem apêndices membranosos que facilitam a natação.\n\nAlguns indivíduos apresentam coloração camuflada em tons verde-amarronzados, enquanto outros exibem cores vibrantes com padrões marcantes. Independentemente dessas variações, todos os quachos nascem de ovos depositados na água, passam a fase inicial da vida como girinos e, após cerca de 6 a 7 anos, tornam-se anfíbios capazes de viver em terra firme. Sua expectativa de vida média é de aproximadamente 100 anos."
+    },
+    {
+      "id": "Amphibious",
+      "name": "Anfíbio",
+      "description": "você pode respirar e se movimentar naturalmente debaixo d’água."
+    },
+    {
+      "id": "Long Tongue",
+      "name": "Linguarudo",
+      "description": "você pode usar sua língua para agarrar coisas Próximas. Marque 1 Ponto de Fadiga para usá-la como uma arma de Acuidade com alcance próximo que causa d12 de dano físico com sua Proficiência."
+    },
+    {
+      "id": "Simiah",
+      "name": "Símio",
+      "description": "Símios são primatas antropomórficos, caracterizados por membros longos e pés preênseis. Embora possam apresentar traços inspirados em diversos primatas , do gorila ao sagui ,, sua contraparte animal não determina sua estatura, que pode variar entre 60 cm e 1,8 m.\n\nTodos os símios são capazes de utilizar os pés de forma funcional, seja em combate, em atividades práticas ou na comunicação não verbal. Alguns indivíduos também possuem caudas preênseis, úteis tanto para segurar objetos quanto para auxiliar no equilíbrio.\n\nEssas características lhes conferem grande agilidade, tornando-os especialmente habilidosos em tarefas físicas. Símios são excelentes escaladores e conseguem alternar com facilidade entre locomoção bípede e o deslocamento apoiado nos membros superiores, tanto ao caminhar quanto ao escalar. Sua expectativa de vida média é de aproximadamente 100 anos."
+    },
+    {
+      "id": "Natural Climber",
+      "name": "Escalador Natural",
+      "description": "você tem vantagem em testes de Agilidade envolvendo equilibrar-se e escalar."
+    },
+    {
+      "id": "Nimble",
+      "name": "Ágil",
+      "description": "você recebe um bônus permanente de +1 na Evasão durante a criação de personagem."
+    }
+  ]
+}

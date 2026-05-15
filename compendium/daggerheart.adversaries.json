@@ -1,0 +1,919 @@
+{
+	"label": "Adversários",
+	"folders": {
+		"Tier 4": "Patamar 4",
+		"Tier 2": "Patamar 2",
+		"Tier 1": "Patamar 1",
+		"Tier 3": "Patamar 3"
+	},
+	"mapping": {
+		"description": "system.description",
+		"motivesAndTactics": "system.motivesAndTactics",
+		"tokenName": "prototypeToken.name"
+	},
+	"entries": {
+		"Cult Adept": {
+			"name": "Cultista Adepto",
+			"tokenName": "Cultista Adepto",
+			"id": "Cult Adept",
+			"description": "Um mago experiente que lida com sombras e medo.",
+			"motivesAndTactics": "bajular, atrapalhar inimigos, fazer descobertas"
+		},
+		"Archer Squadron": {
+			"name": "Esquadrão de Arqueiros",
+			"tokenName": "Esquadrão de Arqueiros",
+			"id": "Archer Squadron",
+			"description": "Um grupo de arqueiros portando arcos massivos.",
+			"motivesAndTactics": "manter-se juntos, sobreviver, atirar fogo"
+		},
+		"Skeleton Warrior": {
+			"name": "Esqueleto Guerreiro",
+			"tokenName": "Esqueleto Guerreiro",
+			"id": "Skeleton Warrior",
+			"description": "Um esqueleto empoeirado, armado com uma lâmina enferrujada.",
+			"motivesAndTactics": "fingir de morto, agrupar, roubar pele"
+		},
+		"Tiny Red Ooze": {
+			"name": "Lodo Vermelho Pequeno",
+			"tokenName": "Lodo Vermelho Pequeno",
+			"id": "Tiny Red Ooze",
+			"description": "Um montinho vivo feito de gosma vermelha flamejante.",
+			"motivesAndTactics": "pegar fogo, camuflagem"
+		},
+		"Jagged Knife Sniper": {
+			"name": "Punhal Escarpado, Seteiro",
+			"tokenName": "Punhal Escarpado, Seteiro",
+			"id": "Jagged Knife Sniper",
+			"description": "Um bandido esguio que ataca de longe com um arco curto.",
+			"motivesAndTactics": "emboscar, esconder-se, lucrar, reposicionar-se"
+		},
+		"Brawny Zombie": {
+			"name": "Zumbi Corpulento",
+			"tokenName": "Zumbi Corpulento",
+			"id": "Brawny Zombie",
+			"description": "Um cadáver grande, inchado e zangado.",
+			"motivesAndTactics": "esmagar, destruir, atirar escombros, bater"
+		},
+		"Demon of Hubris": {
+			"name": "Demônio da Soberba",
+			"tokenName": "Demônio da Soberba",
+			"id": "Demon of Hubris",
+			"description": "Um demônio belo e cruel, com uma lança reluzente e robes elegantes.",
+			"motivesAndTactics": "condescendência, clamar vitória prematura, provar superioridade"
+		},
+		"Shambling Zombie": {
+			"name": "Zumbi Faminto",
+			"tokenName": "Zumbi Faminto",
+			"id": "Shambling Zombie",
+			"description": "Um cadáver animado que estremece ao se mover, movido pela fome.",
+			"motivesAndTactics": "devorar, fome, agrupar, dilacerar carne"
+		},
+		"Stonewraith": {
+			"name": "Aparição de Pedra",
+			"tokenName": "Aparição de Pedra",
+			"id": "Stonewraith",
+			"description": "Um caçador que se esgueira como um leão-da-montanha, com corpo de pedra acinzentada.",
+			"motivesAndTactics": "defender território, isolar presa, perseguir"
+		},
+		"Minor Demon": {
+			"name": "Demônio Menor",
+			"tokenName": "Demônio Menor",
+			"id": "Minor Demon",
+			"description": "Uma criatura avermelhada vinda dos Círculos Inferiores, consumida por sua ira contra todos os mortais.",
+			"motivesAndTactics": "ser errático, encurralar, sorver dor, flagelar"
+		},
+		"Giant Rat": {
+			"name": "Rato Gigante",
+			"tokenName": "Rato Gigante",
+			"id": "Giant Rat",
+			"description": "Um roedor do tamanho de um gato, habituado a sobreviver.",
+			"motivesAndTactics": "cavar, fome, coletar, desgastar"
+		},
+		"Kraken": {
+			"name": "Kraken",
+			"tokenName": "Kraken",
+			"id": "Kraken",
+			"description": "Uma besta marinha lendária, maior que o maior dos galeões, com tentáculos repletos de ventosas e uma bocarra terrível.",
+			"motivesAndTactics": "consumir, esmagar, afogar, agarrar"
+		},
+		"Jagged Knife Bandit": {
+			"name": "Punhal Escarpado, Bandido",
+			"tokenName": "Punhal Escarpado, Bandido",
+			"id": "Jagged Knife Bandit",
+			"description": "Um criminoso ardiloso com a faca icônica de sua gangue.",
+			"motivesAndTactics": "fugir, lucrar, roubar, usar fumaça"
+		},
+		"Pirate Raiders": {
+			"name": "Piratas Saqueadores",
+			"tokenName": "Piratas Saqueadores",
+			"id": "Pirate Raiders",
+			"description": "Um grupo sanguinário de bandidos dos mares.",
+			"motivesAndTactics": "ameaçar em grupo, saquear, pilhar"
+		},
+		"Demon of Wrath": {
+			"name": "Demônio da Ira",
+			"tokenName": "Demônio da Ira",
+			"id": "Demon of Wrath",
+			"description": "Um demônio com punhos gigantescos movido por uma fúria infindável.",
+			"motivesAndTactics": "alimentar a fúria, impressionar rivais, causar destruição"
+		},
+		"Giant Recruit": {
+			"name": "Gigante Recruta",
+			"tokenName": "Gigante Recruta",
+			"id": "Giant Recruit",
+			"description": "Um lutador gigante de armadura emprestada.",
+			"motivesAndTactics": "bater, ganhar a vida, sobrecarregar, aterrorizar"
+		},
+		"Spectral Archer": {
+			"name": "Espectro Arqueiro",
+			"tokenName": "Espectro Arqueiro",
+			"id": "Spectral Archer",
+			"description": "Um lutador fantasma com um arco etéreo, incapaz de seguir em frente.",
+			"motivesAndTactics": "atravessar objetos sólidos, ficar longe do conflito, recomeçar batalhas antigas"
+		},
+		"Spectral Captain": {
+			"name": "Espectro Capitão",
+			"tokenName": "Espectro Capitão",
+			"id": "Spectral Captain",
+			"description": "Um comandante fantasmagórico que lidera tropas do além-túmulo.",
+			"motivesAndTactics": "atravessar objetos sólidos, comandar tropas, recomeçar batalhas antigas"
+		},
+		"Huge Green Ooze": {
+			"name": "Lodo Verde Gigante",
+			"tokenName": "Lodo Verde Gigante",
+			"id": "Huge Green Ooze",
+			"description": "Um monte ácido verde mais alto que um humano comum.",
+			"motivesAndTactics": "camuflagem, esgueirar, envolver, multiplicar-se"
+		},
+		"Skeleton Dredge": {
+			"name": "Esqueleto Arruinado",
+			"tokenName": "Esqueleto Arruinado",
+			"id": "Skeleton Dredge",
+			"description": "Uma pilha barulhenta de ossos.",
+			"motivesAndTactics": "desmoronar, sobrecarregar, fingir de morto, roubar pele"
+		},
+		"Bear": {
+			"name": "Urso",
+			"tokenName": "Urso",
+			"id": "Bear",
+			"description": "Um grande urso de pelo espesso e garras poderosas.",
+			"motivesAndTactics": "escalar, defender território, socar, rastrear"
+		},
+		"Skeleton Archer": {
+			"name": "Esqueleto Arqueiro",
+			"tokenName": "Esqueleto Arqueiro",
+			"id": "Skeleton Archer",
+			"description": "Um esqueleto frágil com um arco curto e flechas.",
+			"motivesAndTactics": "perfurar alvos distraídos, fingir de morto, roubar pele"
+		},
+		"Knight of the Realm": {
+			"name": "Cavaleiro do Reino",
+			"tokenName": "Cavaleiro do Reino",
+			"id": "Knight of the Realm",
+			"description": "Um soldado condecorado de armadura pesada, montado num cavalo.",
+			"motivesAndTactics": "atropelar, buscar glória, mostrar dominância"
+		},
+		"Acid Burrower": {
+			"name": "Roedor Corrosivo",
+			"tokenName": "Roedor Corrosivo",
+			"id": "Acid Burrower",
+			"description": "Um inseto do tamanho de um cavalo com garras fortes e sangue ácido.",
+			"motivesAndTactics": "escavar, arrastar, alimentar, reposicionar"
+		},
+		"Glass Snake": {
+			"name": "Cobra-de-Vidro",
+			"tokenName": "Cobra-de-Vidro",
+			"id": "Glass Snake",
+			"description": "Uma serpente translúcida com uma cabeça imensa, que deixa um rastro de vidro por onde passa.",
+			"motivesAndTactics": "escalar, comer, manter distância, assustar"
+		},
+		"Giant Beastmaster": {
+			"name": "Gigante Mestre das Feras",
+			"tokenName": "Gigante Mestre das Feras",
+			"id": "Giant Beastmaster",
+			"description": "Um guerreiro de armadura de couro, com um chicote e um arco imenso.",
+			"motivesAndTactics": "comandar, ganhar a vida, manobrar, imobilizar, proteger companheiros animais"
+		},
+		"Cave Ogre": {
+			"name": "Ogro das Cavernas",
+			"tokenName": "Ogro das Cavernas",
+			"id": "Cave Ogre",
+			"description": "Um imenso humanoide que vê toda criatura senciente como comida.",
+			"motivesAndTactics": "arrancar cabeças com mordidas, devorar, arrancar membros, pisotear, arremessar inimigos"
+		},
+		"Gorgon": {
+			"name": "Górgona",
+			"tokenName": "Górgona",
+			"id": "Gorgon",
+			"description": "Um humanoide escamoso com cobras na cabeça, armado com um arco dourado e enraivecido por ter sua paz perturbada.",
+			"motivesAndTactics": "acuar, bater e correr, petrificar, se vingar"
+		},
+		"Young Dryad": {
+			"name": "Dríade Jovem",
+			"tokenName": "Dríade Jovem",
+			"id": "Young Dryad",
+			"description": "Uma pessoa-árvore autoritária que lidera as defesas da floresta.",
+			"motivesAndTactics": "comandar, nutrir, eliminar intrusos"
+		},
+		"Spy": {
+			"name": "Espião",
+			"tokenName": "Espião",
+			"id": "Spy",
+			"description": "Um agente secreto habilidoso com o hábito de estar no local certo para escutar segredos.",
+			"motivesAndTactics": "cortar e correr, disfarçar aparência, bisbilhotar"
+		},
+		"Conscript": {
+			"name": "Conscrito",
+			"tokenName": "Conscrito",
+			"id": "Conscript",
+			"description": "Um civil mal treinado enviado para a guerra.",
+			"motivesAndTactics": "seguir ordens, atacar em grupo, sobreviver"
+		},
+		"Red Ooze": {
+			"name": "Lodo Vermelho",
+			"tokenName": "Lodo Vermelho",
+			"id": "Red Ooze",
+			"description": "Um monte vivo feito de gosma vermelha flamejante.",
+			"motivesAndTactics": "camuflagem, multiplicar, inflamar, incendiar"
+		},
+		"Deeproot Defender": {
+			"name": "Defensor Enraizado",
+			"tokenName": "Defensor Enraizado",
+			"id": "Deeproot Defender",
+			"description": "Uma pessoa-vegetal robusta com vinhas capazes de agarrar.",
+			"motivesAndTactics": "emboscar, agarrar, proteger, socar"
+		},
+		"Outer Realms Abomination": {
+			"name": "Reinos Exteriores, Abominação",
+			"tokenName": "Reinos Exteriores, Abominação",
+			"id": "Outer Realms Abomination",
+			"description": "Uma zombaria caótica à própria vida, em fluxo constante.",
+			"motivesAndTactics": "demolir, devorar, debilitar"
+		},
+		"Merchant": {
+			"name": "Comerciante",
+			"tokenName": "Comerciante",
+			"id": "Merchant",
+			"description": "Um mercador bem trajado com olhar aguçado para obter lucro.",
+			"motivesAndTactics": "comprar barato e vender caro, criar demanda, inflar preços, buscar lucro."
+		},
+		"Bladed Guard": {
+			"name": "Guarda Armado",
+			"tokenName": "Guarda Armado",
+			"id": "Bladed Guard",
+			"description": "Um guarda de armadura portando uma espada e um Fadiga pintado com as cores do assentamento.",
+			"motivesAndTactics": "prender, fechar portões, chegar ao fim do dia, imobilizar"
+		},
+		"Siren": {
+			"name": "Sereia",
+			"tokenName": "Sereia",
+			"id": "Siren",
+			"description": "Uma pessoa meio-peixe, de escamas brilhantes e voz irresistível.",
+			"motivesAndTactics": "consumir, seduzir presas, vencer com música"
+		},
+		"Jagged Knife Lackey": {
+			"name": "Punhal Escarpado, Ladrão",
+			"tokenName": "Punhal Escarpado, Ladrão",
+			"id": "Jagged Knife Lackey",
+			"description": "Um ladrão com roupas simples e um pequeno punhal, tentando mostrar a que veio.",
+			"motivesAndTactics": "escapar, lucrar, jogar fumaça"
+		},
+		"Courtier": {
+			"name": "Palaciano",
+			"tokenName": "Palaciano",
+			"id": "Courtier",
+			"description": "Um socialite ambicioso vestido de maneira ostensiva.",
+			"motivesAndTactics": "descreditar, bajular, manobrar, planejar"
+		},
+		"Jagged Knife Kneebreaker": {
+			"name": "Punhal Escarpado, Brigão",
+			"tokenName": "Punhal Escarpado, Brigão",
+			"id": "Jagged Knife Kneebreaker",
+			"description": "Um fortão imponente com um grande porrete.",
+			"motivesAndTactics": "agarrar, intimidar, lucrar, roubar"
+		},
+		"Perfected Zombie": {
+			"name": "Zumbi Aperfeiçoado",
+			"tokenName": "Zumbi Aperfeiçoado",
+			"id": "Perfected Zombie",
+			"description": "Um zumbi imponente e musculoso, aperfeiçoado por magia.",
+			"motivesAndTactics": "consumir, caçar, agredir, aterrorizar"
+		},
+		"Failed Experiment": {
+			"name": "Experimento Fracassado",
+			"tokenName": "Experimento Fracassado",
+			"id": "Failed Experiment",
+			"description": "Um experimento necromântico fracassado, resultando em algo distorcido e desajeitado.",
+			"motivesAndTactics": "devorar, caçar, rastrear"
+		},
+		"Minor Fire Elemental": {
+			"name": "Elemental Menor do Fogo",
+			"tokenName": "Elemental Menor do Fogo",
+			"id": "Minor Fire Elemental",
+			"description": "Uma chama viva do tamanho de uma fogueira grande.",
+			"motivesAndTactics": "cercar inimigos, aumentar de tamanho, intimidar, incendiar"
+		},
+		"Patchwork Zombie Hulk": {
+			"name": "Zumbi Emendado",
+			"tokenName": "Zumbi Emendado",
+			"id": "Patchwork Zombie Hulk",
+			"description": "Cadáveres se movendo como uma coisa só, com membros grandes, torsos e punhos do tamanho de pequeninos adultos.",
+			"motivesAndTactics": "absorver corpos, sacudir, fome, assustar"
+		},
+		"Royal Advisor": {
+			"name": "Conselheiro Real",
+			"tokenName": "Conselheiro Real",
+			"id": "Royal Advisor",
+			"description": "Um bajulador de alta patente com influência sobre a nobreza local.",
+			"motivesAndTactics": "bajular, produzir evidências, tramar"
+		},
+		"Vault Guardian Sentinel": {
+			"name": "Autômato Sentinela",
+			"tokenName": "Autômato Sentinela",
+			"id": "Vault Guardian Sentinel",
+			"description": "Um construto empoeirado com mãos de maça.",
+			"motivesAndTactics": "destruir a qualquer custo, expurgar, proteger"
+		},
+		"Minor Treant": {
+			"name": "Ente Menor",
+			"tokenName": "Ente Menor",
+			"id": "Minor Treant",
+			"description": "Uma muda ambulante que se ergueu para defender sua floresta.",
+			"motivesAndTactics": "esmagar, sobrecarregar, proteger"
+		},
+		"Adult Flickerfly": {
+			"name": "Oscilume Adulto",
+			"tokenName": "Oscilume Adulto",
+			"id": "Adult Flickerfly",
+			"description": "Um inseto alado grande como uma casa com escamas iridescentes e asas mais velozes que o olhar.",
+			"motivesAndTactics": "colecionar coisas brilhantes, caçar, fazer ninhos, arrebatar"
+		},
+		"Giant Mosquitoes": {
+			"name": "Mosquitos Gigantes",
+			"tokenName": "Mosquitos Gigantes",
+			"id": "Giant Mosquitoes",
+			"description": "Dúzias de mosquitos grandes como punhos, voando juntos como forma de proteção.",
+			"motivesAndTactics": "voar para longe, incomodar, roubar sangue"
+		},
+		"Archer Guard": {
+			"name": "Guarda Arqueiro",
+			"tokenName": "Guarda Arqueiro",
+			"id": "Archer Guard",
+			"description": "Um guarda alto portando um arco longo e uma aljava com flechas nas cores do assentamento.",
+			"motivesAndTactics": "prender, fechar portões, chegar ao fim do dia, imobilizar"
+		},
+		"Vault Guardian Gaoler": {
+			"name": "Autômato Carcereiro",
+			"tokenName": "Autômato Carcereiro",
+			"id": "Vault Guardian Gaoler",
+			"description": "Um construto-jaula com portas metálicas grossas no torso.",
+			"motivesAndTactics": "carregar para longe, emboscar, proteger, bater"
+		},
+		"Stag Knight": {
+			"name": "Cavaleiro Cervo",
+			"tokenName": "Cavaleiro Cervo",
+			"id": "Stag Knight",
+			"description": "Um cavaleiro com imponentes galhadas e usa armadura de espinhos.",
+			"motivesAndTactics": "isolar, manobrar, proteger a floresta, eliminar intrusos"
+		},
+		"Hydra": {
+			"name": "Hidra",
+			"tokenName": "Hidra",
+			"id": "Hydra",
+			"description": "Um quadrúpede bestial com várias cabeças em pescoços compridos, cada uma munida de presas terríveis.",
+			"motivesAndTactics": "devorar, regenerar, aterrorizar"
+		},
+		"Juvenile Flickerfly": {
+			"name": "Oscilume Jovem",
+			"tokenName": "Oscilume Jovem",
+			"id": "Juvenile Flickerfly",
+			"description": "Um inseto grande como um cavalo, com escamas iridescentes e asas cristalinas que se movem mais rápido do que o olhar.",
+			"motivesAndTactics": "colecionar coisas brilhantes, caçar, arrebatar"
+		},
+		"Jagged Knife Hexer": {
+			"name": "Punhal Escarpado, Bruxo",
+			"tokenName": "Punhal Escarpado, Bruxo",
+			"id": "Jagged Knife Hexer",
+			"description": "Um bandido de cajado, vestindo uma capa adornada com parafernália mágica, que usa feitiços contra seus inimigos.",
+			"motivesAndTactics": "comandar, enfeitiçar, lucrar"
+		},
+		"Zombie Pack": {
+			"name": "Horda de Zumbis",
+			"tokenName": "Horda de Zumbis",
+			"id": "Zombie Pack",
+			"description": "Um grupo de cadáveres cambaleantes se movendo juntos por instinto.",
+			"motivesAndTactics": "consumir carne, fome, machucar"
+		},
+		"Demonic Hound Pack": {
+			"name": "Matilha Demoníaca",
+			"tokenName": "Matilha Demoníaca",
+			"id": "Demonic Hound Pack",
+			"description": "Cães demoníacos que bruxuleiam com brasas infernais.",
+			"motivesAndTactics": "Causar medo, consumir carne, agradar seus mestres"
+		},
+		"Giant Eagle": {
+			"name": "Águia Gigante",
+			"tokenName": "Águia Gigante",
+			"id": "Giant Eagle",
+			"description": "Uma imensa ave de rapina com garras manchadas de sangue.",
+			"motivesAndTactics": "caçar, manter-se em movimento, atacar com precisão"
+		},
+		"Pirate Captain": {
+			"name": "Pirata Capitão",
+			"tokenName": "Pirata Capitão",
+			"id": "Pirate Captain",
+			"description": "Um lobo do mar carismático com um chapéu impressionante, sempre disposto a pilhar e saquear.",
+			"motivesAndTactics": "ordenar, mandar para prancha, pilhar, saquear"
+		},
+		"Fallen Shock Troop": {
+			"name": "Caído, Defensor",
+			"tokenName": "Caído, Defensor",
+			"id": "Fallen Shock Troop",
+			"description": "Uma alma maldita, presa pela vontade dos Deuses Caídos.",
+			"motivesAndTactics": "esmagar, dominar, conquistar descanso, punir"
+		},
+		"Elemental Spark": {
+			"name": "Centelha Elemental",
+			"tokenName": "Centelha Elemental",
+			"id": "Elemental Spark",
+			"description": "Uma fagulha ardente de fogo elemental.",
+			"motivesAndTactics": "inflamar, consumir, crescer"
+		},
+		"Fallen Sorcerer": {
+			"name": "Caído, Feiticeiro",
+			"tokenName": "Caído, Feiticeiro",
+			"id": "Fallen Sorcerer",
+			"description": "Um mago poderoso aprisionado pelas barganhas que realizou em vida.",
+			"motivesAndTactics": "adquirir, desencorajar, dominar, atormentar"
+		},
+		"Tangle Bramble Swarm": {
+			"name": "Enxame de Arbustos",
+			"tokenName": "Enxame de Arbustos",
+			"id": "Tangle Bramble Swarm",
+			"description": "Um aglomerado de vinhas sanguinárias, cada uma tão grande quanto uma cabaça.",
+			"motivesAndTactics": "digerir, enrolar, imobilizar"
+		},
+		"Skeleton Knight": {
+			"name": "Esqueleto Cavaleiro",
+			"tokenName": "Esqueleto Cavaleiro",
+			"id": "Skeleton Knight",
+			"description": "Um grande esqueleto blindado com uma espada imensa.",
+			"motivesAndTactics": "destruir os vivos, roubar pele, destruir"
+		},
+		"Fallen Warlord: Undefeated Champion": {
+			"name": "Caído, General Campeão Invicto",
+			"tokenName": "Caído, General Campeão Invicto",
+			"id": "Fallen Warlord: Undefeated Champion",
+			"description": "Aquele que apenas os mais temíveis têm chance de temer.",
+			"motivesAndTactics": "distribuir morte impiedosa, punir os desafiantes, assegurar vitória a qualquer custo"
+		},
+		"Green Ooze": {
+			"name": "Lodo Verde",
+			"tokenName": "Lodo Verde",
+			"id": "Green Ooze",
+			"description": "Um monte vivo feito de gosma verde translúcida.",
+			"motivesAndTactics": "camuflagem, consumir e se multiplicar, esgueirar, envolver"
+		},
+		"Demon of Jealousy": {
+			"name": "Demônio da Inveja",
+			"tokenName": "Demônio da Inveja",
+			"id": "Demon of Jealousy",
+			"description": "Uma demônio inconstante, de membros esguios e desejos insaciáveis.",
+			"motivesAndTactics": "usurpar o sucesso alheio, pegar o que é dos outros, guardar rancor"
+		},
+		"Electric Eels": {
+			"name": "Enguias-elétricas",
+			"tokenName": "Enguias-elétricas",
+			"id": "Electric Eels",
+			"description": "Um bando de enguias que cercam e eletrocutam suas vítimas.",
+			"motivesAndTactics": "evitar grandes predadores, eletrocutar presas, partir em pedaços"
+		},
+		"Spectral Guardian": {
+			"name": "Espectro Guardião",
+			"tokenName": "Espectro Guardião",
+			"id": "Spectral Guardian",
+			"description": "Um lutador fantasmagórico com lanças e espadas, preso em seu dever.",
+			"motivesAndTactics": "atravessar objetos sólidos, proteger tesouro, recomeçar batalhas antigas"
+		},
+		"Young Ice Dragon": {
+			"name": "Dragão do Gelo Jovem",
+			"tokenName": "Dragão do Gelo Jovem",
+			"id": "Young Ice Dragon",
+			"description": "Um dragão azul com quatro patas poderosas e asas tingidas de gelo.",
+			"motivesAndTactics": "avalanche, defender covil, voar, congelar, proteger o que é meu, espancar"
+		},
+		"Hallowed Soldier": {
+			"name": "Exaltado, Soldado",
+			"tokenName": "Exaltado, Soldado",
+			"id": "Hallowed Soldier",
+			"description": "Almas de fiéis abençoados com armamento divino.",
+			"motivesAndTactics": "obedecer, manobrar melhor, punir, aglomerar"
+		},
+		"Sylvan Soldier": {
+			"name": "Soldado Silvestre",
+			"tokenName": "Soldado Silvestre",
+			"id": "Sylvan Soldier",
+			"description": "Um guerreiro feérico com armadura de folhas e casca de árvore.",
+			"motivesAndTactics": "emboscar, esconder, carregar, proteger, trilhar"
+		},
+		"Merchant Baron": {
+			"name": "Barão Mercante",
+			"tokenName": "Barão Mercante",
+			"id": "Merchant Baron",
+			"description": "Um mercador bem-sucedido no comando de uma grande operação.",
+			"motivesAndTactics": "abusar do poder, obter recursos, mobilizar lacaios"
+		},
+		"Arch-Necromancer": {
+			"name": "Arquinecromante",
+			"tokenName": "Arquinecromante",
+			"id": "Arch-Necromancer",
+			"description": "Um mago em decomposição vestindo robes esfarrapados.",
+			"motivesAndTactics": "corromper, decompor, fugir para lutar outro dia, ressuscitar"
+		},
+		"Vampire": {
+			"name": "Vampiro",
+			"tokenName": "Vampiro",
+			"id": "Vampire",
+			"description": "Um morto-vivo inteligente com lábios manchados de sangue e um sorriso de predador.",
+			"motivesAndTactics": "morder, encantar, enganar, sorver, intimidar"
+		},
+		"Jagged Knife Shadow": {
+			"name": "Punhal Escarpado, Sombra",
+			"tokenName": "Punhal Escarpado, Sombra",
+			"id": "Jagged Knife Shadow",
+			"description": "Um canalha ágil portando uma faca perigosa e usando sombras mágicas para isolar seus alvos.",
+			"motivesAndTactics": "emboscar, esconder, dividir, lucrar"
+		},
+		"Oak Treant": {
+			"name": "Ente Carvalho",
+			"tokenName": "Ente Carvalho",
+			"id": "Oak Treant",
+			"description": "Uma árvore antiga e sólida, capaz de se movimentar.",
+			"motivesAndTactics": "esconder-se à vista, preservar a floresta, fincar raízes, bater com galhos"
+		},
+		"Tangle Bramble": {
+			"name": "Arbusto Espinhento",
+			"tokenName": "Arbusto Espinhento",
+			"id": "Tangle Bramble",
+			"description": "Um aglomerado de vinhas sanguinárias.",
+			"motivesAndTactics": "combinar, drenar, enrolar"
+		},
+		"Zombie Legion": {
+			"name": "Legião de Zumbis",
+			"tokenName": "Legião de Zumbis",
+			"id": "Zombie Legion",
+			"description": "Um grupo de zumbis, poderosos a despeito da carne putrefata.",
+			"motivesAndTactics": "consumir cérebros, rasgar carne, cercar"
+		},
+		"Shark": {
+			"name": "Tubarão",
+			"tokenName": "Tubarão",
+			"id": "Shark",
+			"description": "Um grande predador aquático, sempre em ação.",
+			"motivesAndTactics": "seguir sangue, isolar a presa, atacar o fraco"
+		},
+		"Giant Brawler": {
+			"name": "Gigante Lutador",
+			"tokenName": "Gigante Lutador",
+			"id": "Giant Brawler",
+			"description": "Um gigante forte com um martelo de guerra maior que um humano.",
+			"motivesAndTactics": "ganhar a vida, sobrecarregar, bater, derrubar"
+		},
+		"Weaponmaster": {
+			"name": "Mestre de Armas",
+			"tokenName": "Mestre de Armas",
+			"id": "Weaponmaster",
+			"description": "Um mestre de armas porta uma espada com o dobro de seu tamanho.",
+			"motivesAndTactics": "agir primeiro, atacar os mais fracos, intimidar"
+		},
+		"Courtesan": {
+			"name": "Palaciano",
+			"tokenName": "Palaciano",
+			"id": "Courtesan",
+			"description": "Um socialite ambicioso vestido de maneira ostensiva.",
+			"motivesAndTactics": "descreditar, bajular, manobrar, planejar"
+		},
+		"Tiny Green Ooze": {
+			"name": "Lodo Verde Pequeno",
+			"tokenName": "Lodo Verde Pequeno",
+			"id": "Tiny Green Ooze",
+			"description": "Um montinho vivo feito de gosma verde translúcida.",
+			"motivesAndTactics": "camuflagem, esgueirar"
+		},
+		"Jagged Knife Lieutenant": {
+			"name": "Punhal Escarpado, Chefe",
+			"tokenName": "Punhal Escarpado, Chefe",
+			"id": "Jagged Knife Lieutenant",
+			"description": "Um bandido veterano bem-vestido, com voz poderosa e olhar astuto.",
+			"motivesAndTactics": "valentia, comandar, lucrar, chamar reforços"
+		},
+		"Oracle of Doom": {
+			"name": "Oráculo da Perdição",
+			"tokenName": "Oráculo da Perdição",
+			"id": "Oracle of Doom",
+			"description": "Uma imponente criatura imortal que é a encarnação do destino, fadada a ver apenas os piores futuros possíveis.",
+			"motivesAndTactics": "mudar local, condenar, desencorajar, descartar"
+		},
+		"Elite Soldier": {
+			"name": "Soldado de Elite",
+			"tokenName": "Soldado de Elite",
+			"id": "Elite Soldier",
+			"description": "Um escudeiro de armadura ou plebeu experiente buscando crescimento.",
+			"motivesAndTactics": "obter glória, manter a ordem, fazer alianças"
+		},
+		"Sellsword": {
+			"name": "Mercenário",
+			"tokenName": "Mercenário",
+			"id": "Sellsword",
+			"description": "Um mercenário armado testando a própria sorte.",
+			"motivesAndTactics": "avançar, dilacerar, sobrecarregar, lucrar"
+		},
+		"Vault Guardian Turret": {
+			"name": "Autômato Torreta",
+			"tokenName": "Autômato Torreta",
+			"id": "Vault Guardian Turret",
+			"description": "Uma torreta imensa com armadura reforçada e doze pernas mecânicas.",
+			"motivesAndTactics": "concentrar fogo, confinar, marcar, proteger"
+		},
+		"Master Assassin": {
+			"name": "Assassino Mestre",
+			"tokenName": "Assassino Mestre",
+			"id": "Master Assassin",
+			"description": "Um assassino veterano de voz ameaçadora portando uma lâmina fatal.",
+			"motivesAndTactics": "emboscar, sobreviver, matar, preparar-se para qualquer situação"
+		},
+		"Battle Box": {
+			"name": "Caixa de Batalha",
+			"tokenName": "Caixa de Batalha",
+			"id": "Battle Box",
+			"description": "Um construto em forma de cubo, com runas diferentes em cada face.",
+			"motivesAndTactics": "mudar tática, atropelar inimigos, aguardar disfarçado"
+		},
+		"Greater Earth Elemental": {
+			"name": "Grande Elemental da Terra",
+			"tokenName": "Grande Elemental da Terra",
+			"id": "Greater Earth Elemental",
+			"description": "Um deslizamento vivo de pedras e poeira, grande como uma casa.",
+			"motivesAndTactics": "avalanche, derrubar, socar"
+		},
+		"Volcanic Dragon: Molten Scourge": {
+			"name": "Dragão Vulcânico, Flagelo de Magma",
+			"tokenName": "Dragão Vulcânico, Flagelo de Magma",
+			"id": "Volcanic Dragon: Molten Scourge",
+			"description": "Enfurecido pelas feridas, o dragão explode em lava derretida.",
+			"motivesAndTactics": "encharcar com lava, incinerar, repelir invasores, reposicionar-se"
+		},
+		"Giant Scorpion": {
+			"name": "Escorpião Gigante",
+			"tokenName": "Escorpião Gigante",
+			"id": "Giant Scorpion",
+			"description": "Um aracnídeo grande como um homem com garras terríveis e um ferrão na cauda.",
+			"motivesAndTactics": "emboscar, alimentar-se, agarrar, envenenar"
+		},
+		"Rotted Zombie": {
+			"name": "Zumbi Putrefato",
+			"tokenName": "Zumbi Putrefato",
+			"id": "Rotted Zombie",
+			"description": "Um cadáver putrefato indo na direção de sua presa.",
+			"motivesAndTactics": "Devorar carne, fome, espancar, cercar"
+		},
+		"Assassin Poisoner": {
+			"name": "Assassino Envenenador",
+			"tokenName": "Assassino Envenenador",
+			"id": "Assassin Poisoner",
+			"description": "Um criminoso ardiloso, habilidoso com venenos e emboscadas.",
+			"motivesAndTactics": "antecipar, ser pago, matar, envenenar comida e água"
+		},
+		"Fallen Warlord: Realm Breaker": {
+			"name": "Caído, General Arrasa-Reinos",
+			"tokenName": "Caído, General Arrasa-Reinos",
+			"id": "Fallen Warlord: Realm Breaker",
+			"description": "Um Deus Caído, envolto em ira e ressentimento, trazendo milênios de experiência em destruir o espírito de heróis.",
+			"motivesAndTactics": "corromper, dominar, punir, quebrar os fracos"
+		},
+		"Head Vampire": {
+			"name": "Vampiro Mestre",
+			"tokenName": "Vampiro Mestre",
+			"id": "Head Vampire",
+			"description": "Um morto-vivo cativante que se veste com a elegância de um nobre.",
+			"motivesAndTactics": "criar servos, encantar, mandar, voar, intimidar"
+		},
+		"Chaos Skull": {
+			"name": "Crânio do Caos",
+			"tokenName": "Crânio do Caos",
+			"id": "Chaos Skull",
+			"description": "Um crânio flutuante humanoide, animado por magia cintilante.",
+			"motivesAndTactics": "gargalhar, consumir magia, servir seu criador"
+		},
+		"Demon of Despair": {
+			"name": "Demônio do Desespero",
+			"tokenName": "Demônio do Desespero",
+			"id": "Demon of Despair",
+			"description": "Um demônio de membros longos, que se infiltra nas sombras.",
+			"motivesAndTactics": "tornar o medo contagiante, manter-se nas sombras, minar a determinação"
+		},
+		"Hallowed Archer": {
+			"name": "Exaltado, Arqueiro",
+			"tokenName": "Exaltado, Arqueiro",
+			"id": "Hallowed Archer",
+			"description": "Soldados espirituais armados com um arco santo.",
+			"motivesAndTactics": "focar flecha, obedecer, reposicionar-se, atirar"
+		},
+		"Volcanic Dragon: Obsidian Predator": {
+			"name": "Dragão Vulcânico, Predador de Obsidiana",
+			"tokenName": "Dragão Vulcânico, Predador de Obsidiana",
+			"id": "Volcanic Dragon: Obsidian Predator",
+			"description": "Uma imensa criatura alada com escamas de obsidiana e garras impossivelmente afiadas.",
+			"motivesAndTactics": "defender covil, arremeter, voar, caçar, intimidar"
+		},
+		"Spellblade": {
+			"name": "Guerreiro Arcano",
+			"tokenName": "Guerreiro Arcano",
+			"id": "Spellblade",
+			"description": "Um mercenário que combina aço e magia de maneira letal.",
+			"motivesAndTactics": "golpear, comandar, resistir"
+		},
+		"Head Guard": {
+			"name": "Guarda Chefe",
+			"tokenName": "Guarda Chefe",
+			"id": "Head Guard",
+			"description": "Um guarda experiente com uma maça, um apito e um vozeirão.",
+			"motivesAndTactics": "prender, fechar portões, imobilizar, buscar glória"
+		},
+		"Mortal Hunter": {
+			"name": "Predador Mortal",
+			"tokenName": "Predador Mortal",
+			"id": "Mortal Hunter",
+			"description": "Uma figura morta-viva em um casaco de couro, com olhos atentos e comportamento cruel.",
+			"motivesAndTactics": "devorar, caçar, rastrear"
+		},
+		"Pirate Tough": {
+			"name": "Pirata Bruto",
+			"tokenName": "Pirata Bruto",
+			"id": "Pirate Tough",
+			"description": "Um pirata musculoso e tatuado com punhos grandes como melões.",
+			"motivesAndTactics": "Pilhar, saquear, esmagar, aterrorizar"
+		},
+		"Outer Realms Thrall": {
+			"name": "Reinos Exteriores, Servo",
+			"tokenName": "Reinos Exteriores, Servo",
+			"id": "Outer Realms Thrall",
+			"description": "Vagamente um humanoide, desprovido de memórias e identidade.",
+			"motivesAndTactics": "destruir, enojar, desorientar, intimidar"
+		},
+		"Outer Realms Corrupter": {
+			"name": "Reinos Exteriores, Corruptor",
+			"tokenName": "Reinos Exteriores, Corruptor",
+			"id": "Outer Realms Corrupter",
+			"description": "Uma massa amorfa feita de luz cromática.",
+			"motivesAndTactics": "confundir, distrair, subjugar"
+		},
+		"Masked Thief": {
+			"name": "Patife Mascarado",
+			"tokenName": "Patife Mascarado",
+			"id": "Masked Thief",
+			"description": "Um ladrão astuto com habilidades acrobáticas e predileção por drama.",
+			"motivesAndTactics": "evadir, esconder, furtar, lucrar"
+		},
+		"War Wizard": {
+			"name": "Mago de Batalha",
+			"tokenName": "Mago de Batalha",
+			"id": "War Wizard",
+			"description": "Um mago veterano treinado em mágica destrutiva.",
+			"motivesAndTactics": "desenvolver novos feitiços, buscar poder, estraçalhar formações"
+		},
+		"Treant Sapling": {
+			"name": "Ente Jovem",
+			"tokenName": "Ente Jovem",
+			"id": "Treant Sapling",
+			"description": "Uma pequena muda senciente.",
+			"motivesAndTactics": "misturar-se, preservar a floresta, bater, cercar"
+		},
+		"Volcanic Dragon: Ashen Tyrant": {
+			"name": "Dragão Vulcânico, Tirano das Cinzas",
+			"tokenName": "Dragão Vulcânico, Tirano das Cinzas",
+			"id": "Volcanic Dragon: Ashen Tyrant",
+			"description": "Nenhum inimigo jamais teve a insolência de feri-lo tanto. Quando a lava assenta, vira cinza, assim como antigos inimigos da criatura.",
+			"motivesAndTactics": "sufocar, voar, intimidar, matar ou ser morto"
+		},
+		"Demon of Avarice": {
+			"name": "Demônio da Avareza",
+			"tokenName": "Demônio da Avareza",
+			"id": "Demon of Avarice",
+			"description": "Monstro em trajes de nobre, com chifres circulares adornados por joias.",
+			"motivesAndTactics": "consumir, alimentar avareza, semear discórdia"
+		},
+		"Swarm of Rats": {
+			"name": "Bando de Ratos",
+			"tokenName": "Bando de Ratos",
+			"id": "Swarm of Rats",
+			"description": "Um amontoado de roedores se movendo como uma onda faminta.",
+			"motivesAndTactics": "consumir, obscurecer, enxamear"
+		},
+		"High Seraph": {
+			"name": "Serafim Supremo",
+			"tokenName": "Serafim Supremo",
+			"id": "High Seraph",
+			"description": "Um campeão que lidera tropas sagradas e defende os ideais de um deus.",
+			"motivesAndTactics": "forçar dogma, voar, julgar, castigar"
+		},
+		"Minotaur Wrecker": {
+			"name": "Minotauro Arrasador",
+			"tokenName": "Minotauro Arrasador",
+			"id": "Minotaur Wrecker",
+			"description": "Um imenso firbolg com cabeça de touro e pavio curto.",
+			"motivesAndTactics": "consumir, estraçalhar, navegar, subjugar, perseguir"
+		},
+		"Secret-Keeper": {
+			"name": "Portador dos Segredos",
+			"tokenName": "Portador dos Segredos",
+			"id": "Secret-Keeper",
+			"description": "Um líder clandestino ligado diretamente aos Deuses Caídos.",
+			"motivesAndTactics": "acumular poder, tramar, tomar o comando"
+		},
+		"Minor Chaos Elemental": {
+			"name": "Elemental Menor do Caos",
+			"tokenName": "Elemental Menor do Caos",
+			"id": "Minor Chaos Elemental",
+			"description": "Uma massa reluzente de magia incontrolável.",
+			"motivesAndTactics": "confundir, desestabilizar, metamorfosear"
+		},
+		"Dire Bat": {
+			"name": "Morcego Atroz",
+			"tokenName": "Morcego Atroz",
+			"id": "Dire Bat",
+			"description": "O leal animal de estimação de um vampiro.",
+			"motivesAndTactics": "mergulho rasante, esconder-se, proteger líder"
+		},
+		"Cult Fang": {
+			"name": "Cultista Sicário",
+			"tokenName": "Cultista Sicário",
+			"id": "Cult Fang",
+			"description": "Um assassino profissional que se tornou cultista.",
+			"motivesAndTactics": "capturar sacrifícios, isolar presas, subir cargos"
+		},
+		"Construct": {
+			"name": "Construto",
+			"tokenName": "Construto",
+			"id": "Construct",
+			"description": "Quase um humanoide de pedra e aço, feito e animado por magia.",
+			"motivesAndTactics": "destruir ambientes, servir criador, esmagar alvo, atropelar grupos"
+		},
+		"Harrier": {
+			"name": "Saqueador",
+			"tokenName": "Saqueador",
+			"id": "Harrier",
+			"description": "Um lutador ágil armado com dardos.",
+			"motivesAndTactics": "flanquear, saquear, pilhar, lucrar"
+		},
+		"Apprentice Assassin": {
+			"name": "Assassino Aprendiz",
+			"tokenName": "Assassino Aprendiz",
+			"id": "Apprentice Assassin",
+			"description": "Um jovem aprendiz ávido para mostrar do que é capaz.",
+			"motivesAndTactics": "imprudência, matar, provar seu valor, exibir"
+		},
+		"Dire Wolf": {
+			"name": "Lobo Atroz",
+			"tokenName": "Lobo Atroz",
+			"id": "Dire Wolf",
+			"description": "Um grande lobo com dentes ameaçadores, raramente visto sozinho.",
+			"motivesAndTactics": "defender território, atormentar, proteger alcateia, cercar, arrastar"
+		},
+		"Dryad": {
+			"name": "Dríade",
+			"tokenName": "Dríade",
+			"id": "Dryad",
+			"description": "Um espírito da natureza em forma de uma árvore humanoide.",
+			"motivesAndTactics": "ordenar, cultivar, expulsar, preservar floresta"
+		},
+		"Petty Noble": {
+			"name": "Nobre Menor",
+			"tokenName": "Nobre Menor",
+			"id": "Petty Noble",
+			"description": "Um aristocrata muito bem-vestido exalando arrogância.",
+			"motivesAndTactics": "abusar de seu poder, obter recursos, mobilizar lacaios"
+		},
+		"Greater Water Elemental": {
+			"name": "Grande Elemental da Água",
+			"tokenName": "Grande Elemental da Água",
+			"id": "Greater Water Elemental",
+			"description": "Uma grande onda viva que engole seus inimigos.",
+			"motivesAndTactics": "dilúvio, dispersar, afogar"
+		},
+		"Monarch": {
+			"name": "Monarca",
+			"tokenName": "Monarca",
+			"id": "Monarch",
+			"description": "O soberano de uma nação, cercado de privilégios e detentor de poder sem igual em seus domínios.",
+			"motivesAndTactics": "reger vassalos, vencer rivais, criar um legado"
+		},
+		"Cult Initiate": {
+			"name": "Cultista Iniciado",
+			"tokenName": "Cultista Iniciado",
+			"id": "Cult Initiate",
+			"description": "Um cultista de baixo escalão em robes simples, ávido a obter poder.",
+			"motivesAndTactics": "seguir ordens, obter poder, buscar conhecimento proibido"
+		}
+	}
+}

@@ -1,0 +1,129 @@
+{
+	"label": "Ambientes",
+	"folders": {
+		"Tier 1": "Patamar 1",
+		"Tier 4": "Patamar 4",
+		"Tier 3": "Patamar 3",
+		"Tier 2": "Patamar 2"
+	},
+	"mapping": {
+		"description": "system.description",
+		"impulses": "system.impulses"
+	},
+	"entries": {
+		"Castle Siege": {
+			"name": "Cerco ao castelo",
+			"description": "Um cerco ativo com atacantes tentando entrar num castelo fortificado.",
+			"impulses": "eliminar a vontade de lutar, quebrar a muralha, criar tensão",
+			"id": "Castle Siege"
+		},
+		"Chaos Realm": {
+			"name": "Reino do caos",
+			"description": "Espaço sobrenatural, onde leis da realidade são instáveis e perigosas.",
+			"impulses": "aniquilar certezas, consumir poder, desafiar a lógica",
+			"id": "Chaos Realm"
+		},
+		"Divine Usurpation": {
+			"name": "Usurpação divina",
+			"description": "Um ritual massivo projetado para derrubar os portões da Graça Superior e destronar um dos Novos Deuses.",
+			"impulses": "coletar poder, inspirar temor, silenciar dissidentes",
+			"id": "Divine Usurpation"
+		},
+		"Pitched Battle": {
+			"name": "Batalha campal",
+			"description": "Um combate massivo entre dois grupos de combatentes armados.",
+			"impulses": "tomar pessoas, terras e riquezas, derramar sangue por ganância e glória",
+			"id": "Pitched Battle"
+		},
+		"Bustling Marketplace": {
+			"name": "Mercado movimentado",
+			"description": "O coração econômico de um assentamento, com artesãos locais, mercadores viajantes e gente de toda classe social.",
+			"impulses": "comprar barato e vender caro, instigar e atrair com itens de todos os cantos",
+			"id": "Bustling Marketplace"
+		},
+		"Cliffside Ascent": {
+			"name": "Ascensão íngreme",
+			"description": "Um penhasco rochoso e íngreme, alto o suficiente para oferecer perigo.",
+			"impulses": "atirar despreparados às rochas, atrair pessoas com promessas do que pode haver no topo",
+			"id": "Cliffside Ascent"
+		},
+		"Haunted City": {
+			"name": "Cidade assombrada",
+			"description": "Uma cidade abandonada e assombrada por espíritos de eras passadas.",
+			"impulses": "desorientar e confundir, replicar calamidades públicas e pessoais",
+			"id": "Haunted City"
+		},
+		"Cult Ritual": {
+			"name": "Ritual de cultistas",
+			"description": "Um culto dos Deuses Caídos que se reúne ao redor do símbolo de deuses derrotados e de uma fogueira de chamas verdes.",
+			"impulses": "profanar a terra, unir o Plano Mortal aos Círculos Inferiores",
+			"id": "Cult Ritual"
+		},
+		"Outpost Town": {
+			"name": "Localidade estratégica",
+			"description": "Uma pequena cidade na fronteira de uma nação ou região, próxima a uma masmorra, tumba ou outro destino típico de aventureiros.",
+			"impulses": "levar os desesperados à ruína, lucrar com esperanças vãs",
+			"id": "Outpost Town"
+		},
+		"Mountain Pass": {
+			"name": "Passagem montanhosa",
+			"description": "Picos rochosos que atravessam as nuvens com caminhos e passagens tortuosas.",
+			"impulses": "cobrar um preço alto em energia e suprimentos, revelar alterações mágicas, tornar a viagem vagarosa",
+			"id": "Mountain Pass"
+		},
+		"Local Tavern": {
+			"name": "Taverna local",
+			"description": "Uma taverna muito animada que serve de local de encontro na cidade.",
+			"impulses": "dar oportunidades aos aventureiros, juntar a comunidade",
+			"id": "Local Tavern"
+		},
+		"Hallowed Temple": {
+			"name": "Templo exaltado",
+			"description": "Um templo movimentado e bem-cuidado, que oferece curas e solenidades. É supervisionado por um sacerdote ou serafim.",
+			"impulses": "conectar o Plano Mortal à Graça Superior, demonstrar o poder do divino, ajudar e socorrer os fiéis",
+			"id": "Hallowed Temple"
+		},
+		"Necromancer’s Ossuary": {
+			"name": "Ossuário do necromante",
+			"description": "Uma cripta empoeirada com uma biblioteca, corredores confusos e muitos sarcófagos, além do sangue de invasores por toda parte.",
+			"impulses": "confundir intrusos, mergulhar em segredos imaculados, manifestar a não-vida, liberar uma onda de mortos-vivos",
+			"id": "Necromancer’s Ossuary"
+		},
+		"Imperial Court": {
+			"name": "Corte imperial",
+			"description": "O majestoso domínio de um império poderoso, ricamente decorado com tesouros roubados.",
+			"impulses": "justificar e perpetuar o poder do império, seduzir rivais com promessas de poder e conforto",
+			"id": "Imperial Court"
+		},
+		"Burning Heart of the Woods": {
+			"name": "Coração ardente da floresta",
+			"description": "Cinzas azuladas preenchem o ar ao redor de uma imensa árvore coberta de musgo, queimando eternamente num tom doentio de azul.",
+			"impulses": "criar um ritmo estranho a ser seguido por todos, corromper as matas",
+			"id": "Burning Heart of the Woods"
+		},
+		"Abandoned Grove": {
+			"name": "Bosque esquecido",
+			"description": "Um antigo bosque druídico abandonado e retomado pela natureza.",
+			"impulses": "atrair os curiosos, ecoar o passado",
+			"id": "Abandoned Grove"
+		},
+		"Raging River": {
+			"name": "Manancial raivoso",
+			"description": "Um rio de águas velozes, sem ponte para travessia, e profundo o suficiente para arrastar a maioria das pessoas.",
+			"impulses": "cruzar bancos de areia, arrastar despreparados, dividir a terra",
+			"id": "Raging River"
+		},
+		"Ambushed": {
+			"name": "Emboscados",
+			"description": "Uma emboscada feita para pegar o grupo desprevenido.",
+			"impulses": "subjugar, dividir, cercar",
+			"id": "Ambushed"
+		},
+		"Ambushers": {
+			"name": "Emboscada",
+			"description": "Uma emboscada feita pelo grupo a fim de surpreender um adversário.",
+			"impulses": "escapar, agrupar-se, proteger os mais vulneráveis",
+			"id": "Ambushers"
+		}
+	}
+}

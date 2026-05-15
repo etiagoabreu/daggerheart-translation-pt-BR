@@ -1,0 +1,308 @@
+{
+  "label": "Consumíveis",
+  "mapping": {
+    "description": "system.description"
+  },
+  "entries": [
+    {
+      "id": "Major Control Potion",
+      "name": "Poção do Controle Maior",
+      "description": "Você recebe um bônus de +1 em Finesse até seu próximo descanso."
+    },
+    {
+      "id": "Grindletooth Venom",
+      "name": "Veneno de Presâmia",
+      "description": "Você pode aplicar este veneno a uma arma que causa dano físico para somar 1d6 em sua próxima rolagem de dano com ela."
+    },
+    {
+      "id": "Major Arcane Shard",
+      "name": "Fragmento Arcano Maior",
+      "description": "Você pode fazer um teste de Finesse para lançar este fragmento em um grupo Distante de adversários. Alvos atingidos sofrem 4d20 de dano mágico."
+    },
+    {
+      "id": "Health Potion",
+      "name": "Poção de Vida",
+      "description": "Limpe 1d4+1 Pontos de Vida."
+    },
+    {
+      "id": "Improved Grindletooth Venom",
+      "name": "Veneno de Presâmia Aprimorado",
+      "description": "Você pode aplicar este veneno a uma arma que causa dano físico para somar 1d8 em sua próxima rolagem de dano com ela."
+    },
+    {
+      "id": "Major Attune Potion",
+      "name": "Poção da Sintonia Maior",
+      "description": "Você recebe um bônus de +1 em Instinto até seu próximo descanso."
+    },
+    {
+      "id": "Charm Potion",
+      "name": "Poção do Charme",
+      "description": "Você recebe um bônus de +1 em seu próximo teste de Presença."
+    },
+    {
+      "id": "Featherbone",
+      "name": "Osso-pena",
+      "description": "Use este osso para controlar sua velocidade de queda por um número de minutos equivalente ao seu nível."
+    },
+    {
+      "id": "Hopehold Flare",
+      "name": "Fogareiro da Esperança",
+      "description": "Quando você usa este fogareiro, aliados Próximos rolam 1d6 ao gastar uma Esperança. Se rolarem 6, eles recebem o efeito da Esperança sem precisar gastá-la. O Fogareiro dura até o final da cena."
+    },
+    {
+      "id": "Bolster Potion",
+      "name": "Poção do Impulso",
+      "description": "Você recebe um bônus de +1 em seu próximo teste de Força."
+    },
+    {
+      "id": "Sweet Moss",
+      "name": "Musgo Doce",
+      "description": "Você pode consumir este musgo durante um descanso para recuperar 1d4 Pontos de Vida ou 1d4 Fadiga."
+    },
+    {
+      "id": "Shrinking Potion",
+      "name": "Poção do Encolhimento",
+      "description": "Beba esta poção para reduzir seu tamanho à metade até decidir voltar ao normal ou até seu próximo descanso. Enquanto estiver menor, você recebe um bônus de +2 em Agilidade e –1 em sua Proficiência."
+    },
+    {
+      "id": "Major Stamina Potion",
+      "name": "Poção de Vigor Maior",
+      "description": "Limpe 1d4+2 Fadiga."
+    },
+    {
+      "id": "Major Charm Potion",
+      "name": "Poção do Charme Maior",
+      "description": "Você recebe um bônus de +1 em Presença até seu próximo descanso."
+    },
+    {
+      "id": "Channelstone",
+      "name": "Pedra Canalizadora",
+      "description": "Você pode usar esta pedra para pegar uma magia ou grimório da sua reserva, usá-lo uma vez e então devolvê-lo à reserva."
+    },
+    {
+      "id": "Attune Potion",
+      "name": "Poção da Sintonia",
+      "description": "Você recebe um bônus de +1 em seu próximo teste de Instinto."
+    },
+    {
+      "id": "Gill Salve",
+      "name": "Unguento de Guelras",
+      "description": "Você pode aplicar este unguento em seu pescoço para respirar sob a água por um número de minutos igual ao seu nível."
+    },
+    {
+      "id": "Vial of Darksmoke",
+      "name": "Frasco de Fumaça Negra",
+      "description": "Ao ser alvo de um ataque, use este frasco e role um número de d6 igual à sua Agilidade. Some o valor mais alto à sua Evasão contra este ataque."
+    },
+    {
+      "id": "Bonding Honey",
+      "name": "Mel da União",
+      "description": "Este objeto pode ser usado para colar objetos permanentemente em outros."
+    },
+    {
+      "id": "Bridge Seed",
+      "name": "Semente da Ponte",
+      "description": "Vinhas grossas crescem do local onde você está até um ponto à sua escolha em alcance Distante, permitindo que você atrevesse; elas se dissipam no seu próximo descanso curto."
+    },
+    {
+      "id": "Major Enlighten Potion",
+      "name": "Poção da Iluminação Maior",
+      "description": "Você recebe um bônus de +1 em Conhecimento até seu próximo descanso."
+    },
+    {
+      "id": "Mirror of Marigold",
+      "name": "Espelho Maravilha",
+      "description": "Quando sofre dano, você pode <b>gastar uma Esperança</b> para negar o dano sofrido. Após isso, este espelho se despedaça."
+    },
+    {
+      "id": "Homet’s Secret Potion",
+      "name": "Poção Secreta de Homet",
+      "description": "Após beber esta poção, seu próximo sucesso em um teste de ataque deve ser considerado um sucesso crítico."
+    },
+    {
+      "id": "Armor Stitcher",
+      "name": "Remendo de Armadura",
+      "description": "Ao usar este item, <b>gaste um número qualquer de Esperança</b> e recuperar o mesmo número de Armadura."
+    },
+    {
+      "id": "Vial of Moondrip",
+      "name": "Frasco de Gota Lunar",
+      "description": "Quando beber o conteúdo deste frasco, você consegue enxergar na escuridão até seu próximo descanso."
+    },
+    {
+      "id": "Sleeping Sap",
+      "name": "Seiva do Sono",
+      "description": "Você pode beber esta poção para ter uma noite inteira de Descanso. Você limpa todo seu Fadiga ao acordar."
+    },
+    {
+      "id": "Mythic Dust",
+      "name": "Pó Mítico",
+      "description": "Você pode aplicar este pó em uma arma que causa dano mágico para acrescentar 1d12 à sua próxima rolagem de dano feita com ela."
+    },
+    {
+      "id": "Enlighten Potion",
+      "name": "Poção da Iluminação",
+      "description": "Você recebe um bônus de +1 em seu próximo teste de Conhecimento."
+    },
+    {
+      "id": "Feast of Xuria",
+      "name": "Ceia de Xúria",
+      "description": "Você pode comer esta refeição para recuperar todos os seus Pontos de Vida e seu Fadiga, além de receber 1d4 Esperança."
+    },
+    {
+      "id": "Minor Stamina Potion",
+      "name": "Poção de Vigor Menor",
+      "description": "Limpe 1d4 Fadiga."
+    },
+    {
+      "id": "Jumping Root",
+      "name": "Raiz da Cambalhota",
+      "description": "Coma esta raiz para saltar para um ponto em alcance Distante uma vez sem precisar fazer teste."
+    },
+    {
+      "id": "Major Health Potion",
+      "name": "Poção de Vida Maior",
+      "description": "Limpe 1d4+2 Pontos de Vida."
+    },
+    {
+      "id": "Acidpaste",
+      "name": "Pasta Ácida",
+      "description": "Esta pasta corrói paredes e outras superfícies em meio a clarões de luz."
+    },
+    {
+      "id": "Snap Powder",
+      "name": "Pó do Estalo",
+      "description": "<b>Marque um Fadiga</b> para recuperar 1 Ponto de Vida."
+    },
+    {
+      "id": "Potion of Stability",
+      "name": "Poção da Estabilidade",
+      "description": "Você pode beber desta poção para fazer uma ação de repouso adicional."
+    },
+    {
+      "id": "Blinding Orb",
+      "name": "Orbe Cegante",
+      "description": "Você pode ativar este orbe para criar um clarão de luz brilhante. Todos os alvos Próximos ficam <i>Vulneráveis</i> até marcarem Pontos de Vida."
+    },
+    {
+      "id": "Dripfang Poison",
+      "name": "Veneno da Presa Gotejante",
+      "description": "Uma criatura que consumir este veneno sofre 8d10 de dano mágico direto."
+    },
+    {
+      "id": "Control Potion",
+      "name": "Poção do Controle",
+      "description": "Você recebe um bônus de +1 em seu próximo teste de Finesse."
+    },
+    {
+      "id": "Circle of the Void",
+      "name": "Círculo do Vazio",
+      "description": "<b>Marque um Fadiga</b> para criar um espaço anti-magia que se estende até Distante. Nenhuma magia pode ser conjurada nesta área e criaturas dentro dela são imunes a dano mágico."
+    },
+    {
+      "id": "Morphing Clay",
+      "name": "Molde de Argila",
+      "description": "Você pode <b>gastar uma Esperança</b> para usar esta argila, alterando seu rosto para ficar irreconhecível até seu próximo descanso."
+    },
+    {
+      "id": "Growing Potion",
+      "name": "Poção do Crescimento",
+      "description": "Beba esta poção para duplicar seu tamanho até decidir voltar ao normal ou até seu próximo descanso. Enquanto estiver maior, você recebe um bônus de +2 em Força e +1 em sua Proficiência."
+    },
+    {
+      "id": "Stamina Potion",
+      "name": "Poção de Vigor",
+      "description": "Limpe 1d4+1 Fadiga."
+    },
+    {
+      "id": "Varik Leaves",
+      "name": "Folhas de Varik",
+      "description": "Você pode comer as folhas para receber 2 Esperança."
+    },
+    {
+      "id": "Sun Tree Sap",
+      "name": "Seiva da Árvore do Sol",
+      "description": "Consuma esta seiva e role 1d6. Se tirar 5 ou 6, limpe 2 Pontos de Vida. Se tirar 2 ou 4, limpe 3 Fadiga. Se tirar 1, veja o que existe do outro lado do véu da morte e volte com uma cicatriz."
+    },
+    {
+      "id": "Stride Potion",
+      "name": "Poção da Velocidade",
+      "description": "Você recebe um bônus de +1 em seu próximo teste de Agilidade."
+    },
+    {
+      "id": "Unstable Arcane Shard",
+      "name": "Fragmento Arcano Instável",
+      "description": "Você pode fazer um teste de Finesse para lançar este fragmento em um grupo Distante de adversários. Alvos atingidos sofrem 1d20 de dano mágico."
+    },
+    {
+      "id": "Major Bolster Potion",
+      "name": "Poção do Impulso Maior",
+      "description": "Você recebe um bônus de +1 em Força até seu próximo descanso."
+    },
+    {
+      "id": "Wingsprout",
+      "name": "Asas Mágicas",
+      "description": "Você recebe asas que o permitem voar por uma quantidade de minutos equivalente ao seu nível."
+    },
+    {
+      "id": "Knowledge Stone",
+      "name": "Pedra do Conhecimento",
+      "description": "Se você morrer com esta pedra nas mãos, um aliado pode escolher uma das cartas em sua mão e colocá-la na própria mão ou reserva. Após isso, a pedra se esfarela."
+    },
+    {
+      "id": "Improved Arcane Shard",
+      "name": "Fragmento Arcano Aprimorado",
+      "description": "Você pode fazer um teste de Finesse para lançar este fragmento em um grupo Distante de adversários. Alvos atingidos sofrem 2d20 de dano mágico."
+    },
+    {
+      "id": "Blood of the Yorgi",
+      "name": "Sangue dos Yorgi",
+      "description": "Você pode beber esse sangue para desaparecer do local em que está e imediatamente aparecer em um ponto em alcance Muito Distante que você consiga ver."
+    },
+    {
+      "id": "Ogre Musk",
+      "name": "Almíscar do Ogro",
+      "description": "Você pode usar este almíscar para evitar ser rastreado de forma mundana ou mágica até seu próximo descanso."
+    },
+    {
+      "id": "Redthorn Saliva",
+      "name": "Saliva de Espinho-vermelho",
+      "description": "Você pode aplicar esta saliva a uma arma que cause dano físico para acrescentar 1d12 à sua próxima rolagem de dano feita com ela."
+    },
+    {
+      "id": "Minor Health Potion",
+      "name": "Poção de Vida Menor",
+      "description": "Limpe 1d4 Pontos de Vida."
+    },
+    {
+      "id": "Dragonbloom Tea",
+      "name": "Chá de Erva-dragão",
+      "description": "Você pode beber esse chá para lançar um único sopro de fogo. Faça um teste de Instinto contra todos os adversários Próximos na sua frente. Alvos atingidos sofrem d20 de dano físico com sua Proficiência."
+    },
+    {
+      "id": "Death Tea",
+      "name": "Chá da Morte",
+      "description": "Após beber este chá, seu próximo sucesso crítico em um ataque mata o alvo instantaneamente. Se não tiver nenhum sucesso crítico até seu próximo descanso longo, você morre."
+    },
+    {
+      "id": "Stardrop",
+      "name": "Gota Estelar",
+      "description": "Você pode usar esta gota estelar para invocar uma tempestade de cometas, que causam 8d20 de dano físico a todos os alvos em alcance Muito Distante."
+    },
+    {
+      "id": "Replication Parchment",
+      "name": "Pergaminho da Cópia",
+      "description": "Ao tocar outro pergaminho com este, você copia perfeitamente os conteúdos do segundo pergaminho. Após ser usado, este pergaminho se torna um pedaço de papel mundano."
+    },
+    {
+      "id": "Major Stride Potion",
+      "name": "Poção da Velocidade Maior",
+      "description": "Você recebe um bônus de +1 em Agilidade até seu próximo descanso."
+    },
+    {
+      "id": "Jar of Lost Voices",
+      "name": "Jarra de Vozes Perdidas",
+      "description": "Você pode abrir essa jarra para libertar um eco ensurdecedor de vozes por uma quantidade de minutos igual ao seu Instinto. Criaturas Distantes não estão preparadas para o som e sofrem 6d8 de dano mágico."
+    }
+  ]
+}

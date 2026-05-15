@@ -1,0 +1,488 @@
+{
+  "label": "Subclasses",
+  "folders": {
+    "Bard": "Bardo",
+    "Druid": "Druida",
+    "Guardian": "Guardião",
+    "Ranger": "Caçador",
+    "Rogue": "Ladino",
+    "Warrior": "Guerreiro",
+    "Wizard": "Mago",
+    "Sorcerer": "Feiticeiro",
+    "Seraph": "Serafim",
+    "Foundation Features": "Fundamental",
+    "Specialization Features": "Especialização",
+    "Mastery Features": "Maestria",
+    "Subclass Features": "Habilidades de Subclasse"
+  },
+  "mapping": {
+    "description": "system.description"
+  },
+  "entries": [
+    {
+      "id": "Slayer",
+      "name": "Matança",
+      "description": "Ao rolar com Esperança, você pode colocar um d6 nesta carta em vez de receber uma Esperança, adicionando esse dado aos seus Dados de Matança (máximo de Dados de Matança igual à sua Proficiência). Ao fazer um teste de ataque ou uma rolagem de dano, você pode gastar um número qualquer de Dados de Matança e somar seus resultados à rolagem. No fim de cada sessão, Dados de Matança não utilizados são perdidos; você ganha uma Esperança por cada dado perdido desta forma."
+    },
+    {
+      "id": "Thrive in Chaos",
+      "name": "Triunfo do Caos",
+      "description": "Ao ter sucesso em um ataque, você pode <b>marcar um Fadiga</b> após a rolagem de dano para forçar o alvo a marcar um Ponto de Vida adicional."
+    },
+    {
+      "id": "Brilliant",
+      "name": "Brilhante",
+      "description": "Pegue uma carta de domínio adicional, do seu nível ou inferior, de um domínio ao qual você tenha acesso."
+    },
+    {
+      "id": "Warden’s Protection",
+      "name": "Proteção Druídica",
+      "description": "Uma vez por descanso longo, <b>gaste 2 Esperança<b> para limpar 2 Pontos de Vida de 1d4 aliados Próximos."
+    },
+    {
+      "id": "Elemental Aura",
+      "name": "Aura Elemental",
+      "description": "Uma vez por descanso, enquanto estiver <i>Canalizando</i>, você pode manifestar uma aura correspondente ao seu elemento. Ela afeta alvos Próximos até o fim da sua <i>Canalização</i>.<br>• <b><i>Água:</b></i> quando um adversário causa dano a você, você pode <b>marcar um Fadiga</b> para movê-lo para qualquer ponto Muito Próximo de onde ele está.<br>• <b><i>Ar:</b></i> quando você ou um aliado sofre dano de um ataque originado de além de Próximo, reduza esse dano em <b>1d8</b>.<br>• <b><i>Fogo:</b></i> quando um adversário marca um ou mais Pontos de Vida, ele também deve marcar um Fadiga.<br>• <b><i>Terra:</b></i> seus aliados recebem um bônus de +1 em Força."
+    },
+    {
+      "id": "Enchanted Aid",
+      "name": "Auxílio Encantado",
+      "description": "Você pode aprimorar a magia alheia com sua essência. Ao ajudar um aliado com um teste de conjuração, você pode rolar um <b>d8</b> como seu dado de vantagem. Uma vez por descanso longo, após um aliado fazer um teste de conjuração com sua ajuda, você pode trocar os resultados dos Dados de Dualidade dele um pelo outro."
+    },
+    {
+      "id": "Unrelenting",
+      "name": "Irrefreável",
+      "description": "Você recebe um bônus permanente de +2 em seus limiares de dano."
+    },
+    {
+      "id": "School Of War",
+      "name": "Discípulo da Guerra",
+      "description": "Seja um discípulo da guerra para usar seu treinamento mágico de forma agressiva."
+    },
+    {
+      "id": "Eloquent",
+      "name": "Eloquente",
+      "description": "Suas palavras comoventes animam as pessoas. Uma vez por sessão, ao encorajar um aliado, você pode fazer um dos seguintes:<br>• Ajudá-lo sem gastar Esperança.<br>• Dar um movimento de repouso adicional para ele usar em seu próximo descanso.<br>• Permitir que ele encontre uma ferramenta ou objeto mundano de que necessite."
+    },
+    {
+      "id": "Iron Will",
+      "name": "Vontade de Ferro",
+      "description": "Ao sofrer dano físico, você pode <b>marcar uma Armadura adicional</b> para reduzir a gravidade."
+    },
+    {
+      "id": "Well-Connected",
+      "name": "Conexões",
+      "description": "Quando chega a uma cidade ou ambiente importante, você conhece alguém desse lugar. Dê um nome a essa conexão, anote como acha que ela pode ser útil e escolha um fato da lista a seguir:<br>• Essa conexão me deve um favor, mas encontrá-la será difícil.<br>• Essa conexão vai pedir algo em troca.<br>• Essa conexão sempre está em grandes apuros.<br>• Costumávamos ser parceiros. É uma longa história.<br>• Nossa separação não foi das melhores."
+    },
+    {
+      "id": "Undaunted",
+      "name": "Impávido",
+      "description": "Você recebe um bônus permanente de +3 em seus limiares de dano."
+    },
+    {
+      "id": "Have No Fear",
+      "name": "Não Tenha Medo",
+      "description": "O dano mágico adicional de Encare o Medo aumenta para 3d10."
+    },
+    {
+      "id": "Syndicate",
+      "name": "Mafioso",
+      "description": "Seja um mafioso para ter uma rede de contatos onde quer que vá."
+    },
+    {
+      "id": "Gifted Performer",
+      "name": "Artista Talentoso",
+      "description": "Descreva como você se apresenta para as pessoas. Você pode cantar ou tocar cada canção uma vez por descanso longo:<br>• <b><i>Canção Comovente:</b></i> você e todos os aliados Próximos recebem uma Esperança.<br>• <b><i>Canção Épica:</b></i> deixe um alvo Próximo temporariamente <i>Vulnerável</i>.<br>• <b><i>Canção Relaxante:</b></i> você e todos os aliados Próximo limpam um Ponto de Vida."
+    },
+    {
+      "id": "Heart of a Poet",
+      "name": "Alma de Poeta",
+      "description": "Após fazer um teste para impressionar, persuadir ou ofender alguém, você pode <b>gastar uma Esperança</b> para somar 1d4 à rolagem."
+    },
+    {
+      "id": "Elusive Predator",
+      "name": "Predador Veloz",
+      "description": "Quando um adversário marcado atacar você, você recebe um bônus de +2 na Evasão contra esse ataque."
+    },
+    {
+      "id": "Face Your Fear",
+      "name": "Encare o Medo",
+      "description": "Ao ter sucesso com Medo em um teste de ataque, você causa 1d10 de dano mágico adicional."
+    },
+    {
+      "id": "Nemesis",
+      "name": "Nêmesis",
+      "description": "<b>Gaste 2 Esperança</b> para priorizar um adversário até seu próximo descanso. Ao atacar um adversário priorizado, você pode trocar os resultados dos dados de Esperança e Medo um pelo outro. Você só pode priorizar um adversário por vez."
+    },
+    {
+      "id": "Sacred Resonance",
+      "name": "Ressonância Sagrada",
+      "description": "Ao rolar o dano de sua Arma Espiritual, se dois ou mais dados resultarem no mesmo número, dobre o valor de cada dado com resultado igual. Por exemplo, se você tirar dois 5, eles contam como dois 10."
+    },
+    {
+      "id": "Elemental Dominion",
+      "name": "Soberania Elemental",
+      "description": "Você incorpora seu elemento ainda mais. Enquanto estiver <i>Canalizando</i>, você recebe o seguinte benefício:<br>• <b><i>Água:</b></i> quando um ataque contra você é bem-sucedido, você pode marcar um Fadiga para deixar o atacante temporariamente <i>Vulnerável</i>.<br>• <b><i>Ar:</b></i> você recebe um bônus de +1 na Evasão e pode voar.<br>• <b><i>Fogo:</b></i> você recebe um bônus de +1 em sua Proficiência para ataques e feitiços que causam dano.<br>• <b><i>Terra:</b></i> quando for marcar Pontos de Vida, role 1d6 para cada Ponto de Vida a ser marcado. A cada 6 que você rolar, reduza o número de PV marcados em 1."
+    },
+    {
+      "id": "Fleeting Shadow",
+      "name": "Sombra Fugaz",
+      "description": "Você recebe um bônus permanente de +1 na Evasão. Além disso, pode usar Passo Sombrio para se mover até uma sombra Muito Distante."
+    },
+    {
+      "id": "Partner-in-Arms",
+      "name": "Irmãos de Armas",
+      "description": "Quando um aliado Muito Próximo sofrer dano físico, você pode <b>marcar uma Armadura</b> para reduzir a gravidade em um limiar."
+    },
+    {
+      "id": "Primal Origin",
+      "name": "Primordialista",
+      "description": "Seja um primordialista para estender a versatilidade de seus feitiços de maneiras poderosas."
+    },
+    {
+      "id": "Sparing Touch",
+      "name": "Toque Piedoso",
+      "description": "Uma vez por descanso longo, toque uma criatura para que ela limpe 2 Pontos de Vida ou 2 Fadiga."
+    },
+    {
+      "id": "Weapon Specialist",
+      "name": "Especialista em Armas",
+      "description": "Você pode empunhar várias armas facilmente. Quando acerta um ataque, você pode <b>gastar uma Esperança</b> para somar um dos dados de dano da sua arma secundária à rolagem de dano. Além disso, uma vez por descanso longo, role novamente quaisquer 1 que rolar nos seus Dados de Matança."
+    },
+    {
+      "id": "Perfect Recall",
+      "name": "Troca Perfeita",
+      "description": "Uma vez por descanso, quando troca uma carta de domínio de sua reserva, você pode reduzir seu custo de troca dela em 1."
+    },
+    {
+      "id": "Accomplished",
+      "name": "Talentoso",
+      "description": "Pegue uma carta de domínio adicional, do seu nível ou inferior, de um domínio ao qual você tenha acesso."
+    },
+    {
+      "id": "Devout",
+      "name": "Devoção",
+      "description": "Ao rolar seus Dados de Oração, você pode rolar um dado adicional e descartar o menor resultado. Além disso, você pode usar seu Toque Piedoso duas vezes por descanso longo em vez de uma."
+    },
+    {
+      "id": "Defender",
+      "name": "Defensor",
+      "description": "Sua transformação animal incorpora um espírito curativo protetor. Quando você está em Forma de Fera e um aliado Próximo marca 2 ou mais Pontos de Vida, você pode <b>marcar um Fadiga</b> para reduzir o número de PV marcados por esse aliado em 1."
+    },
+    {
+      "id": "Regeneration",
+      "name": "Regeneração",
+      "description": "Toque uma criatura e <b>gaste 3 de  Esperança</b>. Ela limpa 1d4 Pontos de Vida."
+    },
+    {
+      "id": "Wings of Light",
+      "name": "Asas de Luz",
+      "description": "Você pode voar e, enquanto estiver voando, pode:<br>• <b>Marcar um Fadiga</b> para pegar e carregar uma criatura voluntária aproximadamente do seu tamanho ou menor.<br>• <b>Gastar uma Esperança</b> para causar <b>1d8</b> de dano adicional em um ataque bem-sucedido."
+    },
+    {
+      "id": "Divine Wielder",
+      "name": "Portador Divino",
+      "description": "Seja um portador divino para dominar o campo de batalha com uma arma lendária."
+    },
+    {
+      "id": "Companion",
+      "name": "Companheiro Animal",
+      "description": "Você tem um companheiro animal à sua escolha (a critério do mestre). Ele estará ao seu lado a não ser que você ordene o contrário. Use a ficha de companheiro animal. Quando seu personagem subir de nível, escolha também uma das opções de aumento de nível na ficha do seu companheiro."
+    },
+    {
+      "id": "Spirit Weapon",
+      "name": "Arma Espiritual",
+      "description": "Quando você tem equipada uma arma com alcance Adjcente ou Muito Próximo, ela pode voar da sua mão para atacar um adversário Proximo, retornando para você em seguida. Você pode <b>marcar um Fadiga</b> para escolher um adversário adicional dentro do alcance como alvo, usando o mesmo teste de ataque."
+    },
+    {
+      "id": "Call Of The Brave",
+      "name": "Escolhido da Bravura",
+      "description": "Seja um escolhido da bravura para se alimentar da força dos inimigos."
+    },
+    {
+      "id": "Rousing Speech",
+      "name": "Discurso Inspirador",
+      "description": "Uma vez por descanso longo, você pode fazer um discurso emocionante e inspirador. Todos os aliados Distantes limpam 2 Fadiga."
+    },
+    {
+      "id": "Reliable Backup",
+      "name": "Reforços Confiáveis",
+      "description": "Você pode usar Contatos três vezes por sessão. As seguintes opções são adicionadas à lista de benefícios que você pode escolher quando a usa:<br>• Quando você marca um Ponto de Vida ou mais, ele pode correr em sua defesa, reduzindo o número de PV marcados em 1.<br>• Quando você faz um teste de Presença em uma conversa, ele pode ajudar, permitindo que você use um <b>d20</b> como seu Dado de Esperança."
+    },
+    {
+      "id": "Ruthless Predator",
+      "name": "Predador Implacável",
+      "description": "Quando fizer uma rolagem de dano, você pode <b>marcar um Fadiga</b> para receber um bônus de +1 na Proficiência. Além disso, quando você causa dano severo a um adversário, ele deve marcar um Fadiga."
+    },
+    {
+      "id": "Vengeance",
+      "name": "Vingador",
+      "description": "Seja um vingador para subjugar as ameaças contra você ou seus aliados."
+    },
+    {
+      "id": "Beastbound",
+      "name": "Treinador",
+      "description": "Seja um treinador para formar um laço profundo com um animal."
+    },
+    {
+      "id": "Natural Evasion",
+      "name": "Evasão Natural",
+      "description": "Você pode convocar seu elemento para se proteger. Quando sofrer um ataque, você pode <b>marcar um Fadiga</b> e descrever como usa seu elemento para se defender. Ao fazer isso, role um <b>d6</b> e some o resultado à sua Evasão contra esse ataque."
+    },
+    {
+      "id": "Manipulate Magic",
+      "name": "Manipular Magia",
+      "description": "Sua herança primordial permite que você altere a própria essência da magia. Após conjurar um feitiço ou atacar com uma arma que causa dano mágico, você pode <b>marcar um Fadiga</b> para fazer um dos seguintes:<br>• Estender o alcance do ataque ou feitiço em um passo;<br>• Receber um bônus de +2 no resultado do teste;<br>• Dobrar um dado de dano à sua escolha;<br>• Acertar um alvo adicional dentro do alcance."
+    },
+    {
+      "id": "Warden of the Elements",
+      "name": "Protetor dos Elementos",
+      "description": "Seja um protetor dos elementos para incorporar a natureza."
+    },
+    {
+      "id": "Unwavering",
+      "name": "Resoluto",
+      "description": "Você recebe um bônus permanente de +1 em seus limiares de dano."
+    },
+    {
+      "id": "Wordsmith",
+      "name": "Beletrista",
+      "description": "Seja um beletrista para cativar multidões com as palavras."
+    },
+    {
+      "id": "Battlemage",
+      "name": "Mago de Batalha",
+      "description": "Você concentrou seus estudos para se tornar uma força insuperável no campo de batalha. Receba um Ponto de Vida adicional."
+    },
+    {
+      "id": "Prepared",
+      "name": "Promissor",
+      "description": "Pegue uma carta de domínio adicional, do seu nível ou inferior, de um domínio ao qual você tenha acesso."
+    },
+    {
+      "id": "Power of the Gods",
+      "name": "Poder dos Deuses",
+      "description": "Enquanto estiver voando, você causa <b>1d12</b> em vez de 1d8 de dano adicional com suas Asas de Luz."
+    },
+    {
+      "id": "Maestro",
+      "name": "Maestro",
+      "description": "Suas canções inspiram coragem naqueles que as ouvem. Ao conceder um Dado de Piquete a um aliado, ele pode receber uma Esperança ou limpar um Fadiga."
+    },
+    {
+      "id": "Call Of The Slayer",
+      "name": "Escolhido da Matança",
+      "description": "Ouça o chamado da matança para derrubar os adversários com uma força imensa."
+    },
+    {
+      "id": "Contacts Everywhere",
+      "name": "Contatos",
+      "description": "Uma vez por sessão, você pode convocar brevemente um contato escuso. Escolha um dos benefícios abaixo e descreva o que fez seu contato vir ajudá-lo agora:<br>• Ele fornece 1 punhado de ouro, uma ferramenta única ou um objeto mundano necessário para a situação.<br>• A ajuda dele fornece um bônus de +3 no resultado de seu Dado de Medo ou Esperança no seu próximo teste.<br>• Na próxima vez que você causar dano, ele atira das sombras, somando <b>2d8</b> à sua rolagem de dano."
+    },
+    {
+      "id": "Comaraderie",
+      "name": "Camaradagem",
+      "description": "Sua bravura inabalável é um ponto de encontro para seus aliados. Você pode iniciar uma Rolagem Combinada adicional por sessão. Além disso, quando um aliado inicia uma Rolagem Combinada com você, ele só precisa gastar 2 Esperança para fazer isso."
+    },
+    {
+      "id": "Martial Preparation",
+      "name": "Preparação Marcial",
+      "description": "Você é uma inspiração de guerreiro para todos que viajam contigo. Seu grupo pode fazer uma Preparação Marcial em repouso. Para usar este movimento em um descanso, descreva como você instrui e treina o grupo. Você, e cada aliado que fizer este movimento, recebe um <b>d6</b> como Dado de Matança. Um personagem com um Dado de Matança pode gastá-lo para somar seu resultado a um teste de ataque ou rolagem dano à escolha dele."
+    },
+    {
+      "id": "Elementalist",
+      "name": "Elementalismo",
+      "description": "Escolha um dos seguintes elementos na criação de personagem: água, ar, fogo, relâmpago, terra.<br>Você pode moldar esse elemento para causar efeitos inofensivos. Além disso, ao <b>gastar uma Esperança</b> e descrever como seu controle sobre esse elemento ajuda em um teste que você esteja prestes a fazer, você recebe um bônus de +2 nesse teste ou um bônus de +3 na rolagem de dano."
+    },
+    {
+      "id": "Rise to the Challenge",
+      "name": "Enfrentar o Desafio",
+      "description": "Você se mantém vigilante frente ao perigo crescente. Enquanto tiver 2 Pontos de Vida ou menos desmarcados, você pode usar um <b>d20</b> como seu Dado de Esperança."
+    },
+    {
+      "id": "Epic Poetry",
+      "name": "Poesia Épica",
+      "description": "Seu Dado de Piquete aumenta para <b>d10</b>. Além disso, ao ajudar um aliado, você pode descrever o momento como se estivesse contando o heroísmo dele em uma história. Ao fazer isso, role <b>1d10</b> como seu dado de vantagem."
+    },
+    {
+      "id": "Clarity of Nature",
+      "name": "Serenidade da Natureza",
+      "description": "Uma vez por descanso longo, você pode criar um espaço de serenidade natural Próximo. Ao gastar alguns minutos descansando no espaço, limpe Fadiga do grupo (distribuído entre você e seus aliados à sua escolha) em um número igual ao seu Instinto."
+    },
+    {
+      "id": "Elemental Incarnation",
+      "name": "Encarnação Elemental",
+      "description": "<b>Marque um Fadiga</b> para <i>Canalizar</i> um dos seguintes elementos até sofrer dano severo ou até seu próximo descanso:<br>• <b><i>Água:</b></i> quando você causa dano a um adversário Adjacente, todos os outros adversários Muito Próximos devem marcar um Fadiga.<br>• <b><i>Ar:</b></i> você pode pairar para receber vantagem em testes de Agilidade.<br>• <b><i>Fogo:</b></i> quando um adversário Adjacente causa dano a você, ele sofre <b>1d10</b> pontos de dano mágico.<br>• <b><i>Terra:</b></i> você recebe um bônus igual à sua Proficiência em todos os seus limiares de dano."
+    },
+    {
+      "id": "Ascendant",
+      "name": "Ascensão",
+      "description": "Você recebe um bônus permanente de +4 no seu limiar de dano severo."
+    },
+    {
+      "id": "Dark Cloud",
+      "name": "Nuvem de Escuridão",
+      "description": "Faça um <b>teste de conjuração (15)</b>. Se bem-sucedido, você cria uma nuvem de escuridão temporária que cobre toda a área Próxima. Criaturas no interior da nuvem não podem enxergar o lado de fora, e vice-versa. Você é considerado <i>Oculto</i> para qualquer adversário cuja linha de visão esteja bloqueada pela nuvem."
+    },
+    {
+      "id": "Nightwalker",
+      "name": "Gatuno",
+      "description": "Seja um gatuno para manipular as sombras e se esgueirar pelo ambiente."
+    },
+    {
+      "id": "Shadow Stepper",
+      "name": "Passo Sombrio",
+      "description": "Você pode se movimentar de uma sombra para outra. Ao entrar em uma área de escuridão ou na sombra de outra criatura ou objeto, você pode <b>marcar um Fadiga</b> para desaparecer de onde está e reaparecer dentro de outra sombra Distante. Ao reaparecer, você está <i>Oculto</i>."
+    },
+    {
+      "id": "Fueled by Fear",
+      "name": "Movido por Medo",
+      "description": "O dano mágico adicional de Encare o Medo aumenta para 2d10."
+    },
+    {
+      "id": "Battle-Bonded",
+      "name": "Unidos na Batalha",
+      "description": "Quando um adversário estiver Adjacente a seu companheiro animal e atacar você, você recebe +2 de bônus na Evasão contra esse ataque."
+    },
+    {
+      "id": "Loyal Protector",
+      "name": "Protetor Leal",
+      "description": "Quando um aliado Próximo tiver 2 Pontos de Vida ou menos e for sofrer dano, você pode <b>marcar um Fadiga</b> para tomar sua frente e receber o dano em seu lugar."
+    },
+    {
+      "id": "Expert Training",
+      "name": "Treinamento Especializado",
+      "description": "Escolha uma opção de aumento de nível adicional para seu companheiro animal."
+    },
+    {
+      "id": "Vanishing Act",
+      "name": "Desaparecimento",
+      "description": "<b>Marque um Fadiga</b> para ficar <i>Oculto</i> a qualquer momento. Enquanto estiver <i>Oculto</i> devido a esta habilidade, você se recupera automaticamente da condição <i>Imobilizado</i>, se estiver com ela. Você permanece <i>Oculto</i> desta forma até rolar com Medo ou até seu próximo descanso."
+    },
+    {
+      "id": "Act of Reprisal",
+      "name": "Represália",
+      "description": "Quando um adversário causar dano a um aliado Adjacente, você recebe um bônus de +1 em Proficiência no próximo ataque que acertar contra ele."
+    },
+    {
+      "id": "Virtuoso",
+      "name": "Virtuoso",
+      "description": "Você está entre os maiores de sua arte e sua perícia não tem precedentes. Cada canção de Artista Talentoso pode ser apresentada duas vezes por descanso longo, em vez de uma."
+    },
+    {
+      "id": "Troubadour",
+      "name": "Trovador",
+      "description": "Seja um trovador para tecer canções que fortalecem seus aliados."
+    },
+    {
+      "id": "Apex Predator",
+      "name": "Predador Apex",
+      "description": "Antes de fazer um teste de ataque contra um adversário em <i>Foco</i>, você pode <b>gastar uma Esperança</b>. Em um sucesso, você remove um Medo do mestre."
+    },
+    {
+      "id": "Courage",
+      "name": "Coragem",
+      "description": "Ao falhar com Medo, receba uma Esperança."
+    },
+    {
+      "id": "Regenerative Reach",
+      "name": "Presença Curativa",
+      "description": "Você pode selecionar criaturas Muito Próximas como alvo de sua Regeneração."
+    },
+    {
+      "id": "Revenge",
+      "name": "Revanche",
+      "description": "Quando um adversário Adjacente acerta um ataque contra você, você pode <b>marcar um Fadiga</b> para forçá-lo a marcar um Ponto de Vida."
+    },
+    {
+      "id": "Conjure Shield",
+      "name": "Conjurar Escudo",
+      "description": "Você tem a capacidade de manter uma barreira mágica protetora. Enquanto tiver ao menos 2 Esperança, some sua Proficiência à sua Evasão."
+    },
+    {
+      "id": "School Of Knowledge",
+      "name": "Discípulo do Conhecimento",
+      "description": "Seja um discípulo do conhecimento para ter uma profunda compreensão do mundo ao seu redor."
+    },
+    {
+      "id": "Battle Ritual",
+      "name": "Ritual de Batalha",
+      "description": "Uma vez por descanso longo, antes de tentar fazer algo incrivelmente perigoso ou enfrentar um oponente claramente superior a você, descreva o ritual e as preparações que você faz. Após isso, limpe 2 Fadiga e receba 2 Esperança."
+    },
+    {
+      "id": "Stalwart",
+      "name": "Baluarte",
+      "description": "Seja um baluarte para continuar lutando após sofrer golpes poderosos."
+    },
+    {
+      "id": "Transcendence",
+      "name": "Transcendência",
+      "description": "Uma vez por descanso longo, você pode se transformar em uma manifestação física de seu elemento. Ao fazer isso, descreva sua transformação e escolha dois dos benefícios abaixo para receber até seu próximo descanso:<br>• Bônus de +4 no seu limiar severo.<br>• Bônus de +1 em um atributo à sua escolha.<br>• Bônus de +1 em sua Proficiência.<br>• Bônus de +2 na sua Evasão."
+    },
+    {
+      "id": "Ethereal Visage",
+      "name": "Visagem Etérea",
+      "description": "Sua expressão sobrenatural causa admiração e temor. Enquanto estiver voando, você tem vantagem em testes de Presença. Quando tem um sucesso com Esperança em testes de Presença, em vez de você receber Esperança, você pode remover um Medo do mestre."
+    },
+    {
+      "id": "Adrenaline",
+      "name": "Adrenalina",
+      "description": "Enquanto estiver <i>Vulnerável</i>, some seu nível às suas rolagens de dano."
+    },
+    {
+      "id": "Advanced Training",
+      "name": "Treinamento Avançado",
+      "description": "Escolha duas opções de aumento de nível adicionais para seu companheiro animal."
+    },
+    {
+      "id": "Path Forward",
+      "name": "Avante",
+      "description": "Quando estiver viajando para um lugar que já visitou, ou se tiver um objeto que já esteve nesse lugar, você pode identificar o caminho mais curto e direto até esse destino."
+    },
+    {
+      "id": "Adept",
+      "name": "Adepto",
+      "description": "Quando usar uma Experiência, você pode <b>marcar um Fadiga</b> em vez de gastar uma Esperança. Se o fizer, dobre seu modificador de Experiência para essa rolagem."
+    },
+    {
+      "id": "Honed Expertise",
+      "name": "Bem Vivido",
+      "description": "Ao usar uma Experiência, role 1d6. Se tirar 5 ou mais, você pode usá-la sem gastar Esperança."
+    },
+    {
+      "id": "Elemental Origin",
+      "name": "Elementalista",
+      "description": "Escolha um dos seguintes elementos na criação de personagem: água, ar, fogo, relâmpago, terra.<br>Você pode moldar esse elemento para causar efeitos inofensivos. Além disso, ao <b>gastar uma Esperança</b> e descrever como seu controle sobre esse elemento ajuda em um teste que você esteja prestes a fazer, você recebe um bônus de +2 nesse teste ou um bônus de +3 na rolagem de dano."
+    },
+    {
+      "id": "At Ease",
+      "name": "Vem Tranquilo",
+      "description": "Receba um Fadiga adicional."
+    },
+    {
+      "id": "Loyal Friend",
+      "name": "Amigo Leal",
+      "description": "Uma vez por descanso longo, quando o dano de um ataque for marcar o último Fadiga do seu companheiro ou seu último Ponto de Vida e vocês estiverem Próximos um do outro, você ou seu companheiro podem correr para o lado do outro e sofrer esse dano."
+    },
+    {
+      "id": "Warden of Renewal",
+      "name": "Protetor da Renovação",
+      "description": "Seja um protetor da renovação para curar o grupo com poderosos efeitos mágicos."
+    },
+    {
+      "id": "Winged Sentinel",
+      "name": "Sentinela Alada",
+      "description": "Seja uma sentinela alada para levantar voo e desferir golpes aéreos devastadores."
+    },
+    {
+      "id": "Arcane Charge",
+      "name": "Carga Arcana",
+      "description": "Você pode reunir energia mágica para aprimorar suas capacidades. Ao sofrer dano mágico, você fica <i>Carregado</i>. Você também pode <b>gastar 2 Esperança</b> para ficar <i>Carregado</i>. Enquanto estiver <i>Carregado</i>, ao acertar um ataque que causa dano mágico, você pode zerar sua <i>Carga</i> para receber +10 de bônus na rolagem de dano ou +3 de bônus na Dificuldade de um teste de reação que o feitiço exija do alvo. Você deixa de estar <i>Carregado</i> em seu próximo descanso longo."
+    },
+    {
+      "id": "Wayfinder",
+      "name": "Rastreador",
+      "description": "Seja um rastreador para caçar suas presas e atacar com força letal."
+    }
+  ]
+}

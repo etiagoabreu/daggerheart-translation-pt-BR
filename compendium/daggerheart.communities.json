@@ -1,0 +1,101 @@
+{
+  "label": "Comunidades",
+  "folders": {
+    "Community Features": "Habilidades de Comunidade"
+  },
+  "mapping": {
+    "description": "system.description"
+  },
+  "entries": [
+    {
+      "id": "Know the Tide",
+      "name": "Conhecer a Maré",
+      "description": "você pode sentir o fluxo da vida. Ao rolar com Medo, coloque 1 marcador na sua carta de comunidade. Você pode acumular um número de marcadores igual ao seu nível. Antes de fazer um teste, gaste um número qualquer desses marcadores para receber um bônus de +1 a cada marcador gasto. No fim de cada sessão, marcadores não utilizados são perdidos."
+    },
+    {
+      "id": "Nomadic Pack",
+      "name": "Mochila de Nômade",
+      "description": "adicione uma mochila de nômade ao seu inventário. Uma vez por sessão, você pode gastar 1 Ponto de Esperança para tirar um item mundano e útil para a situação de dentro dela. Colabore com o mestre ao definir este item."
+    },
+    {
+      "id": "Dedicated",
+      "name": "Princípios",
+      "description": "anote três ditados ou valores com os quais você cresceu. Uma vez por descanso, ao descrever como você incorpora um destes princípios na sua ação atual, você pode jogar 1d20 como seu Dado de Esperança."
+    },
+    {
+      "id": "Wanderborne",
+      "name": "Nômade",
+      "description": "Integrar uma comunidade nômade significa viver , ou já ter vivido , em constante deslocamento, abrindo mão de um lar fixo e conhecendo diferentes culturas ao longo do caminho. Diferentemente de comunidades definidas por território, comunidades nômades se caracterizam pelo próprio estilo de vida itinerante. Devido às migrações frequentes, esses grupos tendem a dar menos importância ao acúmulo de bens materiais, valorizando mais o conhecimento, as habilidades e os laços que constroem. Embora alguns povos nômades se organizem em torno de uma crença comum ou de princípios econômicos e políticos compartilhados, outros são unidos por circunstâncias difíceis, como a perda de sua terra ou de seu lar. Independentemente da origem, os riscos da vida na estrada e a decisão de permanecerem juntos fazem com que os nômades sejam conhecidos por sua forte e persistente lealdade."
+    },
+    {
+      "id": "Privilege",
+      "name": "Privilégio",
+      "description": "você tem vantagem em testes para se relacionar com nobres, negociar preços ou se aproveitar de sua reputação para conseguir o que quer."
+    },
+    {
+      "id": "Wildborne",
+      "name": "Silvestre",
+      "description": "Integrar uma comunidade silvestre significa ter vivido , ou ainda viver , nas profundezas de uma floresta. Essas comunidades se definem pela preservação de seu território de origem, e muitas mantêm vínculos culturais ou espirituais profundos com o ambiente natural ao seu redor. Esse modo de vida favorece soluções arquitetônicas e tecnológicas próprias, priorizando a sustentabilidade em vez da eficiência imediata. É comum que suas vilas e assentamentos sejam construídos em harmonia com a natureza, buscando minimizar qualquer impacto sobre a flora e a fauna locais. Enquanto algumas dessas sociedades erguem moradias entre os galhos das árvores, outras se estabelecem no próprio solo, sob as copas densas da floresta. Não é raro que seus habitantes permaneçam reservados, vivendo de forma discreta em seus refúgios naturais. Personagens de origem silvestre tendem a ser leais, introspectivos, determinados, perspicazes, enérgicos e zelosos."
+    },
+    {
+      "id": "Highborne",
+      "name": "Aristocrática",
+      "description": "Integrar uma comunidade aristocrática significa estar habituado a uma vida de elegância, luxo e prestígio dentro da alta sociedade. Os membros dessas comunidades tradicionalmente possuem grande riqueza material, que pode se manifestar de diferentes formas, como ouro e outros recursos minerais, extensas propriedades de terra ou controle de meios de produção. Esse status geralmente vem acompanhado de poder e influência significativos. Personagens aristocráticos tendem a valorizar profundamente seus bens e títulos, e a mobilidade social entre esses grupos costuma ser limitada. Devido à sua capacidade de influenciar pessoas e a economia por meio de sua fortuna, membros da aristocracia frequentemente exercem forte impacto sobre a organização política e social dos locais onde vivem. Nessas sociedades, o bem-estar e a segurança das camadas menos favorecidas muitas vezes dependem da disposição da elite em priorizar o interesse coletivo em vez do lucro."
+    },
+    {
+      "id": "Steady",
+      "name": "Firme",
+      "description": "você tem vantagem em testes para cruzar abismos e saliências, orientar-se em ambientes inóspitos e usar seus conhecimentos de sobrevivência."
+    },
+    {
+      "id": "Well-Read",
+      "name": "Culto",
+      "description": "você tem vantagem em testes que envolvem cultura, história ou política de um lugar ou pessoa importante."
+    },
+    {
+      "id": "Lightfoot",
+      "name": "Pés Leves",
+      "description": "seu movimento é naturalmente silencioso. Você tem vantagem em testes para se mover sem ser ouvido."
+    },
+    {
+      "id": "Orderborne",
+      "name": "Disciplinada",
+      "description": "Integrar uma comunidade disciplinada significa vir de um povo que valoriza fortemente a disciplina, a fé ou ambos. Você carrega consigo um conjunto de princípios moldados por essa vivência coletiva. Comunidades desse tipo frequentemente estão entre as mais influentes de suas regiões, já que a organização em torno de um ideal comum , como uma divindade, doutrina, código moral ou até um ofício específico , permite mobilizar grandes grupos de forma eficiente.\n\nEmbora possam assumir naturezas variadas, inclusive pacifistas, as formas mais temidas dessas comunidades são aquelas estruturadas em torno da força militar. Nesses casos, não é incomum que atuem como fornecedores de soldados ou mercenários para outras cidades e nações. Personagens oriundos de comunidades disciplinadas tendem a ser ambiciosos, benevolentes, céticos, estoicos, reflexivos e prudentes."
+    },
+    {
+      "id": "Ridgeborne",
+      "name": "Montanhesa",
+      "description": "Integrar uma comunidade montanhesa significa ter os picos e penhascos como lar. Aqueles que vivem nas montanhas geralmente se veem como mais resilientes que a maioria, reflexo de sua capacidade de sobreviver em um dos ambientes mais hostis do mundo. Esses grupos valorizam a adaptação e desenvolvem tecnologias e equipamentos próprios para transportar pessoas e cargas em terrenos íngremes e instáveis.\n\nPersonagens montanheses crescem escalando e enfrentando grandes altitudes, o que contribui para seu vigor físico e mental. Existem diversas formas de assentamentos montanheses: cidades escavadas nas encostas dos penhascos, castelos erguidos diretamente da rocha e povoados situados em picos expostos a ventos intensos, onde pequenas comunidades ainda prosperam.\n\nForças externas geralmente encontram grande dificuldade ao tentar atacar esses grupos, já que tanto pequenas milícias quanto exércitos maiores aproveitam a vantagem do terreno elevado. Personagens de origem montanhesa costumam ser intrépidos, indomáveis, leais, obstinados, reservados e teimosos."
+    },
+    {
+      "id": "Loreborne",
+      "name": "Erudita",
+      "description": "Integrar uma comunidade erudita significa vir de uma sociedade que valoriza feitos acadêmicos, políticos ou intelectuais. Essas comunidades atribuem grande importância ao conhecimento, seja por meio da preservação histórica, do avanço político, da pesquisa científica, do desenvolvimento tecnológico ou da catalogação de costumes e mitologias.\n\nMuitos de seus membros realizam estudos em instituições situadas em centros civilizatórios, enquanto outros, de perfil mais independente, dedicam-se ao aprendizado por meio da exploração e observação do mundo natural. Há também aqueles que preferem ambientes menores e mais especializados, como escolas, academias ou guildas, seguindo trajetórias próprias de estudo. Em contraste, alguns utilizam sua erudição em larga escala, aplicando seu conhecimento em complexas articulações políticas entre diferentes regiões.\n\nPersonagens de origem erudita tendem a ser altivos, objetivos, eloquentes, curiosos, pacientes e perspicazes."
+    },
+    {
+      "id": "Scoundrel",
+      "name": "Malandro",
+      "description": "você tem vantagem em testes para negociar com criminosos, perceber mentiras ou encontrar um lugar seguro para se esconder."
+    },
+    {
+      "id": "Low-Light Living",
+      "name": "Habituado à Penumbra",
+      "description": "você tem vantagem em testes para se esconder, investigar ou perceber detalhes em áreas de penumbra ou sombra forte."
+    },
+    {
+      "id": "Underborne",
+      "name": "Subterrânea",
+      "description": "Integrar uma comunidade subterrânea significa ter crescido sob a superfície do mundo. Alguns vivem logo abaixo de cidades e vilarejos de outros povos, enquanto outros habitam regiões muito mais profundas e isoladas. Essas comunidades podem variar desde pequenos grupos familiares em cavernas até vastas metrópoles escavadas em formações rochosas.\n\nOs indivíduos dessas sociedades são frequentemente reconhecidos por sua ambição e habilidade, que possibilitam feitos notáveis de arquitetura e engenharia em ambientes extremos. Habitantes do subsolo também são comumente contratados por sua coragem, já que mesmo os menos ousados entre eles costumam lidar desde cedo com criaturas perigosas que habitam as profundezas, tornando tais encontros parte de sua rotina.\n\nDevido às condições adversas de seu ambiente, muitas comunidades subterrâneas desenvolvem formas de comunicação não verbal, que podem se mostrar igualmente eficazes na superfície. Personagens de origem subterrânea tendem a ser criativos, humildes, engenhosos, cautelosos, indomáveis e prudentes."
+    },
+    {
+      "id": "Seaborne",
+      "name": "Marítima",
+      "description": "Integrar uma comunidade marítima significa ter vivido próximo ou dentro de um grande corpo d’água. Essas comunidades se estruturam, tanto fisicamente quanto culturalmente, em torno das massas aquáticas que seus habitantes consideram como lar.\n\nAlguns vivem ao longo da costa, construindo portos que servem como centros comerciais, pontos de passagem ou locais de abrigo após longas jornadas. Outros levam uma vida inteiramente sobre a água, em embarcações pequenas ou grandes navios, definindo como “lar” apenas o próprio barco e sua tripulação, sem vínculo com um território fixo em terra.\n\nIndependentemente da forma de vida, comunidades marítimas permanecem intimamente conectadas às marés e às criaturas que habitam os oceanos. Personagens de origem marítima aprendem a pescar desde cedo e são treinados a nadar e prender a respiração mesmo em águas agitadas. Suas habilidades de navegação são altamente valorizadas, e muitos acabam se tornando capitães em suas próprias comunidades, em outras regiões ou em grandes frotas navais.\n\nPersonagens marítimos costumam ser resilientes, cooperativos, determinados, puros, firmes e enérgicos."
+    },
+    {
+      "id": "Slyborne",
+      "name": "Fora da Lei",
+      "description": "Integrar uma comunidade fora da lei significa vir de um meio que opera à margem da legislação, composto por criminosos, trapaceiros e indivíduos de reputação duvidosa. Membros dessas comunidades costumam se unir em torno de objetivos ilícitos e das formas mais engenhosas de alcançá-los.\n\nMuitas dessas pessoas desenvolvem um conjunto variado de habilidades clandestinas, como contrabando, falsificação, furto e, em alguns casos, aptidão para a violência. Fora da lei podem surgir de qualquer camada social, desde indivíduos que acumularam grande riqueza até aqueles que não possuem recursos ou estabilidade alguma.\n\nPara observadores externos, essas comunidades podem parecer desorganizadas ou sem lealdade, mas frequentemente seguem códigos de conduta internos extremamente rígidos, cuja violação pode resultar em punições severas. Personagens de origem fora da lei tendem a ser calculistas, astutos, perigosos, perceptivos, persistentes e perspicazes."
+    }
+  ]
+}

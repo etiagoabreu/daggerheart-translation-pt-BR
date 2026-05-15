@@ -1,0 +1,190 @@
+{
+  "label": "Armaduras",
+  "folders": {
+    "Tier 4": "Patamar 4",
+    "Tier 1": "Patamar 1",
+    "Tier 2": "Patamar 2",
+    "Tier 3": "Patamar 3",
+    "Special": "Especial"
+  },  
+  "mapping": {
+    "description": "system.description"
+  },
+  "entries": [
+    {
+      "id": "Full Fortified Armor",
+      "name": "Armadura Fortificada",
+      "description": "<b>Fortificação:</b> ao marcar uma Armadura, você reduz a gravidade de um ataque em dois limiares em vez de um."
+    },
+    {
+      "id": "Savior Chainmail",
+      "name": "Cota de Malha Salvadora",
+      "description": "<b>Fatigante:</b> –1 em todos os atributos e na Evasão."
+    },
+    {
+      "id": "Improved Full Plate Armor",
+      "name": "Armadura de Placas Aprimorada",
+      "description": "<b>Muito Pesada:</b> –2 em Evasão; –1 em Agilidade."
+    },
+    {
+      "id": "Monett's Cloak",
+      "name": "Capa de Monett",
+      "description": "<b>Mágica:</b> você não pode marcar Armadura para reduzir dano físico."
+    },
+    {
+      "id": "Legendary Chainmail Armor",
+      "name": "Cota de Malha Lendária",
+      "description": "<b>Pesada:</b> –1 em Evasão."
+    },
+    {
+      "id": "Bare Bones",
+      "name": "Armadura Corporal",
+      "description": "Enquanto não equipar uma armadura, você tem Armadura base igual a 3 + sua Força e usa estes limiares de dano base: 1º patamar: 9/19; 2º patamar: 11/24; 3º patamar: 13/31; 4º patamar: 15/38."
+    },
+    {
+      "id": "Improved Chainmail Armor",
+      "name": "Cota de Malha Aprimorada",
+      "description": "<b>Pesada:</b> –1 em Evasão."
+    },
+    {
+      "id": "Advanced Chainmail Armor",
+      "name": "Cota de Malha Avançada",
+      "description": "<b>Pesada:</b> –1 em Evasão."
+    },
+    {
+      "id": "Veritas Opal Armor",
+      "name": "Armadura de Opala da Verdade",
+      "description": "<b>Veraz:</b> esta armadura brilha quando uma criatura Próxima fala uma mentira."
+    },
+    {
+      "id": "Runes of Fortification",
+      "name": "Runas da Fortificação",
+      "description": "<b>Excruciante:</b> sempre que marcar uma Armadura, você também deve marcar um Fadiga."
+    },
+    {
+      "id": "Tyris Soft Armor",
+      "name": "Armadura Graciosa de Tyris",
+      "description": "<b>Furtividade:</b> você recebe um bônus de +2 em testes para se deslocar silenciosamente."
+    },
+    {
+      "id": "Elundrian Chain Mail",
+      "name": "Cota de Malha Elundriana",
+      "description": "<b>Égide:</b> reduza sua Armadura do dano mágico sofrido antes de compará-lo com seus limiares de dano."
+    },
+    {
+      "id": "Spiked Plate Armor",
+      "name": "Armadura de Placas com Espinhos",
+      "description": "<b>Cortante:</b> ao acertar um ataque contra um alvo Adjacente, você recebe um bônus de +1d4 na rolagem de dano."
+    },
+    {
+      "id": "Legendary Full Plate Armor",
+      "name": "Armadura de Placas Lendária",
+      "description": "<b>Muito Pesada:</b> –2 em Evasão; –1 em Agilidade."
+    },
+    {
+      "id": "Legendary Leather Armor",
+      "name": "Armadura de Couro Lendária",
+      "description": ""
+    },
+    {
+      "id": "Full Plate Armor",
+      "name": "Armadura de Placas",
+      "description": "<b>Muito Pesada:</b> –2 em Evasão; –1 em Agilidade."
+    },
+    {
+      "id": "Bellamoi Fine Armor",
+      "name": "Armadura de Bellamoi",
+      "description": "<b>Revestimento Dourado:</b> +1 em Presença."
+    },
+    {
+      "id": "Emberwoven Armor",
+      "name": "Armadura de Tecido Âmbar",
+      "description": "<b>Ardente:</b> quando sofre um ataque de um adversário Adjacente, ele marca um Fadiga."
+    },
+    {
+      "id": "Legendary Gambeson Armor",
+      "name": "Gibão Lendário",
+      "description": "<b>Flexível:</b> +1 em Evasão."
+    },
+    {
+      "id": "Advanced Full Plate Armor",
+      "name": "Armadura de Placas Avançada",
+      "description": "<b>Muito Pesada:</b> –2 em Evasão; –1 em Agilidade."
+    },
+    {
+      "id": "Harrowbone Armor",
+      "name": "Armadura do Tormento",
+      "description": "<b>Resiliente:</b> antes de marcar sua última Armadura, role 1d6. Em um resultado 6, reduza a gravidade do dano em 1 limiar sem marcar uma Armadura."
+    },
+    {
+      "id": "Advanced Gambeson Armor",
+      "name": "Gibão Avançado",
+      "description": "<b>Flexível:</b> +1 em Evasão."
+    },
+    {
+      "id": "Dunamis Silkchain",
+      "name": "Cota de Seda de Dunamis",
+      "description": "<b>Lentidão Temporal:</b> quando sofre um ataque, marque uma Armadura para somar um bônus de 1d4 na sua Evasão contra este ataque."
+    },
+    {
+      "id": "Chainmail Armor",
+      "name": "Cota de Malha",
+      "description": "<b>Pesada:</b> –1 em Evasão."
+    },
+    {
+      "id": "Advanced Leather Armor",
+      "name": "Armadura de Couro Avançada",
+      "description": ""
+    },
+    {
+      "id": "Improved Gambeson Armor",
+      "name": "Gibão Aprimorado",
+      "description": "<b>Flexível:</b> +1 em Evasão."
+    },
+    {
+      "id": "Bladefare Armor",
+      "name": "Armadura Concreta",
+      "description": "<b>Física:</b> você não pode marcar Armadura para reduzir dano mágico."
+    },
+    {
+      "id": "Dragonscale Armor",
+      "name": "Armadura de Escamas de Dragão",
+      "description": "<b>Impenetrável:</b> uma vez por descanso curto, você pode marcar Fadiga em vez de marcar seu último Ponto de Vida."
+    },
+    {
+      "id": "Leather Armor",
+      "name": "Armadura de Couro",
+      "description": ""
+    },
+    {
+      "id": "Improved Leather Armor",
+      "name": "Armadura de Couro Aprimorada",
+      "description": ""
+    },
+    {
+      "id": "Runetan Floating Armor",
+      "name": "Armadura Flutuante de Runetan",
+      "description": "<b>Inconstante:</b> ao sofrer um ataque, você pode marcar uma Armadura para que o teste deste ataque seja feito com desvantagem."
+    },
+    {
+      "id": "Rosewild Armor",
+      "name": "Armadura de Rosamata",
+      "description": "<b>Esperança:</b> quando for gastar uma Esperança, você pode marcar uma Armadura em vez disso."
+    },
+    {
+      "id": "Irontree Breastplate Armor",
+      "name": "Peitoral de Placas de Pau-Ferro",
+      "description": "<b>Reforços:</b> quando marcar sua última Armadura, aumente seus limiares de dano em +2 até você recuperar pelo menos uma Armadura."
+    },
+    {
+      "id": "Channeling Armor",
+      "name": "Armadura da Canalização",
+      "description": "<b>Canalização:</b> +1 em testes de conjuração."
+    },
+    {
+      "id": "Gambeson Armor",
+      "name": "Gibão",
+      "description": "<b>Flexível:</b> +1 em Evasão."
+    }
+  ]
+}

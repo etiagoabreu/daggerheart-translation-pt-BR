@@ -1,0 +1,63 @@
+{
+  "id": "daggerheart-translation-pt-BR",
+  "title": "Daggerheart: Tradução Português-BR",
+  "description": "Tradução NÃO OFICIAL do SRD em Português do Brasil do sistema de RPG Daggerheart da Darrington Press e Critical Role adaptada pela Foundryborne no FoundryVTT. Utilizando os melhores léxicos sugeridos pela comunidade ou popularizados por empresas licenciadas no Brasil.",
+      "version": "0.0.1",
+  "compatibility": {
+    "minimum": "13",
+    "verified": "14"
+  },
+  "authors": [
+    {
+      "name": "Tiago Abreu",
+      "email": "etiagoabreu@gmail.com",
+      "discord": "",
+      "flags": {}
+	}
+  ],
+  "esmodules": ["module.js"],
+  "relationships": {
+    "systems": [
+      {
+        "id": "daggerheart",
+        "manifest": "https://github.com/Foundryborne/daggerheart/releases/latest/download/system.json",
+        "compatibility": {
+          "minimum": "1.0.0",
+          "verified": "1.0.5"
+        },
+        "type": "system"
+      }
+    ],
+	"requires": [
+      {
+        "id": "babele",
+        "type": "module",
+        "manifest": "https://gitlab.com/riccisi/foundryvtt-babele/raw/master/module/module.json",
+        "compatibility": {
+          "minimum": "2.5.5",
+          "verified": "2"
+        }
+      },
+      {
+        "id": "pt-BR",
+        "type": "module",
+        "manifest": "https://github.com/mclemente/fvtt-ptbr-core-translation/releases/latest/download/module.json",
+        "compatibility": {
+          "minimum": "2.5.5",
+          "verified": "2"
+        }
+      }
+    ]
+  },
+  "languages": [
+    {
+      "lang": "pt-BR",
+      "name": "Português (Brasil)",
+      "path": "lang/pt-BR.json",
+      "flags": {}
+    }
+  ],
+  "url": "https://github.com/etiagoabreu/daggerheart-translation-pt-BR",
+  "manifest": "https://github.com/etiagoabreu/daggerheart-translation-pt-BR/releases/latest/download/module.json",
+  "download": "https://github.com/etiagoabreu/daggerheart-translation-pt-BR/releases/latest/download/daggerheart-translation-pt-BR-v0.0.1.zip"
+}
