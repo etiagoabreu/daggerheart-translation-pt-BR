@@ -3,306 +3,246 @@
   "mapping": {
     "description": "system.description"
   },
-  "entries": [
-    {
-      "id": "Minor Stamina Potion Recipe",
+  "entries": {
+    "Minor Stamina Potion Recipe": {
       "name": "Receita de Poção de Vigor Menor",
       "description": "Como um movimento de repouso, você pode usar o osso de uma criatura para criar uma Poção de Vigor Menor."
     },
-    {
-      "id": "Shard of Memory",
+    "Shard of Memory": {
       "name": "Fragmento de Memória",
       "description": "Uma vez por descanso longo você pode gastar 2 Esperança para trocar uma carta de domínio da sua mão por uma da sua reserva sem pagar seu custo de troca."
     },
-    {
-      "id": "Arcane Cloak",
+    "Arcane Cloak": {
       "name": "Capa Arcana",
       "description": "Se tiver um atributo de conjuração, a criatura usando esta capa pode ajustar sua cor, textura e tamanho."
     },
-    {
-      "id": "Mythic Dust Recipe",
+    "Mythic Dust Recipe": {
       "name": "Receita de Pó Mítico",
       "description": "Como um movimento de repouso você pode usar um punhado de ouro em pó para criar Pó Mítico."
     },
-    {
-      "id": "Valorstone",
+    "Valorstone": {
       "name": "Pedra do Poder",
       "description": "Incruste esta pedra em uma arma que ainda não tem uma habilidade; ela recebe a habilidade abaixo. Poderosa: ao acertar um ataque, role +1 dado de dano e descarte o de resultado mais baixo."
     },
-    {
-      "id": "Hopekeeper Locket",
+    "Hopekeeper Locket": {
       "name": "Medalhão da Esperança",
       "description": "Em um descanso longo, se você tiver 6 Esperança, você pode gastar 1 Ponto de Esperança para impregnar este medalhão com sua determinação. Quando sua Esperança chegar a 0, você pode usar o medalhão para receber imediatamente 1 Ponto de Esperança. Você precisa recarregar este item antes de usá-lo dessa forma novamente."
     },
-    {
-      "id": "Charm Relic",
+    "Charm Relic": {
       "name": "Relíquia do Charme",
       "description": "Sua Presença aumenta em +1. Você só pode usar uma relíquia."
     },
-    {
-      "id": "Flickerfly Pendant",
+    "Flickerfly Pendant": {
       "name": "Pingente do Oscilume",
       "description": "Enquanto estiver com este pingente, suas armas de alcance Corpo a Corpo que causam dano físico são cobertas por filamentos brilhantes, permitindo-as atacar alvos Muito Próximos."
     },
-    {
-      "id": "Woven Net",
+    "Woven Net": {
       "name": "Rede Trançada",
       "description": "Você pode fazer um Teste de Finesse usando esta rede para prender uma criatura pequena. Um alvo preso pode escapar passando em um Teste de Ataque (16)."
     },
-    {
-      "id": "Gecko Gloves",
+    "Gecko Gloves": {
       "name": "Luvas-lagartixa",
       "description": "Você pode escalar superfícies verticais e andar no teto."
     },
-    {
-      "id": "Glider",
+    "Glider": {
       "name": "Paraquedas",
       "description": "Quando estiver caindo, marque um Fadiga para usar este item e planar em segurança até o chão."
     },
-    {
-      "id": "Gem of Precision",
+    "Gem of Precision": {
       "name": "Gema do Controle",
       "description": "Incruste esta gema em uma arma. Ao fazer isso, você pode usar Finesse para fazer testes de ataque com ela."
     },
-    {
-      "id": "Paragon’s Chain",
+    "Paragon’s Chain": {
       "name": "Corrente dos Princípios",
       "description": "Como um movimento de repouso, você pode meditar sobre um ideal ou princípio que lhe é importante, focando sua força de vontade nesta corrente. Uma vez por descanso longo, você pode gastar 1 Ponto de Esperança para rolar 1d20 como seu Dado de Esperança em testes diretamente relacionados a este princípio."
     },
-    {
-      "id": "Stride Relic",
+    "Stride Relic": {
       "name": "Relíquia da Velocidade",
       "description": "Sua Agilidade aumenta em +1. Você só pode usar uma relíquia."
     },
-    {
-      "id": "Corrector Sprite",
+    "Corrector Sprite": {
       "name": "Espírito Sussurrante",
       "description": "Este espírito menor se acomoda na curva do seu canal auditivo, sussurrando conselhos úteis durante o combate. Uma vez por descanso curto, você pode fazer um teste de ataque com vantagem."
     },
-    {
-      "id": "Manacles",
+    "Manacles": {
       "name": "Algemas",
       "description": "Um par de algemas com uma chave."
     },
-    {
-      "id": "Dual Flask",
+    "Dual Flask": {
       "name": "Frasco Duplo",
       "description": "Este frasco pode conter dois líquidos diferentes. Alterne entre eles ativando um pequeno interruptor lateral."
     },
-    {
-      "id": "Piercing Arrows",
+    "Piercing Arrows": {
       "name": "Flechas Perfurantes",
       "description": "3 vezes por descanso, ao acertar um ataque com uma destas flechas, você pode somar sua Proficiência à rolagem de dano."
     },
-    {
-      "id": "Infinite Bag",
+    "Infinite Bag": {
       "name": "Bolsa Infinita",
       "description": "Ao armazenar objetos nesta bolsa, eles ficam em uma dimensão de bolso cujo espaço nunca acaba. Você pode pegar um item de lá sempre que desejar."
     },
-    {
-      "id": "Lorekeeper",
+    "Lorekeeper": {
       "name": "Arquivo Infausto",
       "description": "Anote o nome, descrição e detalhes de até três criaturas hostis dentro deste livro. Você recebe um bônus de +1 em seus testes contra essas criaturas."
     },
-    {
-      "id": "Ring of Silence",
+    "Ring of Silence": {
       "name": "Anel do Silêncio",
       "description": "Gaste 1 Ponto de Esperança para ativar este anel. Seus passos não emitem sons até seu próximo descanso."
     },
-    {
-      "id": "Speaking Orbs",
+    "Speaking Orbs": {
       "name": "Orbes da Comunicação",
       "description": "Criaturas segurando esse par de orbes podem se comunicar independentemente da distância que estejam uma da outra."
     },
-    {
-      "id": "Alistair’s Torch",
+    "Alistair’s Torch": {
       "name": "Tocha de Alistair",
       "description": "Você pode acender esta tocha mágica sempre que desejar. A luz das chamas preenche um espaço muito maior do que deveria, o suficiente para iluminar uma caverna como se fosse dia dentro dela."
     },
-    {
-      "id": "Vial of Darksmoke Recipe",
+    "Vial of Darksmoke Recipe": {
       "name": "Receita de Frasco de Fumaça Negra",
       "description": "Como movimento de repouso, você pode usar marcar um Fadiga para criar um Frasco de Fumaça Negra."
     },
-    {
-      "id": "Arcane Prism",
+    "Arcane Prism": {
       "name": "Prisma Arcano",
       "description": "Ative este prisma em um local à sua escolha. Aliados Próximos dele recebem um bônus de +1 em seus testes de Conjuração. Enquanto estiver ativo, o Prisma não pode ser movido. Assim que for desativado, você não pode ativar o prisma novamente até o próximo descanso longo."
     },
-    {
-      "id": "Lakestrider Boots",
+    "Lakestrider Boots": {
       "name": "Botas do Passo D'água",
       "description": "Você consegue caminhar sobre a superfície da água como se estivesse em terreno macio."
     },
-    {
-      "id": "Minor Health Potion Recipe",
+    "Minor Health Potion Recipe": {
       "name": "Receita de Poção de Vida Menor",
       "description": "Como um movimento de repouso, você pode usar um frasco de sangue para criar uma Poção de Vida Menor."
     },
-    {
-      "id": "Glamour Stone",
+    "Glamour Stone": {
       "name": "Pedra do Glamour",
       "description": "Use esta pedra pequena para gravar a aparência de uma pessoa que você pode ver. Gaste 1 Ponto de Esperança para, como uma ilusão, recriar esta aparência magicamente em seu corpo."
     },
-    {
-      "id": "Elusive Amulet",
+    "Elusive Amulet": {
       "name": "Amuleto do Desaparecimento",
       "description": "Uma vez por descanso longo, ative este amuleto para ficar Escondido até se mover. Enquanto estiver Escondido desta forma, você continua invisível mesmo que o adversário vá para onde normalmente poderia vê-lo."
     },
-    {
-      "id": "Premium Bedroll",
+    "Premium Bedroll": {
       "name": "Saco de Dormir de Qualidade",
       "description": "Durante o repouso, você automaticamente limpa um Fadiga."
     },
-    {
-      "id": "Phoenix Feather",
+    "Phoenix Feather": {
       "name": "Pena de Fênix",
       "description": "Se tiver pelo menos uma Pena de Fênix consigo quando ficar inconsciente, você recebe um bônus de +1 no teste que determina se vai ou não ficar com uma cicatriz."
     },
-    {
-      "id": "Control Relic",
+    "Control Relic": {
       "name": "Relíquia do Controle",
       "description": "Sua Finesse aumenta em +1. Você só pode usar uma relíquia."
     },
-    {
-      "id": "Honing Relic",
+    "Honing Relic": {
       "name": "Relíquia do Aperfeiçoamento",
       "description": "Você recebe um bônus de +1 em uma Experiência à sua escolha. Você só pode usar uma relíquia."
     },
-    {
-      "id": "Gem of Insight",
+    "Gem of Insight": {
       "name": "Gema da Sintonia",
       "description": "Incruste esta gema em uma arma. Ao fazer isso, você pode usar Instinto para fazer testes de ataque com ela."
     },
-    {
-      "id": "Companion Case",
+    "Companion Case": {
       "name": "Caixinha do Companheiro",
       "description": "Esta caixinha pode abrigar um companheiro animal pequeno. Enquanto o companheiro estiver lá dentro, tanto ele quanto a caixinha são imunes a todos os tipos de dano e a quaisquer efeitos prejudiciais."
     },
-    {
-      "id": "Fire Jar",
+    "Fire Jar": {
       "name": "Jarro de Fogo",
       "description": "Derramar o líquido estranho deste jarro produz fogo imediatamente. Ele recarrega a cada descanso longo."
     },
-    {
-      "id": "Ring of Resistance",
+    "Ring of Resistance": {
       "name": "Anel da Resistência",
       "description": "Uma vez por descanso longo, ative este anel após ser atingido por um ataque para reduzir o dano à metade."
     },
-    {
-      "id": "Box of Many Goods",
+    "Box of Many Goods": {
       "name": "Caixa das Muitas Posses",
       "description": "Uma vez por descanso longo, você pode abrir essa pequena caixa e rolar 1d12. Se rolar de 1 a 6, ela está vazia. Se rolar de 7 a 10, ela tem um consumível comum aleatório. Se rolar de 11 a 12, ela tem dois consumíveis comuns aleatórios."
     },
-    {
-      "id": "Airblade Charm",
+    "Airblade Charm": {
       "name": "Amuleto do Alcance",
       "description": "Você pode anexar este amuleto a uma arma de alcance Adjacente. 3 vezes por descanso, você pode ativar este amuleto para atacar um alvo Próximo."
     },
-    {
-      "id": "Portal Seed",
+    "Portal Seed": {
       "name": "Semente de Portal",
       "description": "Plante esta semente no chão para que um portal surja no local em 24h. Você pode usá-lo para viajar até qualquer outro lugar onde tenha plantado uma Semente de Portal. Um portal é destruído se sofrer dano mágico."
     },
-    {
-      "id": "Skeleton Key",
+    "Skeleton Key": {
       "name": "Chave Mestra",
       "description": "Ao usar esta chave para abrir uma porta trancada, você faz o teste de Finesse com vantagem."
     },
-    {
-      "id": "Belt of Unity",
+    "Belt of Unity": {
       "name": "Cinturão da Unidade",
       "description": "Uma vez por sessão, você pode gastar 5 Esperança para iniciar um teste em dupla com três personagens em vez de dois."
     },
-    {
-      "id": "Charging Quiver",
+    "Charging Quiver": {
       "name": "Aljava de Carga",
       "description": "Quando acertar um ataque feito com uma flecha que estava nesta aljava, você recebe um bônus na rolagem de dano igual ao seu patamar."
     },
-    {
-      "id": "Gem of Audacity",
+    "Gem of Audacity": {
       "name": "Gema do Charme",
       "description": "Incruste esta gema em uma arma. Ao fazer isso, você pode usar Presença para fazer testes de ataque com ela."
     },
-    {
-      "id": "Ring of Unbreakable Resolve",
+    "Ring of Unbreakable Resolve": {
       "name": "Anel da Vontade de Ferro",
       "description": "Uma vez por sessão, quando o mestre gastar Medo, você pode gastar 4 Esperança para cancelar os efeitos gerados por este gasto de Medo."
     },
-    {
-      "id": "Clay Companion",
+    "Clay Companion": {
       "name": "Companheiro de Argila",
       "description": "Quando esculpir esta bola de argila no formato de um companheiro animal, ele se comporta como aquele animal. Por exemplo, uma aranha de argila pode soltar teias feitas de argila, enquanto um pássaro de argila consegue voar. O companheiro de argila mantém suas memórias e identidade independentemente do tipo, mas pode ter maneirismos diferentes a depender da forma que está usando."
     },
-    {
-      "id": "Bolster Relic",
+    "Bolster Relic": {
       "name": "Relíquia do Impulso",
       "description": "Sua Força aumenta em +1. Você só pode usar uma relíquia."
     },
-    {
-      "id": "Suspended Rod",
+    "Suspended Rod": {
       "name": "Cajado Suspenso",
       "description": "Este cajado achatado está entalhado com runas. Quando ativado, ele fica imediatamente suspenso no ar. Até que seja desativado, ele não faz o menor movimento, não respeita as regras da realidade e não sai do lugar."
     },
-    {
-      "id": "Bloodstone",
+    "Bloodstone": {
       "name": "Pedra da Brutalidade",
       "description": "Incruste esta pedra em uma arma que ainda não tem uma habilidade; ela recebe a habilidade abaixo.<br><b>Brutal:</b> quando rolar o valor máximo em um dado de dano, role +1 dado de dano."
     },
-    {
-      "id": "Empty Chest",
+    "Empty Chest": {
       "name": "Baú Vazio",
       "description": "Este baú mágico aparenta estar vazio. Após dizer uma palavra ou ação específica para abrir o baú, você consegue ver os objetos que estão armazenados nele."
     },
-    {
-      "id": "Gem of Might",
+    "Gem of Might": {
       "name": "Gema do Impulso",
       "description": "Incruste esta gema em uma arma. Ao fazer isso, você pode usar Força para fazer testes de ataque com ela."
     },
-    {
-      "id": "Calming Pendant",
+    "Calming Pendant": {
       "name": "Pingente Tranquilizante",
       "description": "Quando estiver prestes a marcar sua última Fadiga, role 1d6. Se rolar 5 ou mais, você não precisa marcá-la."
     },
-    {
-      "id": "Gem of Sagacity",
+    "Gem of Sagacity": {
       "name": "Gema da Iluminação",
       "description": "Incruste esta gema em uma arma. Ao fazer isso, você pode usar Conhecimento para fazer testes de ataque com ela."
     },
-    {
-      "id": "Piper Whistle",
+    "Piper Whistle": {
       "name": "Apito-flauta",
       "description": "Este apito artesanal tem um som bastante marcante. Quando assoprado, seu timbre estridente pode ser ouvido em um raio de 1 km e meio."
     },
-    {
-      "id": "Bag of Ficklesand",
+    "Bag of Ficklesand": {
       "name": "Bolsa de Areia Errática",
       "description": "Com um sucesso em um <b>Teste de Presença (10)</b>, você convence esta pequena bolsa a ser muito mais pesada ou leve. Além disso, se passar em um <b>Teste de Finesse (10)</b>, você pode soprar um pouco de areia no rosto de um alvo para deixá-lo temporariamente <i>Vulnerável</i>."
     },
-    {
-      "id": "Attune Relic",
+    "Attune Relic": {
       "name": "Relíquia da Sintonia",
       "description": "Seu Instinto aumenta em +1. Você só pode usar uma relíquia."
     },
-    {
-      "id": "Enlighten Relic",
+    "Enlighten Relic": {
       "name": "Relíquia da Iluminação",
       "description": "Seu Conhecimento aumenta em +1. Você só pode usar uma relíquia."
     },
-    {
-      "id": "Greatstone",
+    "Greatstone": {
       "name": "Pedra da Resiliência",
       "description": "Incruste esta pedra em uma armadura que ainda não tenha uma habilidade; ela recebe a habilidade abaixo.<br><b>Resiliente:</b> antes de marcar sua última Armadura, role 1d6. Em um resultado 6, reduza a gravidade do dano em 1 limiar sem marcar uma Armadura."
     },
-    {
-      "id": "Homing Compasses",
+    "Homing Compasses": {
       "name": "Bússolas Harmônicas",
       "description": "Duas bússolas que sempre apontam uma na direção da outra, não importa a distância entre elas."
     },
-    {
-      "id": "Gem of Alacrity",
+    "Gem of Alacrity": {
       "name": "Gema da Velocidade",
       "description": "Incruste esta gema em uma arma. Ao fazer isso, você pode usar Agilidade para fazer testes de ataque com ela."
     }
-  ]
+  }
 }
