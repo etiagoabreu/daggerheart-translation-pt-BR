@@ -1,293 +1,236 @@
-{  
+{
   "label": "Forma de Fera",
+  "mapping": {
+    "examples": "system.examples",
+    "description": "system.description"
+  },
   "folders": {
     "Tier 3": "Patamar 3",
     "Tier 2": "Patamar 2",
     "Tier 4": "Patamar 4",
     "Tier 1": "Patamar 1",
     "Beastform Features": "Habilidades de Forma de Fera"
-  },  
-  "mapping": {
-    "examples": "system.examples",
-    "description": "system.description"    
   },
-  
-  "entries": [
-    {
-      "id": "Striking Serpent",
+  "entries": {
+    "Striking Serpent": {
       "name": "Serpente Traiçoeira",
       "examples": "Cascavel, naja, víbora etc."
     },
-    {
-      "id": "Pouncing Predator",
+    "Pouncing Predator": {
       "name": "Predador Furtivo",
       "examples": "Guepardo, leão, pantera etc."
     },
-    {
-      "id": "Terrible Lizard",
+    "Terrible Lizard": {
       "name": "Lagarto Terrível",
       "examples": "Braquiossauro, tiranossauro etc."
     },
-    {
-      "id": "Armored Sentry",
+    "Armored Sentry": {
       "name": "Carapaça Vigilante",
       "examples": "Pangolim, tartaruga, tatu etc."
     },
-    {
-      "id": "Mighty Lizard",
+    "Mighty Lizard": {
       "name": "Lagarto Poderoso",
       "examples": "Crocodilo, jacaré, monstro-de-gila etc."
     },
-    {
-      "id": "Stalking Arachnid",
+    "Stalking Arachnid": {
       "name": "Aracnídeo Espreitador",
       "examples": "Aranha-lobo, tarântula etc."
     },
-    {
-      "id": "Nimble Grazer",
+    "Nimble Grazer": {
       "name": "Ruminante Arisco",
       "examples": "Cabra, cervo, gazela etc."
     },
-    {
-      "id": "Aquatic Predator",
+    "Aquatic Predator": {
       "name": "Predador Aquático",
       "examples": "Golfinho, orca, tubarão etc."
     },
-    {
-      "id": "Mythic Hybrid",
+    "Mythic Hybrid": {
       "name": "Híbrido Mítico",
       "examples": "Cocatriz, mantícora, quimera etc."
     },
-    {
-      "id": "Pack Predator",
+    "Pack Predator": {
       "name": "Predador de Bando",
       "examples": "Coiote, hiena, lobo etc."
     },
-    {
-      "id": "Agile Scout",
+    "Agile Scout": {
       "name": "Explorador Ágil",
       "examples": "Camundongo, doninha, raposa etc."
     },
-    {
-      "id": "Great Predator",
+    "Great Predator": {
       "name": "Grande Predador",
       "examples": "Lobo atroz, tigre dente-de-sabre, velocirraptor etc."
     },
-    {
-      "id": "Great Winged Beast",
+    "Great Winged Beast": {
       "name": "Grande Fera Alada",
       "examples": "Águia gigante, falcão etc."
     },
-    {
-      "id": "Household Friend",
+    "Household Friend": {
       "name": "Animal Doméstico",
       "examples": "Cão, coelho, gato etc."
     },
-    {
-      "id": "Mythic Aerial Hunter",
+    "Mythic Aerial Hunter": {
       "name": "Caçador Aéreo Mítico",
       "examples": "Dragão, pterodátilo, roca, serpe etc."
     },
-    {
-      "id": "Mythic Beast",
+    "Mythic Beast": {
       "name": "Fera Mítica",
       "examples": "Aprimoramento de 1º ou 2º patamar"
     },
-    {
-      "id": "Powerful Beast",
+    "Powerful Beast": {
       "name": "Fera Poderosa",
       "examples": "Alce, touro, urso etc."
     },
-    {
-      "id": "Winged Beast",
+    "Winged Beast": {
       "name": "Fera Alada",
       "examples": "Coruja, corvo, gavião etc."
     },
-    {
-      "id": "Legendary Beast",
+    "Legendary Beast": {
       "name": "Fera Lendária",
       "examples": "Aprimoradamento de 1º patamar"
     },
-    {
-      "id": "Massive Behemoth",
+    "Massive Behemoth": {
       "name": "Gigante Massiva",
       "examples": "Elefante, mamute, rinoceronte etc."
     },
-    {
-      "id": "Aquatic Scout",
+    "Aquatic Scout": {
       "name": "Explorador Aquático",
       "examples": "Enguia, peixe, polvo etc."
     },
-    {
-      "id": "Legendary Hybrid",
+    "Legendary Hybrid": {
       "name": "Híbrido Lendário",
       "examples": "Esfinge, grifo etc."
     },
-    {
-      "id": "Epic Aquatic Beast",
+    "Epic Aquatic Beast": {
       "name": "Fera Aquática Épica",
       "examples": "Baleia, lula gigante etc."
     },
-    {
-      "id": "Mighty Strider",
+    "Mighty Strider": {
       "name": "Trotador Robusto",
       "examples": "Camelo, cavalo, zebra etc."
     },
-    {
-      "id": "Takedown",
+    "Takedown": {
       "name": "Abate",
       "description": "<b>Marque um Fadiga</b> para se mover até ficar Adjacente a um alvo e fazer um teste de ataque contra ele. Em um sucesso, você recebe um bônus de +2 em sua Proficiência para esse ataque e o alvo deve marcar um Fadiga."
     },
-    {
-      "id": "Venomous Bite",
+    "Venomous Bite": {
       "name": "Picada Peçonhenta",
       "description": "Quando acerta um ataque contra um alvo Adjacente, você o deixa temporariamente <i>Envenenado</i>. Uma criatura <i>Envenenada</i> sofre <b>1d10</b> de dano físico direto cada vez que age."
     },
-    {
-      "id": "Hobbling Strike",
+    "Hobbling Strike": {
       "name": "Golpe Debilitante",
       "description": "Quando você acerta um ataque contra um alvo Adjacente, você pode <b>marcar um Fadiga</b> para torná-lo temporariamente <i>Vulnerável</i>."
     },
-    {
-      "id": "Rampage",
+    "Rampage": {
       "name": "Ataque Violento",
       "description": "Quando tira 1 em um dado de dano, você pode rolar um [[/r 1d10]]{<b>d10</b>} e somar o resultado à rolagem de dano. Além disso, antes de fazer um teste de ataque, você pode <b>marcar um Fadiga</b> para receber um bônus de +1 em sua Proficiência para esse ataque."
     },
-    {
-      "id": "Massive Stride",
+    "Massive Stride": {
       "name": "Disparada Massiva",
       "description": "Você pode se mover até um ponto Distante sem precisar fazer uma teste. Você ignora terreno difícil (a critério do mestre) devido ao seu tamanho."
     },
-    {
-      "id": "Trample",
+    "Trample": {
       "name": "Atropelar",
       "description": "<b>Marque um Fadiga</b> para se mover até um ponto em alcance Próximo em linha reta e atacar todos os alvos Adjacentes à linha. Alvos atingidos sofrem d8+1 de dano físico usando sua Proficiência e ficam temporariamente <i>Vulneráveis</i>."
     },
-    {
-      "id": "Webslinger",
+    "Webslinger": {
       "name": "Lança-teia",
       "description": "Você pode criar uma poderosa teia, útil nas aventuras e nas batalhas. Ela é resistente o bastante para suportar uma criatura. Você pode <i>Imobilizar</i> temporariamente um alvo Próximo se passar em um teste de Finesse contra ele."
     },
-    {
-      "id": "Demolish",
+    "Demolish": {
       "name": "Demolir",
       "description": "<b>Gaste uma Esperança</b> para se mover até um ponto Distante em linha reta e atacar todos os alvos Adjacentes à linha. Alvos atingidos sofrem d8+10 de dano físico usando sua Proficiência e ficam temporariamente <i>Vulneráveis</i>."
     },
-    {
-      "id": "Carrier",
+    "Carrier": {
       "name": "Besta de Carga",
       "description": "Você pode carregar até dois aliados voluntários com você enquanto se movimenta."
     },
-    {
-      "id": "Bird's-Eye View",
+    "Bird's-Eye View": {
       "name": "Visão Aérea",
       "description": "Você pode voar à vontade. Uma vez por descanso, e enquanto estiver no ar, você pode perguntar ao mestre algo sobre a paisagem abaixo sem precisar de teste. Na primeira vez em que um personagem fizer um teste para agir em relação a essa informação, ele o faz com vantagem."
     },
-    {
-      "id": "Fleet",
+    "Fleet": {
       "name": "Disparada",
       "description": "<b>Gaste uma Esperança</b> para se mover até um ponto em alcance Distante sem precisar fazer um teste."
     },
-    {
-      "id": "Devastating Strikes",
+    "Devastating Strikes": {
       "name": "Golpes Devastadores",
       "description": "Quando causa dano severo em um alvo Adjacente, você pode marcar um Fadiga para forçá-lo a marcar um Ponto de Vida adicional."
     },
-    {
-      "id": "Snapping Strike",
+    "Snapping Strike": {
       "name": "Golpe Súbito",
       "description": "Quando acerta um ataque contra um alvo Adjacente, você pode <b>gastar uma Esperança</b> para segurá-lo com a mandíbula, deixando-o temporariamente <i>Imobilizado</i> e <i>Vulnerável</i>."
     },
-    {
-      "id": "Undaunted",
+    "Undaunted": {
       "name": "Impávido",
       "description": "Você recebe um bônus de +2 em seus limiares de dano."
     },
-    {
-      "id": "Fragile",
+    "Fragile": {
       "name": "Frágil",
       "description": "Ao sofrer dano maior ou severo, você sai da Forma de Fera."
     },
-    {
-      "id": "Deadly Raptor",
+    "Deadly Raptor": {
       "name": "Ave de Rapina Mortal",
       "description": "Você pode voar à vontade e se mover até um ponto em alcance Distante como parte de seu movimento. Quando ataca um alvo após se mover em linha reta até ficar Adjacente a ele a partir de no mínimo alcance Próximo, você pode rolar novamente todos os dados de dano com um resultado menor que sua Proficiência."
     },
-    {
-      "id": "Physical Defense",
+    "Physical Defense": {
       "name": "Armadura Física",
       "description": "Você recebe um bônus de +3 em seus limiares de dano."
     },
-    {
-      "id": "Thick Hide",
+    "Thick Hide": {
       "name": "Couro Espesso",
       "description": "Você recebe +2 de bônus nos seus limiares de dano."
     },
-    {
-      "id": "Elusive Prey",
+    "Elusive Prey": {
       "name": "Presa Arisca",
       "description": "Quando sofre um ataque, você pode <b>marcar um Fadiga</b> para rolar um [[/r 1d4]]{<b>d4</b>} e somar o resultado à sua Evasão contra esse ataque."
     },
-    {
-      "id": "Warning Hiss",
+    "Warning Hiss": {
       "name": "Silvo de alerta",
       "description": "<b>Marque um Fadiga</b> para forçar qualquer número de alvos Adjacentes a se afastarem até ficarem Muito Próximos."
     },
-    {
-      "id": "Pack Hunting",
+    "Pack Hunting": {
       "name": "Caça em Bando",
       "description": "Quando você acerta um ataque contra um alvo atingido por um aliado imediatamente antes de você, seu dano aumenta em +1d8."
     },
-    {
-      "id": "Vicious Maul",
+    "Vicious Maul": {
       "name": "Ataque Voraz",
       "description": "Quando acerta um ataque em um alvo, você pode <b>gastar uma Esperança</b> para deixá-lo temporariamente <i>Vulnerável</i> e receber um bônus de +1 em Proficiência nesse ataque."
     },
-    {
-      "id": "Companion",
+    "Companion": {
       "name": "Companhia",
       "description": "Ao ajudar um aliado, você pode rolar um [[/r 1d8]]{<b>d8</b>} como seu dado de vantagem."
     },
-    {
-      "id": "Cannonball",
+    "Cannonball": {
       "name": "Canhão Ricochete",
       "description": "<b>Marque um Fadiga</b> para que um aliado arremesse você contra um adversário. Para fazer isso, o aliado faz um teste de ataque usando Agilidade ou Força (à escolha dele) contra um alvo Próximo. Em um sucesso, o adversário sofre d12+2 de dano físico usando a Proficiência de seu aliado. Você pode <b>gastar uma Esperança</b> para escolher outro adversário Muito Próximo do primeiro como alvo. O segundo alvo sofre metade do dano causado ao primeiro alvo."
     },
-    {
-      "id": "Aquatic",
+    "Aquatic": {
       "name": "Aquático",
       "description": "Você pode respirar e se movimentar naturalmente embaixo d’água."
     },
-    {
-      "id": "Armored Shell",
+    "Armored Shell": {
       "name": "Carapaça Reforçada",
       "description": "Seu exterior sólido concede resistência a dano físico. Além disso, você pode marcar uma Armadura para se recolher em sua carapaça. Enquanto estiver dentro dela, o dano físico que você sofre é reduzido em um número igual à sua Armadura (após aplicar a resistência), mas você não pode realizar outros movimentos."
     },
-    {
-      "id": "Ocean Master",
+    "Ocean Master": {
       "name": "Mestre do Oceano",
       "description": "Você pode respirar e se movimentar naturalmente debaixo d'água. Quando acerta um ataque contra um alvo Adjacente, você pode deixá-lo temporariamente <i>Imobilizado</i>."
     },
-    {
-      "id": "Venomous Strike",
+    "Venomous Strike": {
       "name": "Bote Peçonhento",
       "description": "Faça um ataque contra qualquer número de alvos Próximos. Em um sucesso, o alvo fica temporariamente <i>Envenenado</i>. Uma criatura <i>Envenenada</i> sofre [[/r 1d10]]{<b>1d10</b>} de dano físico direto a cada vez que age."
     },
-    {
-      "id": "Unyielding",
+    "Unyielding": {
       "name": "Robusto",
       "description": "Quando for marcar Armadura, role [[/r 1d6cs=5]]{<b>1d6</b>}. Em um resultado 5 ou mais, reduza a gravidade em um limiar sem marcar Armadura."
     },
-    {
-      "id": "Agile",
+    "Agile": {
       "name": "Ágil",
       "description": "Seu movimento é silencioso e você pode <b>gastar uma Esperança</b> para se mover até um ponto Distante sem precisar fazer um teste."
     },
-    {
-      "id": "Hollow Bones",
+    "Hollow Bones": {
       "name": "Ossos Ocos",
       "description": "Você sofre uma penalidade de -2 nos seus limiares de dano."
     }
-    
-  ]
+  }
 }

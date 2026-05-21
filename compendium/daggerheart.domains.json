@@ -1,5 +1,8 @@
 {
   "label": "Domínios",
+  "mapping": {
+    "description": "system.description"
+  },
   "folders": {
     "Level 1": "Nível 1",
     "Arcana": "Arcano",
@@ -20,955 +23,763 @@
     "Sage": "Sabedoria",
     "Splendor": "Esplendor",
     "Valor": "Valor"
-  },  
-  "mapping": {
-    "description": "system.description"
   },
-  "entries": [
-    {
-      "id": "Forager",
+  "entries": {
+    "Forager": {
       "name": "Coletor",
       "description": "Como um movimento de repouso adicional que você pode escolher, role [[/r 1d6]] para descobrir o que você coleta. Colabore com o mestre para descrever esse item e adicione-o ao seu inventário como um consumível. Seu grupo pode carregar no máximo cinco consumíveis coletados por vez.<br><b>1.</b> Um alimento único (limpa 2 Fadiga)<br><b>2.</b> Uma bela relíquia (Ganhe 2 Esperança)<br><b>3.</b> Uma runa arcana (bônus de +2 em um teste de conjuração)<br><b>4.</b> Um frasco curativo (Limpa 2 Pontos de Vida)<br><b>5.</b> Um talismã da sorte (role qualquer dado novamente)<br><b>6.</b> Escolha uma das opções acima."
     },
-    {
-      "id": "Wall Walk",
+    "Wall Walk": {
       "name": "Caminhar na Parede",
       "description": "<b>Gaste uma Esperança:</b> uma criatura tocada por você pode escalar paredes e tetos como se estivesse caminhando em terra firme. Esse efeito dura até o fim da cena ou até você conjurar Caminhar na Parede novamente."
     },
-    {
-      "id": "Chain Lightning",
+    "Chain Lightning": {
       "name": "Corrente de Relâmpagos",
       "description": "<b>Marque 2 Fadiga</b> para fazer um <b>Teste de Conjuração</b> e liberar relâmpagos em cadeia contra todos os alvos Próximos. Alvos atingidos devem fazer um teste de reação com Dificuldade igual ao resultado de seu teste de conjuração. Se falharem, sofrem 2d8+4 de dano mágico. Adversários adicionais que não tenham sido alvo da Corrente de Relâmpagos e estejam Próximos dos alvos que sofreram dano também devem fazer um teste de reação. Se falharem, sofrem [[/r 2d8+4]] de dano mágico. A corrente continua até não haver mais adversários no alcance."
     },
-    {
-      "id": "Phantom Retreat",
+    "Phantom Retreat": {
       "name": "Recuo Espectral",
       "description": "<b>Gaste uma Esperança</b> para ativar Recuo Espectral no local onde você está. <b>Gaste mais uma Esperança</b> a qualquer momento antes de seu próximo descanso para desaparecer da sua localização atual e reaparecer no local onde estava quando ativou Recuo Espectral. Depois que você reaparecer, este feitiço termina."
     },
-    {
-      "id": "Book of Tyfar",
+    "Book of Tyfar": {
       "name": "Livro de Tyfar",
       "description": "<b><i>Chama Selvagem:</b></i> faça um <b>Teste de Conjuração</b> contra até três adversários Adjacentes. Chamas irrompem de sua mão. Alvos atingidos sofrem 2d6 de dano mágico e marcam um Fadiga.<br><b><i>Mão Arcana:</i></b> você conjura uma mão mágica idêntica à sua em força e tamanho num ponto Distante.<br><b><i>Névoa misteriosa:</i></b> faça um <b>teste de conjuração (13)</b> para conjurar uma névoa densa que fica em uma área estática Muito Próxima. A neblina deixa essa área e tudo o que há nela fortemente obscurecido."
     },
-    {
-      "id": "Preservation Blast",
+    "Preservation Blast": {
       "name": "Impacto Defensivo",
       "description": "Faça um <b>Teste de Conjuração</b> contra todos os alvos Adjacentes. Alvos atingidos são empurrados para um ponto qualquer Distante e sofrem d8+3 de dano mágico usando seu atributo de conjuração."
     },
-    {
-      "id": "Hypnotic Shimmer",
+    "Hypnotic Shimmer": {
       "name": "Lampejo Hipnótico",
       "description": "Faça um <b>Teste de Conjuração</b> contra todos os adversários Próximos na sua frente. Uma vez por descanso, em um sucesso, crie lampejos ilusórios de cores e luzes que deixam os alvos atingidos temporariamente <i>Atordoados</i> e os força a marcar um Fadiga. Enquanto estiverem <i>Atordoados</i>, os alvos não podem usar reações e não podem fazer quaisquer outras ações até que se recuperem desta condição."
     },
-    {
-      "id": "Reckless",
+    "Reckless": {
       "name": "Ataque Imprudente",
       "description": "<b>Marque um Fadiga</b> para receber vantagem em um teste de ataque."
     },
-    {
-      "id": "Deft Deceiver",
+    "Deft Deceiver": {
       "name": "Dissimulação",
       "description": "<b>Gaste uma Esperança</b> para receber vantagem em um teste para enganar ou fazer alguém acreditar em uma mentira que você contar."
     },
-    {
-      "id": "Copycat",
+    "Copycat": {
       "name": "Imitador",
       "description": "Uma vez por descanso longo, esta carta pode imitar as habilidades de outra carta de domínio de 8º nível ou menor na mão de outro jogador. <b>Gaste uma quantidade de Esperança igual à metade do nível da carta</b> para ter acesso à habilidade. A cópia permanece até seu próximo descanso ou até o outro jogador colocar a carta original na reserva."
     },
-    {
-      "id": "Gore and Glory",
+    "Gore and Glory": {
       "name": "Sangue e Glória",
       "description": "Em um sucesso crítico ao atacar com uma arma, receba uma Esperança adicional ou limpe um Fadiga adicional.<br>Além disso, ao causar dano suficiente para derrotar um inimigo, receba uma Esperança ou limpe um Fadiga."
     },
-    {
-      "id": "Salvation Beam",
+    "Salvation Beam": {
       "name": "Feixe de Remissão",
       "description": "Faça um <b>teste de conjuração (16)</b>. Em um sucesso, <b>marque uma quantidade qualquer de Fadiga</b> para escolher uma linha de aliados Distante como alvo. Você pode limpar um número de Pontos de Vida, divididos como você quiser entre os alvos, igual à quantidade de Fadiga que marcou."
     },
-    {
-      "id": "Flight",
+    "Flight": {
       "name": "Voo",
       "description": "Faça um <b>teste de conjuração (15)</b>. Em um sucesso, coloque um número de marcadores igual à sua Agilidade nesta carta (mínimo de 1). Ao fazer um teste enquanto estiver voando, gaste um marcador desta carta. Após terminar a ação que consumiu o último marcador, você desce para o solo diretamente abaixo de você."
     },
-    {
-      "id": "Cinder Grasp",
+    "Cinder Grasp": {
       "name": "Incendiar",
       "description": "Faça um <b>Teste de Conjuração</b> contra um alvo Adjacente. Em um sucesso, o alvo instantaneamente irrompe em chamas, sofre 1d20+3 de dano mágico e fica temporariamente <i>Em Chamas</i>.<br>Quando uma criatura <i>Em Chamas</i> age, ela sofre 2d6 de dano mágico adicional se ainda estiver <i>Em Chamas</i> no fim da ação dela."
     },
-    {
-      "id": "Arcana-Touched",
+    "Arcana-Touched": {
       "name": "Dom Arcano",
       "description": "Se 4 ou mais cartas de domínio na sua mão pertencerem ao domínio Arcano, receba os seguintes benefícios:<br> • Bônus de +1 em testes de conjuração;<br> • Uma vez por descanso, você pode trocar os resultados dos dados de Esperança e Medo um pelo outro."
     },
-    {
-      "id": "Strategic Approach",
+    "Strategic Approach": {
       "name": "Aproximação Estratégica",
       "description": "Após um descanso longo, coloque um número de marcadores igual ao seu Conhecimento nesta carta (mínimo de 1). Na primeira vez que você se mover para ficar Próximo de um adversário e atacá-lo, você pode gastar um marcador para escolher uma das opções abaixo:<br> • Você faz o ataque com vantagem;<br> • Você limpa um Fadiga de um aliado Adjacente ao adversário;<br> • Você soma 1d8 à rolagem de dano.<br>Após um descanso longo, marcadores não utilizados são perdidos."
     },
-    {
-      "id": "Scramble",
+    "Scramble": {
       "name": "Mexa-se",
       "description": "Uma vez por descanso, quando uma criatura Adjacente for causar dano a você, você pode evitar o ataque e sair com segurança do alcance do inimigo."
     },
-    {
-      "id": "Eclipse",
+    "Eclipse": {
       "name": "Eclipse",
       "description": "Faça um <b>teste de conjuração (16)</b>. Uma vez por descanso longo, em um sucesso, faça com que toda a área Distante caia em completa escuridão, na qual apenas você e seus aliados podem enxergar. Os testes de ataque contra você ou seus aliados têm desvantagem dentro dessa escuridão.<br>Além disso, quando você ou um aliado tem um sucesso com Esperança contra um adversário dentro dessa área, o alvo deve marcar um Fadiga.<br>Este feitiço dura até o mestre gastar um Medo no turno dele para encerrar o efeito ou até você sofrer dano severo."
     },
-    {
-      "id": "Counterspell",
+    "Counterspell": {
       "name": "Contramágica",
       "description": "Você pode interromper um efeito mágico em andamento fazendo um <b>teste de reação de conjuração</b>. Em um sucesso, o efeito termina, quaisquer consequências são evitadas e esta carta vai para sua reserva."
     },
-    {
-      "id": "Codex-Touched",
+    "Codex-Touched": {
       "name": "Dom do Códice",
       "description": "Se 4 ou mais cartas de domínio na sua mão pertencerem ao domínio do Códice, receba os seguintes benefícios:<br> • Você pode <b>marcar um Fadiga</b> para somar sua Proficiência a um teste de conjuração;<br> • Uma vez por descanso, substitua esta carta por qualquer carta em sua reserva sem pagar o custo de troca."
     },
-    {
-      "id": "Through Your Eyes",
+    "Through Your Eyes": {
       "name": "Espionar",
       "description": "Escolha um alvo Muito Distante. Você pode ver e ouvir pelos olhos e ouvidos dele. Você pode escolher entre usar seus próprios sentidos ou os do alvo à vontade até seu próximo descanso ou até você conjurar outro feitiço."
     },
-    {
-      "id": "Breaking Blow",
+    "Breaking Blow": {
       "name": "Golpe Debilitante",
       "description": "Ao acertar um ataque, você pode <b>marcar um Fadiga</b> para fazer com que o próximo ataque bem-sucedido contra o mesmo alvo cause 2d12 de dano adicional."
     },
-    {
-      "id": "Share the Burden",
+    "Share the Burden": {
       "name": "Partilhar o Fardo",
       "description": "Uma vez por descanso, absorva o Fadiga de uma criatura Adjacente voluntária. O alvo descreve quais conhecimentos ou emoções particulares são transferidos da mente dele para a sua. Transfira qualquer número de Fadiga do alvo para você e em seguida receba uma Esperança para cada Fadiga transferido."
     },
-    {
-      "id": "Wrangle",
+    "Wrangle": {
       "name": "Amontoar",
       "description": "Faça um <b>teste de Agilidade</b> contra todos os alvos Próximos. <b>Gaste uma Esperança</b> para mover os alvos que você acerta, bem como quaisquer aliados Próximos voluntários, para outro ponto Próximo."
     },
-    {
-      "id": "Untouchable",
+    "Untouchable": {
       "name": "Intocável",
       "description": "Receba um bônus na Evasão igual à metade da sua Agilidade."
     },
-    {
-      "id": "Plant Dominion",
+    "Plant Dominion": {
       "name": "Soberania Vegetal",
       "description": "Faça um <b>teste de conjuração (18)</b>. Uma vez por descanso longo, em um sucesso, você remodela o mundo natural, alterando a flora em qualquer ponto Distante. Por exemplo, você pode fazer árvores brotarem instantaneamente, criar um caminho através de vegetação densa ou erguer uma muralha de raízes."
     },
-    {
-      "id": "Wild Fortress",
+    "Wild Fortress": {
       "name": "Fortaleza Selvagem",
       "description": "Faça um <b>teste de conjuração (13)</b>. Em um sucesso, <b>gaste 2 Esperança</b> para fazer crescer uma barricada natural em formato de domo na qual você e um aliado podem buscar cobertura. Uma criatura dentro do domo não pode atacar nem ser alvo de ataques. Ataques feitos contra o domo acertam automaticamente. O domo tem 3 PV (coloque marcadores nesta carta para representá-los) e tem 15/30 como seus limiares de dano."
     },
-    {
-      "id": "Shadowhunter",
+    "Shadowhunter": {
       "name": "Caçador Sombrio",
       "description": "Suas capacidades são aprimoradas quando você age nas sombras. Enquanto estiver na penumbra ou na escuridão, você recebe um bônus de +1 na Evasão e tem vantagem em testes de ataque."
     },
-    {
-      "id": "Critical Inspiration",
+    "Critical Inspiration": {
       "name": "Inspiração Crítica",
       "description": "Uma vez por descanso, quando você obtém um sucesso crítico em um ataque, todos os aliados Muito Próximos podem limpar um Fadiga ou receber uma Esperança."
     },
-    {
-      "id": "Banish",
+    "Banish": {
       "name": "Banir",
       "description": "Faça um <b>Teste de Conjuração</b> contra um alvo Próximo. Em um sucesso, role um número de [[/r @castd20]] igual ao seu atributo de conjuração. O alvo deve fazer um teste de reação com dificuldade igual ao seu resultado mais alto. Em um sucesso, o alvo marca um Fadiga, mas não é banido. Uma vez por descanso, se falhar, ele é banido deste reino.<br>Quando os personagens rolarem com Medo, a dificuldade sofre uma penalidade de –1 e o alvo faz outro teste de reação. Em um sucesso, ele volta do banimento."
     },
-    {
-      "id": "Thought Delver",
+    "Thought Delver": {
       "name": "Sondar Pensamentos",
       "description": "Você pode espionar a mente dos outros. <b>Gaste uma Esperança</b> para ler pensamentos vagos e superficiais de um alvo Distante. Faça um <b>Teste de Conjuração</b> contra o alvo para sondar pensamentos profundos e escondidos. Se rolar com Medo, a critério do mestre, o alvo pode perceber que você está lendo a mente dele."
     },
-    {
-      "id": "Glyph of Nightfall",
+    "Glyph of Nightfall": {
       "name": "Glifo do Ocaso",
       "description": "Faça um <b>Teste de Conjuração</b> contra um alvo Muito Próximo. Em um sucesso, <b>gaste uma Esperança</b> para conjurar um glifo sombrio sobre ele. O glifo expõe os pontos fracos do alvo, reduzindo temporariamente sua dificuldade em um valor igual ao seu Conhecimento (mínimo de 1)."
     },
-    {
-      "id": "Get Back Up",
+    "Get Back Up": {
       "name": "Levante-se",
       "description": "Ao sofrer dano severo, você pode <b>marcar um Fadiga</b> para reduzir a gravidade em um limiar."
     },
-    {
-      "id": "Bolt Beacon",
+    "Bolt Beacon": {
       "name": "Raio Luminoso",
       "description": "Faça um <b>Teste de Conjuração</b> contra um alvo Distante. Em um sucesso, <b>gaste uma Esperança</b> para lançar um raio de luz radiante contra ele, causando d8+2 de dano mágico usando sua Proficiência. O alvo fica temporariamente <i>Vulnerável</i> e emite uma luz intensa até se recuperar dessa condição."
     },
-    {
-      "id": "Lean on Me",
+    "Lean on Me": {
       "name": "Palavras de Conforto",
       "description": "Uma vez por descanso longo, quando você consola ou inspira um aliado que falhou em um teste, vocês dois podem limpar 2 Fadiga cada."
     },
-    {
-      "id": "Earthquake",
+    "Earthquake": {
       "name": "Terremoto",
       "description": "Faça um <b>teste de conjuração (16)</b>. Uma vez por descanso, em um sucesso, todos os alvos Muito Distante que não estiverem voando devem fazer um teste de reação (18). Quem falhar sofre 3d10+8 de dano físico e fica temporariamente <i>Vulnerável</i>. Quem passar sofre metade do dano.<br>Além disso, quando você tem sucesso no teste de conjuração, o terreno Muito Distante torna-se difícil e as estruturas dentro desse alcance podem ser danificadas ou desmoronar completamente."
     },
-    {
-      "id": "Unbreakable",
+    "Unbreakable": {
       "name": "Invencível",
       "description": "Ao marcar seu último Ponto de Vida, em vez de fazer um movimento de morte, você pode limpar 1d6 Pontos de Vida. Em seguida, esta carta vai para sua reserva."
     },
-    {
-      "id": "Wild Surge",
+    "Wild Surge": {
       "name": "Aspecto Selvagem",
       "description": "Uma vez por descanso longo, <b>marque um Fadiga</b> para canalizar a natureza ao seu redor e aprimorar a si mesmo. Descreva como sua aparência muda e, em seguida, coloque 1d6 nesta carta, com o 1 virado para cima.<br>Enquanto o dado de Aspecto Selvagem estiver ativo, você soma seu valor a todos seus testes. Após somar seu valor a um teste, aumente o valor do dado em 1. Se o valor do dado for ultrapassar 6, ou se você fizer um descanso, essa forma termina e você deve <b>marcar um Fadiga</b> adicional."
     },
-    {
-      "id": "Battle Cry",
+    "Battle Cry": {
       "name": "Grito de Guerra",
       "description": "Uma vez por descanso longo, enquanto se lança rumo ao perigo, você pode emitir um grito de guerra que inspira seus aliados. Cada aliado capaz de ouvi-lo limpa um Fadiga e ganha uma Esperança. Além disso, seus aliados fazem testes de ataque com vantagem até que você ou algum aliado role uma falha com Medo."
     },
-    {
-      "id": "Fane of the Wilds",
+    "Fane of the Wilds": {
       "name": "Santuário Selvagem",
       "description": "Após um descanso longo, coloque uma quantidade de marcadores nesta carta igual ao número de cartas do domínio da Sabedoria na sua mão e reserva.<br>Quando fizer um teste de conjuração, você pode gastar qualquer número de marcadores após o teste para receber um bônus de +1 por marcador.<br>Ao ter sucesso crítico em um teste de conjuração para um feitiço do domínio da Sabedoria, receba um marcador.<br>Após um descanso longo, marcadores não utilizados são perdidos."
     },
-    {
-      "id": "Midnight Spirit",
+    "Midnight Spirit": {
       "name": "Espírito da Meia-Noite",
       "description": "<b>Gaste uma Esperança</b> para invocar um espírito de tamanho humanoide que pode se mover ou carregar coisas para você até seu próximo descanso.<br>Você também pode mandá-lo atacar um adversário. Ao fazer isso, faça um <b>Teste de Conjuração</b> contra um alvo Muito Distante. Em um sucesso, o espírito se move até ficar Adjacente ao alvo. Role um número de d6 igual ao seu atributo de conjuração e cause o resultado deles como dano mágico ao alvo. O espírito então se dissipa. Você pode ter apenas um espírito por vez."
     },
-    {
-      "id": "Telekinesis",
+    "Telekinesis": {
       "name": "Telecinese",
       "description": "Faça um <b>Teste de Conjuração</b> contra um alvo Distante. Em um sucesso, você pode usar sua mente para movê-lo para um ponto qualquer Distante relativo à posição inicial dele. Você também pode arremessá-lo como um ataque, fazendo um <b>Teste de Conjuração</b> adicional contra o segundo alvo. Em um sucesso, você causa d12+4 de dano físico ao segundo alvo com sua Proficiência. Depois disso, o feitiço acaba."
     },
-    {
-      "id": "Vanishing Dodge",
+    "Vanishing Dodge": {
       "name": "Esvanecer",
       "description": "Quando um ataque que causaria dano físico a você falha, você pode <b>gastar uma Esperança</b> para ficar <i>Escondido</i> em um invólucro de sombras e se teleportar para um ponto Próximo do atacante. Você permanece <i>Escondido</i> até o próximo teste que fizer."
     },
-    {
-      "id": "Rune Ward",
+    "Rune Ward": {
       "name": "Proteção Rúnica",
       "description": "Você tem um talismã pessoal que pode ser infundido com magia protetora e usado por você ou por um aliado. Descreva o que esse item é e por que ele é importante para você. O portador da proteção pode gastar uma Esperança para reduzir o dano sofrido em 1d8.<br>Se tirar 8 nesse dado, o poder da Proteção Rúnica se encerra após reduzir dano neste turno. Ela pode ser recarregada sem custo no seu próximo descanso."
     },
-    {
-      "id": "Rage Up",
+    "Rage Up": {
       "name": "Fúria",
       "description": "Antes de fazer um ataque, você pode <b>marcar um Fadiga</b> para receber um bônus igual ao dobro de sua Força na rolagem de dano.<br>Você pode ativar este talento duas vezes por ataque."
     },
-    {
-      "id": "Blade-Touched",
+    "Blade-Touched": {
       "name": "Dom da Lâmina",
       "description": "Se 4 ou mais cartas de domínio na sua mão pertencerem ao domínio da Lâmina, receba os seguintes benefícios:<br> • Bônus de +2 em testes de ataque;<br> • Bônus de +4 no seu limiar de dano severo."
     },
-    {
-      "id": "Healing Field",
+    "Healing Field": {
       "name": "Campo Curativo",
       "description": "Uma vez por descanso longo, você pode conjurar um campo de plantas curativas ao seu redor. Toda a área Próxima irrompe em vida e natureza vibrante, permitindo que você e todos os aliados nessa área limpem um Ponto de Vida.<br>Gaste <b>2 Esperança</b> para curar 2 Pontos de Vida em vez de um."
     },
-    {
-      "id": "Swift Step",
+    "Swift Step": {
       "name": "Passo Célere",
       "description": "Quando um ataque falha contra você, limpe um Fadiga. Se não puder limpar Fadiga, receba uma Esperança."
     },
-    {
-      "id": "Tell No Lies",
+    "Tell No Lies": {
       "name": "Não Minta Para Mim",
       "description": "Faça um <b>Teste de Conjuração</b> contra um alvo Muito Próximo. Em um sucesso, ele não pode mentir para você enquanto estiver Próximo, porém não é obrigado a falar. Se você fizer uma pergunta e ele se recusar a responder, ele deve marcar um Fadiga e o efeito termina. O alvo em geral não está ciente de que este feitiço foi conjurado sobre ele até que fale uma verdade contra sua vontade."
     },
-    {
-      "id": "Pick and Pull",
+    "Pick and Pull": {
       "name": "Delinquente",
       "description": "Você tem vantagem em testes para arrombar fechaduras não mágicas, desarmar armadilhas não mágicas ou roubar itens de um alvo (seja por meio da furtividade ou da força)."
     },
-    {
-      "id": "Teleport",
+    "Teleport": {
       "name": "Teleporte",
       "description": "Uma vez por descanso longo, você pode instantaneamente teleportar a si mesmo e qualquer número de alvos Próximos voluntários para um lugar onde você já esteve anteriormente. Escolha uma das opções a seguir e faça um <b>teste de conjuração (16)</b>:<br> • Se conhece o lugar muito bem, receba +3 de bônus;<br> • Se visitou o lugar com alguma frequência, receba +1 de bônus;<br> • Se não visitou o lugar com frequência, você não ganha um modificador;<br> • Se visitou o lugar apenas uma vez, sofra uma penalidade de –2.<br> Em um sucesso, você aparece no lugar pretendido. Se falhar, você aparece em um lugar diferente do pretendido. O grau da falha determina quão longe você aparece."
     },
-    {
-      "id": "Rejuvenation Barrier",
+    "Rejuvenation Barrier": {
       "name": "Barreira Revigorante",
       "description": "Faça um <b>teste de conjuração (15)</b>. Uma vez por descanso, em um sucesso, crie uma barreira temporária de energia protetora que fica Muito Próxima de você. Você e todos os aliados que estão dentro da barreira quando este feitiço é conjurado limpam 1d4 Pontos de Vida. Enquanto a barreira estiver de pé, você e todos os aliados no interior dela têm resistência a dano físico oriundo do lado de fora.<br>Quando você se move, a barreira se move com você."
     },
-    {
-      "id": "Goad Them On",
+    "Goad Them On": {
       "name": "Incitar",
       "description": "Descreva como você provoca um alvo Próximo. Em seguida, faça um <b>teste de Presença</b> contra ele. Em um sucesso, o alvo deve marcar um Fadiga e, na próxima vez que o mestre colocá-lo em foco, ele deve atacar você com desvantagem."
     },
-    {
-      "id": "Onslaught",
+    "Onslaught": {
       "name": "Massacrar",
       "description": "Ao acertar um ataque com sua arma, você nunca causa dano abaixo do limiar de dano maior do alvo (ele sempre marca no mínimo 2 Pontos de Vida).<br>Além disso, quando uma criatura no alcance da sua arma causa dano a um aliado com um ataque que não tem você como alvo, você pode <b>marcar um Fadiga</b> para forçá-la a fazer um teste de reação (15). Se falhar, o alvo deve marcar um Ponto de Vida."
     },
-    {
-      "id": "Notorious",
+    "Notorious": {
       "name": "Notoriedade",
       "description": "As pessoas sabem quem você é e o que já fez; por isso, o tratam de forma diferente. Ao se aproveitar de sua notoriedade para conseguir o que quer, você pode <b>marcar um Fadiga</b> antes do teste para receber um bônus de +10 no resultado. Onde quer que vá, você obtém comida e bebida grátis, e o preço das outras mercadorias que você compra diminui em uma bolsa de ouro (até o mínimo de um punhado).<br>Esta carta não conta para o limite de 5 cartas de domínio na sua mão e não pode ser colocada na reserva."
     },
-    {
-      "id": "Book of Yarrow",
+    "Book of Yarrow": {
       "name": "Livro de Yarrow",
       "description": "<b><i>Imunidade Mágica:</i> gaste 5 Esperança</b> para ficar imune a dano mágico até seu próximo descanso.<br><b><i>Manipulação Temporal:</b></i> faça um <b>teste de conjuração (18)</b>. Em um sucesso, o tempo desacelera temporariamente até parar para todos que estiverem Distante, com exceção de você. Ele volta ao normal na próxima vez que você fizer um teste que tenha outra criatura como alvo."
     },
-    {
-      "id": "Splendor-Touched",
+    "Splendor-Touched": {
       "name": "Dom do Esplendor",
       "description": "Se 4 ou mais cartas de domínio na sua mão pertencerem ao domínio do Esplendor, receba os seguintes benefícios:<br> • Um bônus de +3 no seu limiar de dano grave;<br> • Uma vez por descanso longo, quando o dano sofrido exigir que marque PV, você pode, em vez disso, marcar uma quantidade equivalente de Fadiga ou gastar uma quantidade equivalente de Esperança."
     },
-    {
-      "id": "Conjured Steeds",
+    "Conjured Steeds": {
       "name": "Conjurar Montarias",
       "description": "<b>Gaste qualquer quantidade de Esperança</b> para conjurar um número equivalente de montarias (como cavalos, camelos ou elefantes) que você e seus aliados podem usar até seu próximo descanso longo ou até que as montarias sofram dano. As montarias dobram sua velocidade de viagem por terra e, quando em perigo, permitem que você se mova para um ponto Distante sem precisar de teste. Criaturas sobre as montarias sofrem uma penalidade de –2 em testes de ataque e ganham +2 de bônus nas rolagens de dano."
     },
-    {
-      "id": "Troublemaker",
+    "Troublemaker": {
       "name": "Baderneiro",
       "description": "Ao insultar ou provocar um alvo Distante, faça um <b>teste de Presença</b> contra ele. Uma vez por descanso, em um sucesso, role um número de d4 igual à sua Proficiência. O alvo deve marcar um número de Fadiga igual ao maior resultado obtido."
     },
-    {
-      "id": "Forest Sprites",
+    "Forest Sprites": {
       "name": "Espíritos da Floresta",
       "description": "Faça um <b>teste de conjuração (13)</b>. Em um sucesso, <b>gaste qualquer quantidade de Esperança</b> para criar um número equivalente de espíritos da floresta. Todos surgem em pontos à sua escolha Distante e fornecem os seguintes benefícios:<br> • Seus aliados recebem um bônus de +3 em testes de ataque contra adversários Adjacentes a um espírito;<br> • Se um aliado marcar uma Armadura enquanto estiver Adjacente a um dos espíritos, ele pode marcar uma Armadura adicional.<br> Após conceder um benefício ou sofrer qualquer dano, um espírito desaparece."
     },
-    {
-      "id": "Shrug It Off",
+    "Shrug It Off": {
       "name": "Desprezar Fraqueza",
       "description": "Quando sofrer dano, você pode <b>marcar um Fadiga</b> para reduzir a gravidade do dano em um limiar. Ao fazer isso, role [[/r 1d6]]. Se tirar 3 ou menos, coloque esta carta na reserva."
     },
-    {
-      "id": "Arcane Reflection",
+    "Arcane Reflection": {
       "name": "Reflexo Arcano",
       "description": "Quando for sofrer dano mágico, você pode <b>gastar qualquer quantidade de Esperança</b> e rolar um número equivalente de [[/r d6]]. Se tirar 6 em qualquer um desses dados, o ataque é refletido e, em vez de causar dano a você, causa dano ao atacante."
     },
-    {
-      "id": "Divination",
+    "Divination": {
       "name": "Adivinhação",
       "description": "Uma vez por descanso longo, <b>gaste 3 Esperança</b> para se comunicar com as forças do além e fazer uma única pergunta sobre algum evento, lugar, pessoa ou situação no futuro próximo que possa ser respondida com “sim” ou “não”. O tempo presente desaparece por um momento e a resposta surge magicamente diante de você."
     },
-    {
-      "id": "Grace-Touched",
+    "Grace-Touched": {
       "name": "Dom da Graça",
       "description": "Se 4 ou mais cartas de domínio na sua mão pertencerem ao domínio da Graça, receba os seguintes benefícios:<br> • Você pode marcar uma Armadura em vez de um Fadiga;<br> • Quando for fazer com que um alvo marque PV, você pode forçá-lo a marcar um número equivalente de Fadiga em vez disso."
     },
-    {
-      "id": "Invisibility",
+    "Invisibility": {
       "name": "Invisibilidade",
       "description": "Faça um <b>teste de conjuração (10)</b>. Em um sucesso, <b>marque um Fadiga</b> e deixe você ou um aliado Adjacente <i>Invisível</i>. Uma criatura <i>Invisível</i> só pode ser vista por meios mágicos e testes de ataque contra ela são feitos com desvantagem. Coloque um número de marcadores igual ao seu atributo de conjuração nesta carta. Quando a criatura <i>Invisível</i> faz um movimento, gaste um marcador desta carta. Após o término da ação que consumiu o último marcador, o efeito termina.<br>Você pode manter apenas uma criatura <i>Invisível</i> por vez."
     },
-    {
-      "id": "I Am Your Shield",
+    "I Am Your Shield": {
       "name": "Sou Seu Fadiga",
       "description": "Quando um aliado Muito Próximo for sofrer dano, você pode <b>marcar um Fadiga</b> para prostrar-se no caminho e virar o alvo do ataque no lugar dele. Ao sofrer dano desse ataque, você pode marcar um número qualquer de Armadura."
     },
-    {
-      "id": "I See It Coming",
+    "I See It Coming": {
       "name": "Um Passo à Frente",
       "description": "Quando você é alvo de um ataque originado de um ponto fora de Adjacente, você pode <b>marcar um Fadiga</b> para jogar [[/r 1d4]]{d4} e receber um bônus igual ao resultado na sua Evasão."
     },
-    {
-      "id": "Signature Move",
+    "Signature Move": {
       "name": "Golpe Assinatura",
       "description": "Você tem um movimento icônico de combate. Descreva-o e dê um nome. Uma vez por descanso, ao utilizá-lo como parte de uma ação, você pode rolar um d20 como seu Dado de Esperança. Em um sucesso, limpe um Fadiga."
     },
-    {
-      "id": "Force of Nature",
+    "Force of Nature": {
       "name": "Força da Natureza",
       "description": "<b>Marque um Fadiga</b> para se transformar em um grande espírito da natureza, recebendo os seguintes benefícios:<br> • Ao ter sucesso em um teste de ataque ou conjuração, receba +10 de bônus na rolagem de dano;<br> • Ao causar dano suficiente para derrotar uma criatura Próxima, você a absorve e limpa uma Armadura;<br> • Você não pode ser <i>Imobilizado</i>.<br>Antes de fazer um teste, você deve <b>gastar uma Esperança</b>. Se não puder fazer isso, volta à forma normal."
     },
-    {
-      "id": "Reaper’s Strike",
+    "Reaper’s Strike": {
       "name": "Golpe do Ceifador",
       "description": "Uma vez por descanso longo, <b>gaste uma Esperança</b> para fazer um teste de ataque. O mestre informa contra quais alvos no alcance da arma o teste teria sucesso. Escolha um desses alvos e force-o a marcar 5 Pontos de Vida."
     },
-    {
-      "id": "Frenzy",
+    "Frenzy": {
       "name": "Frenesi",
       "description": "Uma vez por descanso longo, você pode entrar <i>Em Frenesi</i> até que não haja mais adversários na sua linha de visão.<br>Enquanto estiver <i>Em Frenesi</i>, você não pode usar Armadura, ganha um bônus de +10 em rolagens de dano e um bônus de +8 no seu limiar de dano severo."
     },
-    {
-      "id": "Never Upstaged",
+    "Never Upstaged": {
       "name": "Jamais Esquecido",
       "description": "Ao marcar um ou mais Pontos de Vida devido a um ataque, você pode <b>marcar um Fadiga</b> para colocar um número de marcadores nesta carta igual ao número de Pontos de Vida marcados. Para cada marcador nesta carta, você recebe um bônus de +5 na rolagem de dano do próximo ataque que você acertar. Em seguida, zere todos os marcadores."
     },
-    {
-      "id": "Stealth Expertise",
+    "Stealth Expertise": {
       "name": "Mestre da Furtividade",
       "description": "Ao rolar com Medo enquanto tenta se mover por uma área perigosa sem ser percebido, você pode <b>marcar um Fadiga</b> para rolar com Esperança em vez disso.<br>Se um aliado Próximo também estiver tentando se mover sem ser percebido e rolar com Medo, você pode <b>marcar um Fadiga</b> para mudar o resultado e fazê-lo rolar com Esperança."
     },
-    {
-      "id": "Final Words",
+    "Final Words": {
       "name": "Últimas Palavras",
       "description": "Você pode conceder um momento de vida a um cadáver para conversar com ele. Faça um <b>teste de conjuração (13)</b>. Em um sucesso com Esperança, o cadáver responde até três perguntas. Em um sucesso com Medo, o cadáver responde uma pergunta. O cadáver responde com sinceridade, mas não pode fornecer informações que desconhecia enquanto estava vivo. Se falhar, ou após o cadáver terminar de responder às suas perguntas, ele se desfaz em pó."
     },
-    {
-      "id": "Battle-Hardened",
+    "Battle-Hardened": {
       "name": "Calejado pela Batalha",
       "description": "Uma vez por descanso longo, quando for fazer um movimento de morte, você pode <b>gastar uma Esperança</b> para, em vez disso, limpar um Ponto de Vida."
     },
-    {
-      "id": "Know Thy Enemy",
+    "Know Thy Enemy": {
       "name": "Conhece teu Inimigo",
       "description": "Enquanto estiver observando uma criatura, você pode fazer um <b>teste de Instinto</b> contra ela. Em um sucesso, <b>gaste uma Esperança</b> e pergunte ao mestre uma das seguintes informações a respeito dela:<br> • Pontos de Vida e Fadiga restantes;<br> • Dificuldade e limiares de dano;<br> • Táticas e dados de dano padrão;<br> • Habilidades e Experiências.<br> Além disso, em um sucesso, você pode <b>marcar um Fadiga</b> para remover um Medo do Mestre."
     },
-    {
-      "id": "Bone-Touched",
+    "Bone-Touched": {
       "name": "Dom de Osso",
       "description": "Se 4 ou mais cartas de domínio na sua mão pertencerem ao domínio do Osso, receba os seguintes benefícios:<br> • Bônus de +1 na Agilidade;<br> • Uma vez por descanso, você pode <b>gastar 3 Esperança</b> para fazer com que um ataque bem sucedido contra você falhe."
     },
-    {
-      "id": "Life Ward",
+    "Life Ward": {
       "name": "Sigilo da Vida",
       "description": "<b>Gaste 3 Esperança</b> e escolha um aliado Próximo. Ele é marcado por um brilhante sigilo de proteção. Quando esse aliado for fazer um movimento de morte, ele limpa um Ponto de Vida em vez disso. Este efeito termina quando salva o alvo de um movimento de morte, quando você conjura Sigilo da Vida sobre outro alvo ou quando faz um descanso longo."
     },
-    {
-      "id": "Battle Monster",
+    "Battle Monster": {
       "name": "Monstro de Batalha",
       "description": "Ao acertar um ataque contra um adversário, em vez de rolar o dano, você pode <b>marcar 4 Fadiga</b> para forçar o alvo a marcar um número de PV igual ao número de PV que você tem marcados no momento."
     },
-    {
-      "id": "Soothing Speech",
+    "Soothing Speech": {
       "name": "Palavras Tranquilizantes",
       "description": "Durante um descanso curto, ao passar um tempo amparando outro personagem por meio do movimento de repouso tratar ferimentos, limpe um Ponto de Vida adicional desse personagem. Ao fazer isso, você também limpa 2 Pontos de Vida."
     },
-    {
-      "id": "Brace",
+    "Brace": {
       "name": "Resistir",
       "description": "Ao marcar uma Armadura para reduzir o dano sofrido, você pode <b>marcar um Fadiga</b> para marcar uma Armadura adicional."
     },
-    {
-      "id": "Blink Out",
+    "Blink Out": {
       "name": "Translocação",
       "description": "Faça um <b>teste de conjuração (12)</b>. Em um sucesso, <b>gaste uma Esperança</b> para se teleportar a um ponto Distante que você possa ver. Se houver criaturas voluntárias Muito Próximas, <b>gaste uma Esperança</b> adicional para cada criatura que quiser levar consigo."
     },
-    {
-      "id": "Book of Grynn",
+    "Book of Grynn": {
       "name": "Livro de Grynn",
       "description": "<b><i>Deflexão:</b></i> uma vez por descanso longo, <b>gaste uma Esperança</b> para negar o dano de um ataque que tenha você ou um aliado Muito Próximo como alvo.<br><b><i>Muralha de Fogo:</b></i> faça um <b>teste de conjuração (15)</b>. Em um sucesso, crie uma muralha de fogo mágico entre dois pontos Distantes. Todas as criaturas no caminho dela devem escolher ficar em um dos lados, e tudo o que atravessá-la depois disso sofre 4d10+3 de dano mágico.<br><b><i>Tranca Temporal:</b></i> escolha um objeto Distante como alvo. Esse objeto para no tempo e espaço exatamente onde está até o seu próximo descanso. Se uma criatura tentar movê-lo, faça um <b>Teste de Conjuração</b> contra ela para sustentar este feitiço."
     },
-    {
-      "id": "Chokehold",
+    "Chokehold": {
       "name": "Estrangulamento",
       "description": "Quando se posiciona atrás de uma criatura de tamanho similar ao seu, você pode <b>marcar um Fadiga</b> para estrangulá-la, deixando-a temporariamente <i>Vulnerável</i>.<br>Quando uma criatura ataca um alvo <i>Vulnerável</i> dessa forma, ela causa 2d6 de dano adicional."
     },
-    {
-      "id": "Confusing Aura",
+    "Confusing Aura": {
       "name": "Aura de Confusão",
       "description": "Faça um <b>teste de conjuração (14)</b>. Uma vez por descanso longo, em um sucesso, você cria uma camada ilusória sobre seu corpo, que torna difícil distinguir exatamente onde você está. <b>Marque um número qualquer de Fadiga</b> e crie uma quantidade de camadas igual ao Fadiga marcado. Quando um adversário ataca você, role um número de [[/r d6]] igual à quantidade de camadas que tem no momento. Se tirar 5 ou mais em qualquer dado, uma camada da aura é destruída e o ataque falha. Se todos os resultados forem 4 ou menos, você sofre o dano e o feitiço termina."
     },
-    {
-      "id": "Sigil of Retribution",
+    "Sigil of Retribution": {
       "name": "Sigilo da Retaliação",
       "description": "Marque um adversário Próximo com um Sigilo da Retaliação. O mestre ganha um Medo. Quando o adversário marcado causar dano a você ou aos seus aliados, coloque <b>d8</b> nesta carta. Você pode acumular um número de <b>d8</b> igual ao seu nível. Ao atacar o adversário marcado com sucesso, role os dados que estão nesta carta e some o total à seu teste de dano; em seguida, retire os dados. Este efeito termina quando o adversário marcado é derrotado ou quando você conjura Sigilo da Retaliação novamente."
     },
-    {
-      "id": "Twilight Toll",
+    "Twilight Toll": {
       "name": "Tributo Crepuscular",
       "description": "Escolha um alvo Distante. Quando você tem sucesso em um teste que não resulta em uma rolagem de dano contra ele, coloque um marcador nesta carta. Ao causar dano contra esse alvo, gaste qualquer quantidade de marcadores e some um número equivalente de d12 à rolagem de dano. Você pode manter o Tributo do Anoitecer apenas sobre uma criatura por vez.<br>Ao escolher um novo alvo ou fazer um descanso, marcadores não utilizados são perdidos."
     },
-    {
-      "id": "Book of Ronin",
+    "Book of Ronin": {
       "name": "Livro de Ronin",
       "description": "<b><i>Enervação Eterna:</b></i> uma vez por descanso longo, faça um <b>Teste de Conjuração</b> contra um alvo Próximo. Em um sucesso, ele fica permanentemente <i>Vulnerável</i>. O alvo não pode se recuperar dessa condição por quaisquer meios.<br><b><i>Transformação:</b></i> faça um <b>teste de conjuração (15)</b>. Em um sucesso, transforme-se em um objeto inanimado que não exceda o dobro de seu tamanho normal. Você pode permanecer nessa forma até sofrer dano."
     },
-    {
-      "id": "Full Surge",
+    "Full Surge": {
       "name": "Testar os Limites",
       "description": "Uma vez por descanso longo, <b>marque 3 Fadiga</b> para testar os limites de seu corpo. Você recebe um bônus de +2 em todos os atributos até seu próximo descanso."
     },
-    {
-      "id": "Mending Touch",
+    "Mending Touch": {
       "name": "Toque Reparador",
       "description": "Você toca uma criatura e canaliza magia curativa para fechar seus ferimentos. Quando pode passar alguns minutos se concentrando em quem está ajudando, <b>gaste 2 Esperança</b> para limpar um Ponto de Vida ou Fadiga do alvo.<br>Uma vez por descanso longo, ao passar esse momento curativo descobrindo algo novo sobre a criatura ou revelando algo sobre si mesmo a ela, você pode fazê-la limpar 2 Pontos de Vida ou Fadiga, em vez de um."
     },
-    {
-      "id": "Uncanny Disguise",
+    "Uncanny Disguise": {
       "name": "Disfarce Inquietante",
       "description": "Quando tem alguns minutos para se preparar, você pode <b>marcar um Fadiga</b> para tomar a forma de qualquer humanoide que você possa ver com clareza em sua mente. Enquanto estiver disfarçado dessa forma, você tem vantagem em testes de Presença para evitar ser descoberto.<br>Coloque um número de marcadores igual ao seu atributo de conjuração nesta carta. Quando fizer um movimento enquanto estiver disfarçado, gaste um marcador. Após a ação que consumiu o último marcador, o efeito termina."
     },
-    {
-      "id": "Splintering Strike",
+    "Splintering Strike": {
       "name": "Ataque Fragmentado",
       "description": "<b>Gaste uma Esperança</b> e faça um ataque contra todos os adversários no alcance de sua arma. Uma vez por descanso longo, em um sucesso contra qualquer um dos alvos, some todo o dano causado e em seguida o redistribua como quiser entre os alvos atingidos. Ao causar dano a um alvo, role um dado de dano adicional e some o resultado dele ao dano causado a esse alvo."
     },
-    {
-      "id": "Natural Familiar",
+    "Natural Familiar": {
       "name": "Familiar Natural",
       "description": "<b>Gaste uma Esperança</b> para invocar um pequeno espírito da natureza ou criatura da floresta. Esse familiar fica ao seu lado até seu próximo descanso, até você conjurar Familiar Natural novamente ou até que ele seja alvo de um ataque. Ao <b>gastar uma Esperança adicional</b>, você pode invocar um familiar voador. Você pode se comunicar com ele, fazer um <b>Teste de Conjuração</b> para mandá-lo executar tarefas simples e <b>marcar um Fadiga</b> para enxergar pelos olhos dele.<br>Ao causar dano a um adversário Adjacente ao seu familiar, some 1d6 à rolagem de dano."
     },
-    {
-      "id": "Manifest Wall",
+    "Manifest Wall": {
       "name": "Muralha",
       "description": "Faça um <b>teste de conjuração (15)</b>. Em um sucesso, <b>gaste uma Esperança</b> uma vez por descanso para criar uma parede mágica temporária entre dois pontos Distantes. Ela pode ter até 15m de altura e se formar em qualquer ângulo. Criaturas ou objetos no caminho dela são desviados para um dos lados à sua escolha. A muralha perdura até seu próximo descanso ou até você conjurar Muralha novamente."
     },
-    {
-      "id": "Smite",
+    "Smite": {
       "name": "Punição",
       "description": "Uma vez por descanso, <b>gaste 3 Esperança</b> para carregar sua Punição. Ao acertar seu próximo ataque de arma, dobre o resultado da rolagem de dano. Independente do tipo de dano da arma, esse ataque causa dano mágico."
     },
-    {
-      "id": "Rain of Blades",
+    "Rain of Blades": {
       "name": "Chuva de Lâminas",
       "description": "<b>Gaste uma Esperança</b> para fazer um <b>Teste de Conjuração</b> e arremessar lâminas mágicas contra todos os alvos Muito Próximos. Alvos atingidos sofrem d8+2 de dano mágico usando sua Proficiência.<br>Se um alvo atingido estiver <i>Vulnerável</i>, ele sofre 1d8 de dano adicional."
     },
-    {
-      "id": "Boost",
+    "Boost": {
       "name": "Impulso",
       "description": "<b>Marque um Fadiga</b> para usar um aliado Próximo voluntário como impulso para se lançar no ar e fazer um ataque aéreo contra um alvo Distante. Você tem vantagem no ataque, soma 1d10 à rolagem de dano e termina seu movimento Adjacente ao alvo."
     },
-    {
-      "id": "Book of Vyola",
+    "Book of Vyola": {
       "name": "Livro de Vyola",
       "description": "<b><i>Clareza Compartilhada:</b></i> uma vez por descanso longo, <b>gaste uma Esperança</b> para escolher duas criaturas voluntárias. Quando uma delas for marcar Fadiga, ela pode escolher qual das duas irá marcar. Este feitiço dura até o próximo descanso dos alvos.<br><b><i>Sondar Memórias:</b></i> faça um <b>Teste de Conjuração</b> contra um alvo Distante. Em um sucesso, espione a mente do alvo e faça uma pergunta ao mestre. O mestre descreve as memórias do alvo que estejam relacionadas à resposta."
     },
-    {
-      "id": "Sage-Touched",
+    "Sage-Touched": {
       "name": "Dom da Sapiência",
       "description": "Se 4 ou mais cartas de domínio na sua mão pertencerem ao domínio da Sapiência, receba os seguintes benefícios:<br> • Enquanto estiver em um ambiente natural, você ganha um bônus de +2 em testes de conjuração;<br> • Uma vez por descanso, você pode dobrar sua Agilidade ou Instinto ao fazer um teste que use esse atributo. Você deve fazer isso antes de rolar os dados."
     },
-    {
-      "id": "Gifted Tracker",
+    "Gifted Tracker": {
       "name": "Rastreador Talentoso",
       "description": "Ao rastrear uma criatura ou grupo de criaturas com base nos sinais da passagem delas, você pode <b>gastar qualquer quantidade de Esperança</b> e fazer um número equivalente destas perguntas ao mestre:<br> • Para que direção ele(s) foi(foram)?<br> • Há quanto tempo a criatura ou grupo passou por aqui?<br> • O que a criatura ou grupo fazia neste lugar?<br> • Quantas criaturas havia?<br>Ao encontrar os alvos rastreados dessa forma, você recebe um bônus de +1 na Evasão contra elas."
     },
-    {
-      "id": "Tactician",
+    "Tactician": {
       "name": "Tático",
       "description": "Ao Prestar Ajuda a um aliado, você pode <b>gastar uma Esperança</b> para somar uma de suas Experiências à rolagem, junto ao seu dado de vantagem.<br>Ao fazer um teste em dupla, você pode usar <b>d20</b> como seu Dado de Esperança."
     },
-    {
-      "id": "Healing Hands",
+    "Healing Hands": {
       "name": "Mãos Curativas",
       "description": "Faça um <b>teste de conjuração (13)</b> tendo como alvo uma criatura Adjacente que não seja você. Em um sucesso, <b>marque um Fadiga</b> para limpar 2 Pontos de Vida ou Fadiga do alvo. Se falhar, <b>marque um Fadiga</b> para limpar um Ponto de Vida ou Fadiga do alvo. Você não pode curar o mesmo alvo novamente até seu próximo descanso longo."
     },
-    {
-      "id": "Ground Pound",
+    "Ground Pound": {
       "name": "Abalo Sísmico",
       "description": "<b>Gaste 2 Esperança</b> para golpear o solo abaixo de você. Faça um <b>teste de Força</b> contra todos os alvos Próximos. Alvos atingidos são empurrados para um ponto Distante e devem fazer um teste de reação (17). Quem falhar, sofre 4d10+8 de dano. Quem passar sofre metade do dano."
     },
-    {
-      "id": "Book of Norai",
+    "Book of Norai": {
       "name": "Livro de Norai",
       "description": "<b><i>Amarração Mística:</b></i> faça um <b>Teste de Conjuração</b> contra um alvo Distante. Em um sucesso, ele fica temporariamente <i>Imobilizado</i> e deve marcar um Fadiga. Se tiver uma criatura que esteja voando como alvo, este feitiço faz com que ela aterrisse e fique temporariamente Imobilizada.<br><b><i>Bola de Fogo:</b></i> faça um <b>Teste de Conjuração</b> contra um alvo Muito Distante. Em um sucesso, lance uma esfera de fogo que explode ao se chocar contra ele. O alvo e todas as criaturas Muito Próximas dele devem fazer um teste de reação (13). Alvos que falharem sofrem d20+5 de dano mágico usando sua Proficiência. Alvos bem-sucedidos sofrem metade do dano."
     },
-    {
-      "id": "Tempest",
+    "Tempest": {
       "name": "Tempestade",
       "description": "Escolha um dos tipos de tempestade abaixo e faça um <b>Teste de Conjuração</b> contra todos os alvos Distantes. Alvos atingidos sofrem os efeitos até o mestre gastar um Medo no turno dele para encerrar este feitiço.<br> • <b>Nevasca:</b> causa 2d20+8 de dano mágico e deixa os alvos temporariamente <i>Vulneráveis</i>.<br> • <b>Furacão:</b> causa 3d10+10 de dano mágico. Escolha uma direção para a qual o vento sopra. Alvos não podem se mover contra o vento.<br> • <b>Tempestade de areia:</b> cause 5d6+9 de dano mágico. Ataques oriundos de um ponto além do alcance Adjacente têm desvantagem."
     },
-    {
-      "id": "Invigoration",
+    "Invigoration": {
       "name": "Revigorar",
       "description": "Após você ou um aliado Próximo usar uma habilidade com limite de uso (como uma vez por descanso ou uma vez por sessão), você pode <b>gastar uma quantidade qualquer de Esperança</b> e rolar um número equivalente de [[/r 1d6]]{d6}. Se tirar 6 em qualquer dado, a habilidade pode ser usada novamente."
     },
-    {
-      "id": "Inevitable",
+    "Inevitable": {
       "name": "Inevitável",
       "description": "Ao falhar em um teste, seu próximo teste é feito com vantagem."
     },
-    {
-      "id": "Healing Strike",
+    "Healing Strike": {
       "name": "Golpe Curativo",
       "description": "Ao causar dano a um adversário, você pode <b>gastar 2 Esperança</b> para limpar um Ponto de Vida de um aliado Próximo."
     },
-    {
-      "id": "A Soldier’s Bond",
+    "A Soldier’s Bond": {
       "name": "Fraternidade Marcial",
       "description": "Uma vez por descanso longo, ao elogiar ou perguntar algo que alguém faz bem, vocês ganham 3 Esperança."
     },
-    {
-      "id": "Astral Projection",
+    "Astral Projection": {
       "name": "Projeção Astral",
       "description": "Uma vez por descanso longo, <b>marque um Fadiga</b> para projetar uma cópia de si mesmo que pode aparecer em qualquer lugar no qual você já tenha estado anteriormente.<br>Você pode ver e ouvir através da projeção e pode afetar o mundo como se você estivesse no lugar dela. Uma criatura que investigue a projeção pode discernir sua origem mágica. Esse efeito dura até seu próximo descanso ou até sua projeção sofrer qualquer dano."
     },
-    {
-      "id": "Lead by Example",
+    "Lead by Example": {
       "name": "Líder Exemplar",
       "description": "Ao causar dano a um adversário, você pode <b>marcar um Fadiga</b> e descrever como encoraja seus aliados. O próximo personagem que atacar esse adversário pode limpar um Fadiga ou receber uma Esperança."
     },
-    {
-      "id": "Book of Ava",
+    "Book of Ava": {
       "name": "Livro de Ava",
       "description": "<b><i>Propelir:</b></i> faça um <b>Teste de Conjuração</b> contra um alvo Adjacente. Em um sucesso, ele é empurrado para um ponto Distantes e sofre d10+2 de dano mágico com sua Proficiência.<br><b><i>Armadura de Tava:</i> gaste uma Esperança</b> para conceder um bônus de +1 na Armadura a um alvo que você possa tocar. Esse bônus dura até o próximo descanso do alvo ou até que você conjure Armadura de Tava novamente.<br><b><i>Estaca de gelo:</b></i> faça um <b>teste de conjuração (12)</b> para invocar um grande espinho de gelo Distante. Se usá-lo como arma, em vez disso, faça o <b>Teste de Conjuração</b> contra a dificuldade do alvo. Em um sucesso, você causa d6 de dano físico usando sua Proficiência."
     },
-    {
-      "id": "Cloaking Blast",
+    "Cloaking Blast": {
       "name": "Ocultação",
       "description": "Ao ter sucesso em um <b>Teste de Conjuração</b> para conjurar um feitiço diferente, você pode <b>gastar uma Esperança</b> para ficar <i>Oculto</i>. Enquanto estiver <i>Oculto</i>, quando um adversário se movimentar para um lugar de onde normalmente veria você, ele não pode vê-lo se você estiver parado. Ao entrar ou se movimentar dentro da linha de visão de um adversário, ou ao atacar, você deixa de estar <i>Oculto</i>."
     },
-    {
-      "id": "Words of Discord",
+    "Words of Discord": {
       "name": "Palavras de Discórdia",
       "description": "Sussurre palavras de discórdia para um adversário Adjacente e faça um <b>teste de conjuração (13)</b>. Em um sucesso, o alvo deve marcar um Fadiga e atacar outro adversário em vez de você ou seus aliados.<br>Após concluir o ataque, o alvo percebe o que aconteceu. Na próxima vez que conjurar Palavras de Discórdia sobre ele, você sofre uma penalidade de –5 no teste de conjuração."
     },
-    {
-      "id": "Adjust Reality",
+    "Adjust Reality": {
       "name": "Ajustar Realidade",
       "description": "Quando você ou um aliado voluntário faz uma rolagem, você pode <b>gastar 5 Esperança</b> para mudar o resultado para um à sua escolha — ele deve ser plausível dentro das possibilidades fornecidas pelos dados."
     },
-    {
-      "id": "Enrapture",
+    "Enrapture": {
       "name": "Enfeitiçar",
       "description": "Faça um <b>Teste de Conjuração</b> contra um alvo Próximo. Em um sucesso, ele se torna temporariamente <i>Enfeitiçado</i>. Enquanto estiver <i>Enfeitiçado</i>, a atenção do alvo se fixa em você. O campo de visão dele se estreita e todos os sons além da sua voz são abafados. Uma vez por descanso, você pode <b>marcar um Fadiga</b> para forçar o alvo Enfeitiçado a marcar um Fadiga também."
     },
-    {
-      "id": "Premonition",
+    "Premonition": {
       "name": "Premonição",
       "description": "Você pode canalizar energia arcana para ter visões do futuro. Uma vez por descanso longo, imediatamente após o mestre apresentar as consequências de um teste que você fez, você pode ignorar esse movimento e suas consequências como se elas não tivessem acontecido e fazer outro movimento no lugar."
     },
-    {
-      "id": "Body Basher",
+    "Body Basher": {
       "name": "Força Esmagadora",
       "description": "Você usa toda sua força física em um combate. Ao acertar um ataque usando uma arma com alcance Adjacente, receba um bônus igual à sua Força na rolagem de dano."
     },
-    {
-      "id": "Book of Vagras",
+    "Book of Vagras": {
       "name": "Livro de Vagras",
       "description": "<b><i>Portal Arcano:</b></i> se não houver adversários Adjacentes, faça um <b>teste de conjuração (13)</b>. Em um sucesso, <b>gaste uma Esperança</b> para criar um portal de onde você está para outro ponto Distante que você possa ver. Ele se fecha depois que uma criatura passar por ele.<br><b><i>Revelar:</b></i> faça um <b>Teste de Conjuração</b>. Se houver alguma coisa escondida por magia Próxima, ela é revelada.<br><b><i>Tranca Rúnica:</b></i> faça um <b>teste de conjuração (15)</b> sobre um objeto que esteja tocando e que possa fechar (como um baú, cadeado, caixa ou fechadura). Uma vez por descanso, em um sucesso, você pode trancar o objeto de modo que ele só possa ser aberto por criaturas designadas por você. Este feitiço pode ser quebrado em uma hora por uma pessoa com acesso a magia."
     },
-    {
-      "id": "Whirlwind",
+    "Whirlwind": {
       "name": "Turbilhão",
       "description": "Faça um ataque contra um alvo Muito Próximo. Em um sucesso, <b>gaste um Esperança</b> para afetar todos os outros alvos Muito Próximos com esse mesmo ataque. Todos os adversários adicionais que você acertar ao usar este talento sofrem metade do dano."
     },
-    {
-      "id": "Nature’s Tongue",
+    "Nature’s Tongue": {
       "name": "Voz da Natureza",
       "description": "Você fala o idioma do mundo natural. Quando quiser falar com as plantas e animais ao seu redor, faça um <b>teste de Instinto (12)</b>. Em um sucesso, essas plantas ou animais fornecem a informação que conhecem. Se rolar com Medo, o conhecimento fornecido pode ser limitado ou ter um custo.<br>Além disso, antes de fazer um teste de conjuração em um ambiente natural, você pode <b>gastar uma Esperança</b> para receber um bônus de +2 na rolagem."
     },
-    {
-      "id": "Cruel Precision",
+    "Cruel Precision": {
       "name": "Acuidade Cruel",
       "description": "Ao acertar um ataque com uma arma, receba um bônus igual à sua Finesse ou Agilidade na rolagem de dano."
     },
-    {
-      "id": "Book of Korvax",
+    "Book of Korvax": {
       "name": "Livro de Korvax",
       "description": "<b><i>Círculo Rúnico:</i> marque um Fadiga</b> para criar um círculo mágico temporário abaixo de onde você está. Todos os adversários que entrarem ou estiverem Adjacentes sofrem 2d12+4 de dano mágico e são empurrados para um ponto Muito Próximo.<br><b><i>Lapso:</i> gaste uma Esperança</b> para forçar um alvo Adjacente a fazer um teste de reação (15). Se falhar, ele esquece o último minuto de conversa com você.<br><b><i>Levitação:</b></i> faça um <b>Teste de Conjuração</b> para suspender um alvo que você possa ver temporariamente no ar e movê-lo para um ponto Próximo relativo à posição original dele."
     },
-    {
-      "id": "Inspirational Words",
+    "Inspirational Words": {
       "name": "Palavras Inspiradoras",
       "description": "Suas palavras são imbuídas de poder. Após um descanso longo, coloque um número de marcadores igual à sua Presença nesta carta. Ao falar com um aliado, você pode gastar um marcador desta carta para dar a ele um benefício dentre os seguintes:<br>• Seu aliado limpa um Fadiga;<br>• Seu aliado limpa 1 PV;<br>• Seu aliado recebe uma Esperança.<br>Após um descanso longo, marcadores não utilizados são perdidos."
     },
-    {
-      "id": "Armorer",
+    "Armorer": {
       "name": "Armeiro",
       "description": "Você recebe um bônus de +1 na Armadura enquanto estiver usando armadura.<br>Ao escolher Reparar Armadura como movimento de repouso durante um descanso, seus aliados também limpam uma Armadura."
     },
-    {
-      "id": "Mass Disguise",
+    "Mass Disguise": {
       "name": "Disfarce em Massa",
       "description": "Quando tem alguns minutos de silêncio para se concentrar, você pode <b>marcar um Fadiga</b> para alterar a aparência de todas as criaturas Próximas voluntárias. As novas formas devem ter estrutura corporal e tamanho semelhantes e podem ser tanto algo ou alguém que você já tenha visto quanto criação sua. Uma criatura disfarçada dessa forma tem vantagem em testes de Presença para evitar ser descoberta.<br>Ative uma contagem regressiva (8). Ela diminui em virtude de uma consequência escolhida pelo mestre. Quando a consequência da contagem regressiva é ativada, o disfarce termina."
     },
-    {
-      "id": "Shape Material",
+    "Shape Material": {
       "name": "Moldar Material",
       "description": "<b>Gaste uma Esperança</b> para moldar parte de um material natural que esteja tocando (como gelo, madeira ou pedra) à sua vontade. A área do material não pode ser maior que você. Por exemplo, você pode criar uma ferramenta rudimentar ou criar uma porta. Você só pode afetar o material Próximo do ponto que você está tocando."
     },
-    {
-      "id": "Deft Maneuvers",
+    "Deft Maneuvers": {
       "name": "Movimento Ligeiro",
       "description": "Uma vez por descanso, <b>marque um Fadiga</b> para se deslocar para qualquer lugar Distante sem precisar de um <b>teste de Agilidade</b>.<br>Se terminar esse movimento Adjacente a um adversário e imediatamente atacá-lo, você ganha um bônus de +1 no teste de ataque."
     },
-    {
-      "id": "Book of Illiat",
+    "Book of Illiat": {
       "name": "Livro de Illiat",
       "description": "<b><i>Sonolência:</b></i> faça um <b>Teste de Conjuração</b> contra um alvo Muito Próximo. Em um sucesso, ele fica <i>Adormecido</i> até sofrer dano ou até o mestre gastar um Medo no turno dele para encerrar a condição.<br><b><i>Saraivada Arcana:</b></i> uma vez por descanso, <b>gaste uma quantidade qualquer de Esperança</b> para atirar projéteis mágicos que acertam um alvo Próximo à sua escolha. Role um número de d6 igual à quantidade de Esperança gasta e cause o resultado deles como dano mágico ao alvo.<br><b><i>Telepatia:</i> gaste uma Esperança</b> para criar uma linha de comunicação mental com um alvo que você possa ver. Essa conexão dura até seu próximo descanso ou até você conjurar Telepatia novamente."
     },
-    {
-      "id": "Book of Sitil",
+    "Book of Sitil": {
       "name": "Livro de Sitil",
       "description": "<b><i>Ajustar Aparência:</b></i> você muda magicamente sua aparência e vestimentas para evitar ser reconhecido.<br><b><i>Paralelos:</i> gaste 2 Esperança</b> para conjurar este feitiço sobre si mesmo ou sobre um aliado Próximo. Na próxima vez que o alvo fizer um ataque, ele pode acertar um alvo adicional dentro do alcance contra o qual seu teste de ataque seria bem-sucedido. Você pode manter este feitiço ativo apenas sobre uma criatura por vez.<br><b><i>Ilusão:</b></i> faça um <b>teste de conjuração (14)</b>. Em um sucesso, você cria uma ilusão visual temporária Próxima. Ela não pode ultrapassar seu tamanho e dura enquanto você olhar para ela. A ilusão não levanta suspeitas até que um observador esteja Adjacente a ela."
     },
-    {
-      "id": "Spellcharge",
+    "Spellcharge": {
       "name": "Carga Mágica",
       "description": "Ao sofrer dano mágico, coloque um número de marcadores nesta carta igual ao número de Pontos de Vida marcados. Você pode acumular um número de marcadores igual ao seu atributo de conjuração.<br>Quando acertar um ataque contra um alvo, você pode gastar um número qualquer de marcadores e somar uma quantidade equivalente de d6 à rolagem de dano."
     },
-    {
-      "id": "Redirect",
+    "Redirect": {
       "name": "Redirecionar",
       "description": "Quando um ataque originado de um ponto além do alcance Adjacente falha contra você, role um número de [[/r @profd6]]{d6} igual à sua Proficiência. Se tirar 6 em qualquer dado, você pode <b>marcar um Fadiga</b> para redirecionar o ataque, fazendo-o causar dano a um adversário Muito Próximo."
     },
-    {
-      "id": "Second Wind",
+    "Second Wind": {
       "name": "Novo Fôlego",
       "description": "Uma vez por descanso, ao acertar um ataque contra um adversário, você pode limpar um Ponto de Vida ou 3 Fadiga. Em um sucesso com Esperança, você também limpa um Ponto de Vida ou 3 Fadiga de um aliado Próximo."
     },
-    {
-      "id": "Book of Homet",
+    "Book of Homet": {
       "name": "Livro de Homet",
       "description": "<b><i>Atravessar:</b></i> faça um <b>teste de conjuração (13)</b>. Uma vez por descanso, em um sucesso, você e todas as criaturas que o estejam tocando podem atravessar uma parede ou porta Próxima. O efeito termina quando todos estiverem do outro lado.<br><b><i>Portal Planar:</b></i> faça um <b>teste de conjuração (14)</b>. Uma vez por descanso longo, em um sucesso, abra um portal para uma localidade que você já tenha visitado em outra dimensão ou plano de existência. Esse portal perdura até seu próximo descanso."
     },
-    {
-      "id": "Veil of Night",
+    "Veil of Night": {
       "name": "Véu da Noite",
       "description": "Faça um <b>teste de conjuração (13)</b>. Em um sucesso, crie uma cortina de escuridão entre dois pontos Distantes. Apenas você pode enxergar através dessa escuridão. Você é considerado <i>Escondido</i> para adversários no outro lado da cortina e tem vantagem em testes de ataque feitos através da escuridão. A cortina dura até você conjurar outro feitiço."
     },
-    {
-      "id": "Sensory Projection",
+    "Sensory Projection": {
       "name": "Projeção Sensorial",
       "description": "Uma vez por descanso, faça um <b>teste de conjuração (15)</b>. Em um sucesso, você entra numa visão que lhe permite ver e ouvir claramente qualquer lugar onde já esteve anteriormente, como se estivesse lá no momento. Você pode se mover livremente dentro da visão, sem sofrer as restrições físicas de ter um corpo material. Este feitiço não pode ser detectado por meios mágicos ou mundanos. Você sai da visão ao sofrer dano ou ao conjurar outra magia."
     },
-    {
-      "id": "Recovery",
+    "Recovery": {
       "name": "Recuperação",
       "description": "Durante um descanso curto, você pode escolher um movimento de repouso de descanso longo. Você pode <b>gastar uma Esperança</b> para permitir que um aliado também faça isso."
     },
-    {
-      "id": "Hush",
+    "Hush": {
       "name": "Xiu",
       "description": "Faça um <b>Teste de Conjuração</b> contra um alvo Próximo. Em um sucesso, <b>gaste uma Esperança</b> para conjurar um efeito mágico supressor sobre o alvo. Esse efeito afeta tudo Muito Próximo do alvo e o acompanha quando ele se move.<br>O alvo, e tudo mais na área afetada, fica <i>Silenciado</i>. Enquanto estiver <i>Silenciado</i>, o alvo não pode fazer barulho ou conjurar feitiços. Essa condição dura até o mestre gastar um Medo no turno dele para encerrá-la, até você conjurar Silêncio novamente ou até você sofrer dano maior."
     },
-    {
-      "id": "Falling Sky",
+    "Falling Sky": {
       "name": "Cair o Céu",
       "description": "Faça um <b>Teste de Conjuração</b> contra todos os adversários Distantes. <b>Marque qualquer número de Fadiga</b> para fazer chover fragmentos arcanos. Alvos atingidos sofrem 1d20+2 de dano mágico para cada Fadiga marcado."
     },
-    {
-      "id": "Overwhelming Aura",
+    "Overwhelming Aura": {
       "name": "Aura Esmagadora",
       "description": "Faça um <b>teste de conjuração (15)</b> para fortalecer sua aura com magia. Em um sucesso, <b>gaste 2 Esperança</b> para tornar sua Presença igual ao seu atributo de conjuração até seu próximo descanso longo.<br>Enquanto este feitiço estiver ativo, seus adversários devem marcar um Fadiga ao selecionarem você como alvo de um ataque."
     },
-    {
-      "id": "Specter of the Dark",
+    "Specter of the Dark": {
       "name": "Espectro das Trevas",
       "description": "<b>Marque um Fadiga</b> para tornar-se <i>Incorpóreo</i>. Essa condição dura até você fazer um teste tendo outra criatura como alvo. Enquanto estiver <i>Incorpóreo</i>, você é imune a dano físico e pode flutuar e atravessar objetos sólidos. Outras criaturas ainda podem vê-lo nessa forma."
     },
-    {
-      "id": "Reassurance",
+    "Reassurance": {
       "name": "Validação",
       "description": "Uma vez por descanso, após o teste de um aliado, mas antes das consequências ocorrerem, você pode auxiliá-lo com palavras de apoio. Ao fazer isso, seu aliado pode rolar os dados novamente."
     },
-    {
-      "id": "Ferocity",
+    "Ferocity": {
       "name": "Ferocidade",
       "description": "Ao fazer com que um adversário marque um ou mais Pontos de Vida, você pode <b>gastar 2 Esperança</b> para aumentar sua Evasão em um número igual à quantidade de Pontos de Vida que ele marcou. Esse bônus dura até o término do próximo ataque feito contra você."
     },
-    {
-      "id": "Valor-Touched",
+    "Valor-Touched": {
       "name": "Dom da Bravura",
       "description": "Se 4 ou mais cartas de domínio na sua mão pertencerem ao domínio da Bravura, receba os seguintes benefícios:<br>• Bônus de +1 na Armadura;<br>• Ao marcar um ou mais Pontos de Vida sem marcar Armadura, limpe uma Armadura."
     },
-    {
-      "id": "Transcendent Union",
+    "Transcendent Union": {
       "name": "União Transcendental",
       "description": "Uma vez por descanso longo, <b>gaste 5 Esperança</b> para conjurar este feitiço sobre duas ou mais criaturas voluntárias. Até seu próximo descanso, quando uma criatura conectada por essa união for marcar Pontos de Vida ou Fadiga, as criaturas conectadas podem escolher qual delas marcará."
     },
-    {
-      "id": "Hold the Line",
+    "Hold the Line": {
       "name": "Manter Posição",
       "description": "Descreva a posição defensiva que você assume e <b>gaste uma Esperança</b>. Se um adversário se mover para Muito Próximo, ele é puxado para o alcance Adjacente e fica <i>Imobilizado</i>.<br>Essa condição dura até você se mover ou rolar uma falha com Medo, ou até o mestre gastar 2 de Medo no turno dele para encerrá-la."
     },
-    {
-      "id": "Shadowbind",
+    "Shadowbind": {
       "name": "Sombra Traiçoeira",
       "description": "Faça um <b>Teste de Conjuração</b> contra todos os adversários Muito Próximos. Alvos atingidos ficam temporariamente <i>Imobilizados</i> pela própria sombra no lugar em que estão."
     },
-    {
-      "id": "Disintegration Wave",
+    "Disintegration Wave": {
       "name": "Onda Desintegradora",
       "description": "Faça um <b>teste de conjuração (18)</b>. Uma vez por descanso longo, em um sucesso, o mestre lhe informa quais adversários Distantes têm dificuldade 18 ou menor. <b>Marque um Fadiga</b> para cada alvo que quiser atingir com este feitiço. O alvo morre e não pode voltar à vida por quaisquer meios."
     },
-    {
-      "id": "Encore",
+    "Encore": {
       "name": "Em Dobro",
       "description": "Quando um aliado Próximo causa dano a um adversário, você pode fazer um <b>Teste de Conjuração</b> contra esse mesmo alvo. Em um sucesso, você causa o mesmo dano que seu aliado causou. Se você rolar um sucesso com Medo, coloque esta carta na reserva."
     },
-    {
-      "id": "Bare Bones",
+    "Bare Bones": {
       "name": "Armadura Corporal",
       "description": "Enquanto não equipar uma armadura, você tem Armadura base igual a 3 + sua Força e usa estes limiares de dano base:<br>•<b><i> 1º patamar:</b></i> 9/19;<br>•<b><i> 2º patamar:</b></i> 11/24;<br>•<b><i> 3º patamar:</b></i> 13/31;<br>•<b><i> 4º patamar:</b></i> 15/38."
     },
-    {
-      "id": "Zone of Protection",
+    "Zone of Protection": {
       "name": "Zona de Proteção",
       "description": "Faça um <b>teste de conjuração (16)</b>. Uma vez por descanso longo, em um sucesso, escolha um ponto Distante e crie uma zona de proteção visível para todos os aliados Muito Próximos do ponto de origem. Ao fazer isso, coloque d6 nesta carta, com o 1 virado para cima. Quando um aliado na zona de proteção sofre dano, reduza esse dano pelo valor do dado. Em seguida, aumente o valor do dado em um. Se o valor do dado for ultrapassar 6, este efeito termina."
     },
-    {
-      "id": "Stunning Sunlight",
+    "Stunning Sunlight": {
       "name": "Fulgor Atordoante",
       "description": "Faça um <b>Teste de Conjuração</b> para disparar raios solares contra todos os adversários Distantes à sua frente. Em um sucesso, <b>gaste qualquer quantidade de Esperança</b> e force um número equivalente de alvos atingidos a fazer um teste de reação (14).<br>Alvos bem-sucedidos sofrem 3d20+3 de dano mágico. Alvos que falharem sofrem 4d20+5 de dano mágico e ficam temporariamente <i>Atordoados</i>. Enquanto estiverem <i>Atordoados</i>, os alvos não podem usar reações e não podem fazer quaisquer outras ações até que se recuperem dessa condição."
     },
-    {
-      "id": "Safe Haven",
+    "Safe Haven": {
       "name": "Refúgio Seguro",
       "description": "Quando tem alguns minutos de calma para se concentrar, você pode <b>gastar 2 Esperança</b> para invocar seu Refúgio Seguro: um grande abrigo interdimensional onde você e seus aliados podem ficar. Ao fazer isso, uma porta mágica aparece em algum lugar Próximo. Apenas criaturas designadas por você podem entrar. Após entrar, você pode deixar a entrada invisível. Qualquer pessoa no interior do refúgio pode sair a hora que quiser. Depois que você sair, a porta de entrada deve ser invocada novamente.<br>Ao fazer um descanso dentro de seu Refúgio Seguro, você pode escolher um movimento de repouso adicional."
     },
-    {
-      "id": "Towering Stalk",
+    "Towering Stalk": {
       "name": "Tronco Descomunal",
       "description": "Uma vez por descanso, você pode conjurar um tronco espesso, retorcido e fácil de escalar em um ponto Próximo. A altura dele pode ser equivalente a Distante.<br><b>Marque um Fadiga</b> para usar este feitiço como um ataque. Faça um <b>Teste de Conjuração</b> contra um adversário ou grupo de adversários Próximos. O tronco irrompe, lançando os alvos no ar e derrubando-os, causando d8 de dano físico usando sua Proficiência."
     },
-    {
-      "id": "Glancing Blow",
+    "Glancing Blow": {
       "name": "Golpe de Raspão",
       "description": "Quando erra um ataque, você pode <b>marcar um Fadiga</b> para causar o dano da arma usando metade de sua Proficiência."
     },
-    {
-      "id": "Unleash Chaos",
+    "Unleash Chaos": {
       "name": "Liberar o Caos",
       "description": "No início da sessão, coloque um número de marcadores igual ao seu atributo de conjuração nesta carta.<br>Faça um <b>Teste de Conjuração</b> contra um alvo Distante e gaste qualquer número de marcadores para canalizar energia bruta de seu interior e liberá-la contra ele. Em um sucesso, role uma quantidade de d10 igual ao número de marcadores que gastou e cause o resultado deles como dano mágico ao alvo. <b>Marque um Fadiga</b> para recarregar esta carta com marcadores (até uma quantidade igual ao seu atributo de conjuração).<br>No fim de cada sessão, marcadores não utilizados são perdidos."
     },
-    {
-      "id": "Rise Up",
+    "Rise Up": {
       "name": "Altivez",
       "description": "Receba um bônus igual à sua Proficiência no seu limiar grave.<br>Ao marcar um ou mais Pontos de Vida devido a um ataque, limpe um Fadiga."
     },
-    {
-      "id": "Thorn Skin",
+    "Thorn Skin": {
       "name": "Pele de Espinhos",
       "description": "Uma vez por descanso, <b>gaste uma Esperança</b> para fazer com que espinhos brotem de todo o seu corpo. Ao fazer isso, coloque um número de marcadores igual ao seu atributo de conjuração nesta carta. Ao sofrer dano, você pode gastar qualquer quantidade de marcadores e rolar um número equivalente de d6. Reduza o dano sofrido em um número igual à soma dos resultados. Se estiver Adjacente ao atacante, cause a mesma quantidade de dano a ele.<br>Após um descanso, marcadores não utilizados são perdidos."
     },
-    {
-      "id": "Fortified Armor",
+    "Fortified Armor": {
       "name": "Armadura Fortificada",
       "description": "Você recebe um bônus de +2 nos seus limiares de dano enquanto estiver usando armadura."
     },
-    {
-      "id": "Book of Exota",
+    "Book of Exota": {
       "name": "Livro de Exota",
       "description": "<b><i>Criar Construto:</i> gaste uma Esperança</b> para escolher um grupo de objetos ao seu redor e, a partir deles, crie um construto animado que obedece a comandos básicos. Faça um <b>Teste de Conjuração</b> para mandá-lo agir. Quando necessário, ele compartilha sua Evasão e atributos, e os ataques dele causam 2d10+3 de dano físico. Você pode manter apenas um construto por vez, e ele se desfaz ao sofrer qualquer quantidade de dano.<br><b><i>Repudiar:</b></i> você pode interromper um efeito mágico em andamento. Faça um <b>Teste de Conjuração</b> usando seu atributo de conjuração. Em um sucesso, uma vez por descanso, o efeito cessa e quaisquer consequências são evitadas."
     },
-    {
-      "id": "Rousing Strike",
+    "Rousing Strike": {
       "name": "Golpe Inspirador",
       "description": "Uma vez por descanso, ao ter sucesso crítico em um ataque, você e todos os aliados que possam vê-lo ou ouvi-lo podem limpar um Ponto de Vida ou 1d4 Fadiga."
     },
-    {
-      "id": "Corrosive Projectile",
+    "Corrosive Projectile": {
       "name": "Projétil Corrosivo",
       "description": "Faça um <b>Teste de Conjuração</b> contra um alvo Distante. Em um sucesso, cause d6+4 de dano mágico usando sua Proficiência. Além disso, <b>marque 2 ou mais Fadiga</b> para deixá-lo permanentemente <i>Corroído</i>. Um alvo <i>Corroído</i> tem uma penalidade de –1 na dificuldade para cada 2 Fadiga que você gastou. Essa condição é cumulativa."
     },
-    {
-      "id": "Vicious Entangle",
+    "Vicious Entangle": {
       "name": "Vinha Voraz",
       "description": "Faça um <b>Teste de Conjuração</b> contra um alvo Distante. Em um sucesso, raízes e vinhas saem do chão, causando 1d8+1 de dano físico e <i>Imobilizando</i> o alvo temporariamente. Além disso, em um sucesso, você pode <b>gastar uma Esperança</b> para temporariamente <i>Imobilizar</i> um adversário Muito Próximo do primeiro."
     },
-    {
-      "id": "Conjure Swarm",
+    "Conjure Swarm": {
       "name": "Conjurar Enxame",
       "description": "<b><i>Besouros Blindados de Tekaira:</i> marque um Fadiga</b> para conjurar um enxame de besouros ao seu redor. Na próxima vez que sofrer dano, reduza a gravidade em um limiar. Você pode <b>gastar uma Esperança</b> para manter os besouros conjurados após sofrer dano.<br><b><i>Vaga-Lumes:</b></i> faça um <b>Teste de Conjuração</b> contra todos os adversários Próximos. <b>Gaste uma Esperança</b> para causar 2d8+3 de dano mágico aos alvos atingidos."
     },
-    {
-      "id": "Shield Aura",
+    "Shield Aura": {
       "name": "Aura Defensora",
       "description": "<b>Marque um Fadiga</b> para conjurar uma aura protetora sobre um alvo Muito Próximo. Quando o alvo marca uma Armadura, ele reduz a gravidade do ataque em um limiar adicional. Se este feitiço fizer uma criatura que sofreria dano não marcar Pontos de Vida, o efeito termina.<br>Você pode manter a Aura Defensora apenas sobre uma criatura por vez."
     },
-    {
-      "id": "Champion’s Edge",
+    "Champion’s Edge": {
       "name": "Vantagem do Campeão",
       "description": "Ao ter sucesso crítico em um ataque, você pode <b>gastar até 3 Esperança</b> e escolher uma das opções a seguir para cada Esperança gasta dessa forma:<br>• Você limpa um Ponto de Vida;<br>• Você limpa uma Armadura;<br>• O alvo deve marcar um Ponto de Vida adicional.<br>Você não pode escolher a mesma opção mais de uma vez."
     },
-    {
-      "id": "Unyielding Armor",
+    "Unyielding Armor": {
       "name": "Armadura Irredutível",
       "description": "Quando for marcar uma Armadura, role uma quantidade de d6 igual à sua Proficiência. Se algum tirar 6, reduza a gravidade em um limiar sem marcar uma Armadura."
     },
-    {
-      "id": "Vitality",
+    "Vitality": {
       "name": "Vitalidade",
       "description": "Ao escolher esta carta, receba dois destes benefícios permanentemente:<br>• um Fadiga adicional;<br>• um Ponto de Vida adicional;<br>• Bônus de +2 em seus limiares de dano.<br>Em seguida, coloque esta carta na sua reserva permanentemente."
     },
-    {
-      "id": "Support Tank",
+    "Support Tank": {
       "name": "Bastião",
       "description": "Quando um aliado Próximo falhar em um teste, você pode <b>gastar 2 Esperança</b> para permitir que ele role novamente o Dado de Medo ou de Esperança."
     },
-    {
-      "id": "Voice of Reason",
+    "Voice of Reason": {
       "name": "Voz da Razão",
       "description": "Você fala com poder e autoridade sem igual. Você tem vantagem em testes para acalmar situações violentas ou convencer alguém a seguir sua ordem.<br>Além disso, você demonstra mais firmeza sob pressão. Quando todo seu Fadiga estiver marcado, você ganha um bônus de +1 na Proficiência para rolagens de dano."
     },
-    {
-      "id": "Endless Charisma",
+    "Endless Charisma": {
       "name": "Carisma Infinito",
       "description": "Após fazer um teste para obter favores, mentir ou persuadir, você pode <b>gastar uma Esperança</b> para rolar novamente seu Dado de Esperança ou Medo."
     },
-    {
-      "id": "Rapid Riposte",
+    "Rapid Riposte": {
       "name": "Contra-ataque Rápido",
       "description": "Quando um ataque originado de um ponto Adjacente falha contra você, você pode <b>marcar um Fadiga</b> e aproveitar a oportunidade para causar o dano de uma de suas armas ativas ao atacante."
     },
-    {
-      "id": "Bold Presence",
+    "Bold Presence": {
       "name": "Presença Corajosa",
       "description": "Ao fazer um teste de Presença, você pode <b>gastar uma Esperança</b> para somar sua Força à rolagem.<br>Além disso, uma vez por descanso, quando for sofrer uma condição, você pode descrever como sua Presença Corajosa ajuda na situação e impede que você sofra a condição."
     },
-    {
-      "id": "Midnight-Touched",
+    "Midnight-Touched": {
       "name": "Dom da Meia-Noite",
       "description": "Se 4 ou mais cartas de domínio na sua mão pertencerem ao domínio da Meia-Noite, receba os seguintes benefícios:<br>• Uma vez por descanso, se você tiver 0 Esperança e o mestre for receber Medo, em vez disso, você pode receber uma Esperança;<br>• Ao acertar um ataque, você pode <b>marcar um Fadiga</b> para somar o resultado de seu Dado de Medo à rolagem de dano."
     },
-    {
-      "id": "Mass Enrapture",
+    "Mass Enrapture": {
       "name": "Enfeitiçar em Massa",
       "description": "Faça um <b>Teste de Conjuração</b> contra todos os alvos Distantes. Alvos atingidos ficam temporariamente <i>Enfeitiçados</i>. Enquanto um alvo estiver <i>Enfeitiçado</i>, a atenção dele se fixa em você. O campo de visão dele se estreita e todos os sons além da sua voz são abafados. <b>Marque um Fadiga</b> para forçar todos os alvos <i>Enfeitiçados</i> a marcarem um Fadiga, encerrando este feitiço."
     },
-    {
-      "id": "Rift Walker",
+    "Rift Walker": {
       "name": "Fenda Espacial",
       "description": "Faça um <b>teste de conjuração (15)</b>. Em um sucesso, você faz uma marca arcana no solo onde está no momento. Na próxima vez que você conjurar Fenda Espacial, abre-se um portal que fornece passagem segura para o ponto exato onde a marca foi colocada. A fenda permanece aberta até você a feche ou até conjurar outro feitiço. Você pode cancelar o feitiço a qualquer momento para conjurar Fenda Espacial novamente e marcar outro lugar."
     },
-    {
-      "id": "Floating Eye",
+    "Floating Eye": {
       "name": "Olho Flutuante",
       "description": "<b>Gaste uma Esperança</b> para criar um pequeno orbe flutuante que você pode mover para um ponto qualquer Muito Distante. Enquanto este feitiço estiver ativo, você pode ver pelo orbe como se estivesse onde ele está. Você pode escolher entre usar seus próprios sentidos ou os do orbe como quiser. Se o orbe sofrer dano ou sair do alcance, o feitiço termina."
     },
-    {
-      "id": "Versatile Fighter",
+    "Versatile Fighter": {
       "name": "Versátil",
       "description": "Em vez de usar o atributo requerido por uma arma equipada, você pode usar um atributo diferente.<br>Ao causar dano, você pode <b>marcar um Fadiga</b> para usar o valor máximo de um de seus dados de dano."
     },
-    {
-      "id": "Restoration",
+    "Restoration": {
       "name": "Restauração",
       "description": "Após um descanso longo, coloque um número de marcadores igual ao seu atributo de conjuração nesta carta. Toque uma criatura e gaste qualquer quantidade de marcadores. Para cada marcador gasto, limpe 2 Pontos de Vida ou Fadiga do alvo.<br>Você também pode gastar um marcador desta carta para tocar uma criatura e recuperá-la da condição <i>Vulnerável</i> ou curar uma doença física ou mágica (o mestre pode exigir o gasto de mais marcadores, dependendo da potência da doença).<br>Após um descanso longo, marcadores não utilizados são perdidos."
     },
-    {
-      "id": "Death Grip",
+    "Death Grip": {
       "name": "Constrição Mortal",
       "description": "Faça um <b>Teste de Conjuração</b> contra um alvo Próximo e escolha uma das seguintes opções:<br>• Você puxa o alvo para um ponto Adjacente ou puxa a si mesmo para um ponto Adjacente a ele;<br>• Você constringe o alvo e o força a marcar 2 Fadiga;<br>• Todos os adversários entre você e o alvo devem ter sucesso em um teste de reação (13) ou são atingidos por vinhas e sofrem 3d6+2 de dano fís.<br>Em um sucesso, vinhas saem de suas mãos, causando o efeito escolhido e <i>Imobilizando</i> o alvo temporariamente."
     },
-    {
-      "id": "Deathrun",
+    "Deathrun": {
       "name": "Trajeto Mortal",
       "description": "<b>Gaste 3 Esperança</b> para percorrer o campo de batalha em linha reta até um ponto Distante, fazendo um ataque contra todos os adversários no alcance da sua arma ao longo do caminho percorrido. Escolha a ordem na qual o dano é causado aos alvos atingidos. Para o primeiro alvo, role o dano de sua arma com +1 de bônus na Proficiência. Depois disso, remova um dado da rolagem de dano e cause o dano restante ao próximo alvo. Continue removendo um dado para cada alvo subsequente até que não tenha mais dados de dano ou adversários.<br>Você não pode escolher o mesmo alvo mais de uma vez por ataque."
     },
-    {
-      "id": "Not Good Enough",
+    "Not Good Enough": {
       "name": "Não o Suficiente",
       "description": "Ao rolar dados de dano, você pode rolar novamente quaisquer resultados 1 ou 2."
     },
-    {
-      "id": "Deadly Focus",
+    "Deadly Focus": {
       "name": "Concentração Mortal",
       "description": "Uma vez por descanso, você pode se concentrar totalmente em um alvo à sua escolha, recebendo um bônus de +1 em sua Proficiência. Esse bônus dura até você derrotar o alvo, atacar outra criatura ou a batalha terminar."
     },
-    {
-      "id": "Master of the Craft",
+    "Master of the Craft": {
       "name": "Mestre do Ofício",
       "description": "Receba um bônus permanente de +2 em duas de suas Experiências, ou +3 em apenas uma. Em seguida, coloque esta carta na sua reserva permanentemente."
     },
-    {
-      "id": "Dark Whispers",
+    "Dark Whispers": {
       "name": "Sussurros Sombrios",
       "description": "Você pode se comunicar mentalmente com qualquer pessoa com a qual tenha tido contato físico. Uma vez que tenha aberto um canal de comunicação com o alvo, ele pode se comunicar com você da mesma forma. Além disso, você pode <b>marcar um Fadiga</b> para fazer um <b>Teste de Conjuração</b> contra ele. Em um sucesso, você pode fazer uma das seguintes perguntas, que deve ser respondida pelo mestre:<br>• Onde a pessoa está?<br>• O que ela está fazendo?<br>• Do que ela tem medo?<br>• Com o que ela mais se preocupa?"
     },
-    {
-      "id": "Resurrection",
+    "Resurrection": {
       "name": "Ressurreição",
       "description": "Faça um <b>teste de conjuração (20)</b>. Em um sucesso, faça com que uma criatura morta há no máximo 100 anos volte à vida com todas as suas capacidades. Em seguida, role um d6. Se tirar 5 ou menos, coloque esta carta na reserva permanentemente.<br>Se falhar, você não pode conjurar Ressurreição novamente por uma semana."
     },
-    {
-      "id": "Forceful Push",
+    "Forceful Push": {
       "name": "Empurrão Violento",
       "description": "Ataque um alvo Adjacente com sua arma principal. Em um sucesso, você causa dano e o empurra para um ponto Próximo. Em um sucesso com Esperança, acrescente 1d6 à rolagem de dano.<br>Além disso, <b>gaste uma Esperança</b> para deixá-lo temporariamente <i>Vulnerável</i>."
     },
-    {
-      "id": "On the Brink",
+    "On the Brink": {
       "name": "Quase Lá",
       "description": "Se tiver 2 Pontos de Vida ou menos desmarcados, você não sofre dano leve."
     },
-    {
-      "id": "Night Terror",
+    "Night Terror": {
       "name": "Terror Noturno",
       "description": "Uma vez por descanso longo, escolha quaisquer alvos Muito Próximos. Eles passam a ver você como uma horrorosa visão de pesadelo. Os alvos devem ter sucesso em um teste de reação (16) ou ficam temporariamente <i>Horrorizados</i>. Enquanto estiverem <i>Horrorizados</i>, eles ficam <i>Vulneráveis</i>. Roube uma quantidade de Medo do mestre igual ao número de alvos <i>Horrorizado</i> (até o máximo de acúmulos de Medo do mestre). Role um número de d6 igual à quantidade de Medo roubado e cause o resultado deles como dano a cada alvo <i>Horrorizado</i>. Em seguida, descarte todo o Medo que roubou."
     }
-  ]
+  }
 }

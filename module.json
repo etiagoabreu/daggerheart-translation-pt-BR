@@ -39,6 +39,15 @@
         }
       },
       {
+        "id": "art-for-daggerheart",
+        "type": "module",
+        "manifest": "https://github.com/mordachai/art-for-daggerheart/releases/latest/download/module.json",
+        "compatibility": {
+          "minimum": "1.1.4",
+          "verified": "2"
+        }
+      },
+      {
         "id": "pt-BR",
         "type": "module",
         "manifest": "https://github.com/mclemente/fvtt-ptbr-core-translation/releases/latest/download/module.json",
