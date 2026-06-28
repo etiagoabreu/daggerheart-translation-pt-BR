@@ -1,0 +1,59 @@
+{
+  "label": "Subclasses",
+  "mapping": {
+    "description": "system.description"
+  },
+  "folders": {
+    "Assassin": "Assassino",
+    "Blood Hunter": "Caçador de Sangue",
+    "Brawler": "Pugilista",
+    "Warloc": "Ocultista",
+    "Witch": "Bruxo"
+  },
+  "entries": {
+    "Executioners Guild": {
+      "name": "Executor",
+      "description": ""
+    },
+    "Poisoners Guild": {
+      "name": "Intoxicante",
+      "description": ""
+    },
+    "Order of the Ghost Slayer": {
+      "name": "Ordem do Matador Fantasma",
+      "description": ""
+    },
+    "Order of the Lycan": {
+      "name": "Ordem do Licantropo",
+      "description": ""
+    },
+    "Order of the Mutant": {
+      "name": "Ordem do Mutante",
+      "description": ""
+    },
+    "Juggernaut": {
+      "name": "Implacável",
+      "description": ""
+    },
+    "Martial Artist": {
+      "name": "Artista Marcial",
+      "description": ""
+    },
+    "Pact of the Endless": {
+      "name": "Pacto do Perpétuo",
+      "description": ""
+    },
+    "Pact of the Wrathful": {
+      "name": "Pacto do Colérico",
+      "description": ""
+    },
+    "Hedge": {
+      "name": "Cerca-Viva",
+      "description": ""
+    },
+    "Moon": {
+      "name": "Lunar",
+      "description": ""
+    }
+  }
+}

@@ -1,0 +1,234 @@
+{
+  "label": "Classes",
+  "mapping": {
+    "description": "system.description"
+  },
+  "folders": {
+    "Features": "Habilidades de Classe",
+    "Seraph": "Serafim",
+    "Class Items": "Itens de Classe",
+    "Bard": "Bardo",
+    "Druid": "Druida",
+    "Guardian": "Guardião",
+    "Ranger": "Patrulheiro",
+    "Rogue": "Ladino",
+    "Warrior": "Guerreiro",
+    "Wizard": "Mago",
+    "Sorcerer": "Feiticeiro",
+    "Standard Take": "Itens Iniciais"
+  },
+  "entries": {
+    "Assassin": {
+      "name": "Assassino",
+      "description": "Assassinos são mestres na arte de penetrar nas defesas de seus oponentes e inflingir dor lascinante e ataques mortíferos. Quando um assassino marca alguém para morrer, ele persegue sua vítima com determinação inabalável."
+    },
+"Blood Hunter": {
+      "name": "Caçador de Sangue",
+      "description": "Domine a arte da hemomancia e descubra quais segredos podem ser desbloqueados dentro do poder do seu próprio sangue. Caçadores de Sangue são praticantes habilidosos em sua busca incansável de novas magias e habilidades sombrias aguardando para ser descobertas dentro de si mesmos."
+    },
+"Brawler": {
+      "name": "Pugilista",
+      "description": "Peritos em combate desarmado, pugilistas transformam seus corpos em armas letais usando destreza física impressionante. Tendo aprendido suas proezas em academias especializadas ou aprimorado suas técnicas uma luta de cada vez, o processo é sempre rigoroso, desenvolvendo como um o corpo e a mente de um pugilista."
+    },
+"Warlock": {
+      "name": "Ocultista",
+      "description": ""
+    },
+"Witch": {
+      "name": "Bruxo",
+      "description": "Praticantes da Magia que comungam com forças da natureza e entidades de planos do além. Bruxos invocam seus poderes através da arte de rituais, encantamentos, ervas, buzios, velas e outras ferramentas usadas para trazer a tona a sua vontade e conjurar feitiços poderosos."
+    },
+"Chasing Death": {
+      "name": "Perseguindo a Morte",
+      "description": "Enquanto você tiver de 1 a 3 Pontos de Vida desmarcados, você pode usar seu Ritual Carmessim sem pagar o custo de Pontos de Vida. Se você tiver apenas 1 Ponto de Vida desmarcado, você rola d8s ao invés de d6s para o dano extra do seu Ritual Carmessim."
+    },
+    "Shadowed Grit": {
+      "name": "Bravura Sombria",
+      "description": "Quando o GM ganhar Pontos de Medo oriundos de uma rolagem nos Dados de Dualidade, você pode marcar 1 Ponto de Fadiga para ganhar 1 Ponto de Esperança."
+    },
+    "Veilwalker": {
+      "name": "Caminhante do Véu",
+      "description": "Você pode se esgueirar brevemente para o reino entre os vivos e os mortos. Gaste 2 Pontos de Esperança para desaparecer e então reaparecer próximo a uma criatura ou a um cadáver em alcance Distante. Você tem vantagem na sua próxima rolagem de ataque que fizer nessa cena."
+    },
+    "Spectral Form": {
+      "name": "Forma Espectral",
+      "description": "Você tem mais uma opção de Movimento da Morte: a Forma Espectral. Quando você escolher essa opção, você recupera 1 Ponto de Vida, seu corpo se torna espectral, você tem resistência a danos físicos e pode atravesasr objetos. Essa forma termina se você recuperar mais Pontos de Vida. O efeito também passa se você marcar seu último Ponto de Vida, que forçará você a escolher um movimento de morte diferente. Você é transferido para o espaço aberto mais próximo se estiver dentro de um objeto sólido quando o efeito passar."
+    },
+    "Mutagens": {
+      "name": "Mutagênicos",
+      "description": "Você aplica toxinas mutagênicas criadas para aprimorar suas habilidades. Quando termina um descanso, você pode beber uma dessas toxinas para ganhar seus efeitos, que duram até o final do seu próximo descanso. Esses efeitos incluem um bônus de +1 em um tributo de sua escolha, uma penalidade de -1 em um atributo diferente de sua escolha, e um dos benefícios abaixo: Celeridade: Se você ficar Restringido ou Vulnerável, você pode marcar 1 Ponto de Fadiga para finalizar a condição de si mesmo. Durável: Sua Armadura Base aumenta em 2. Sentidos de Caçador: Você tem vantagem em qualquer teste que fizer para rastrear uma criatura, você pode enxergar na escuridão completa."
+    },
+    "Improved Mutagens": {
+      "name": "Mutagênicos Aprimorados",
+      "description": "Quando escolher um benefício de mutagênico, você também tem as opções a seguir: Nervos de Aço: Sempre que você tiver que marcar 1 Ponto de Fadiga, você pode gastar 2 Pontos de Fadiga no lugar. Rapidez: Sua Evasão aumenta em 1. Pele de Ferro: Seu limiar de Dano Grave ganha bônus igual à sua Proficiência."
+    },
+    "Volatile Toxins": {
+      "name": "Toxinas Voláteis",
+      "description": "Você pode escolher dois benefícios de mutagênico ao invés de um. Se fizer, marque 1 Ponto de Vida que não pode ser recuperado até você finalizar seu próximo descanso."
+    },
+    "Mastered Mutagens": {
+      "name": "Mestre dos Mutagênicos",
+      "description": "O bônus e penalidade dos Mutagênicos muda para +2 e -2 respectivamente. Quando você escolher um benefício de mutagênico, você também tem as opções a seguir: Éter Sangúineo: Dentro da sua linha de visão, você pode ver criaturas e objetos invisíveis, e ilusões visuais se tornam transparentes para você. Se a criatura ou objeto na sua linha de visão foi transformada por mágica, você pode ver sua verdadeira forma. Fúria: Quando fizer uma rolagem de ataque, você pode marcar 1 Ponto de Fadiga para ganhar bônus na rolagem igual à sua Proficiência. Carne de Aço: O limiar do seu Dano Maior ganha bônus igual à sua Proficiência."
+    },
+    "Werewolf": {
+      "name": "Lobisomem",
+      "description": "Você ganha a carta de Transformação “Lobisomem”. Suas rolagens para perceber via audição e odor têm vantagem."
+    },
+    "Control the Beast": {
+      "name": "Controlar a Fera",
+      "description": "Enquanto estiver na Forma Lupina, você pode aplicar o dado de bônus dessa forma aos seus testes de Agilidade e Força."
+    },
+    "Feral Hide": {
+      "name": "Couro Selvagem",
+      "description": "Enquanto estiver na Forma Lupina, você ganha bônus nos seus Limiares de Dano igual ao seu Patamar."
+    },
+    "Lycan Regeneration": {
+      "name": "Regeneração Licantropa",
+      "description": "Enquanto estiver na Forma Lupina com todos seus Pontos de Vida marcados, você pode marcar 1 Ponto de Fadiga para recuperar 1 Ponto de Vida. Você pode fazer isso inconsciente."
+    },
+    "Master the Beast": {
+      "name": "Domine a Fera",
+      "description": "Quando estiver na Forma Lupina e for marcar seu último Ponto de Fadiga, em vez disso você pode pode colocar uma das Cartas de Domínio da sua Mão na sua Reserva; você só poderá recuperar essa Carta de Domínio após finalizar um descanso longo. Quando entrar em Frenesi após marcar seu último Ponto de Fadiga, enquanto está em Forma Lupina, você ganha 2 Pontos de Esperança."
+    },
+    "Patron's Mantle": {
+      "name": "Manto do Patrono",
+      "description": "Marque 1 Ponto de Fadiga para assumir um aspecto horrendo de seu patrono que dura até você sofrer um Dano Grave ou que a cena acabe. Enquanto estiver transformado: Você pode gastar 2 Pontos de Favor ao invés de marcar um Ponto de Armadura. Você ganha bônus igual ao seu Patamar atual em testes para intimidar um alvo."
+    },
+    "Deadly Devotion": {
+      "name": "Devoção Mórbida",
+      "description": "Após um ataque bem-sucedido, você pode gastar 1 Ponto de Favor para ganhar um bônus de +1 à sua Evasão que dura até você sofrer um ataque bem-sucedido ou até o seu próximo descanso."
+    },
+    "Draining Invocation": {
+      "name": "Invocação Sugadora",
+      "description": "Quando você ou um aliado forem alvos do ataque de um inimigo em alcance Muito Próximo, você pode gastar 1 Ponto de Favor para fazê-lo rolar um d12 em vez de um d20 para atacá-lo. Além disso, O adversário deve marcar 1 Ponto de Fadiga, e você recupera 1 Ponto de Fadiga."
+    },
+    "Dark Aegis": {
+      "name": "Égide Sombria",
+      "description": "Uma vez por descanso longo, você pode gastar 1 Ponto de Favor ao invés de marcar qualquer quantidade de Pontos de Vida."
+    },
+    "Draining Bane": {
+      "name": "Maldição Drenadora",
+      "description": "Quando um adversário ataca você ou um aliado em alcance Muito Próximo, você pode gastar 2 Pontos de Favor para deixá-lo temporariamente Drenado. Quando você fizer isso, o adversário Drenado deve marcar 1 Ponto de Fadiga e você recupera 1 Ponto de Fadiga. A criatura Drenada usa d12 em vez de d20 para atacar."
+    },
+    "Favored Weapon": {
+      "name": "Arma Favorita",
+      "description": "Marque 1 Ponto de Fadiga para Imbuir sua arma com a fúria de seu patrono até que você cause Dano Grave. EM um ataque bem-sucedido com a arma Imbuída, você pode gastar qualquer quantidade de Pontos de Favor ára ganhar +1d6 de bônus no dano por cada Ponto de Favor gasto."
+    },
+    "Herald of Death": {
+      "name": "Arauto da Morte",
+      "description": "Em um ataque mal-sucedido, você pode gastar 1 Ponto de Favor para rolar o ataque novamente. Se fracassar de novo, você fica com o segundo resultado e marca 1 Ponto de Fadiga."
+    },
+    "Menacing Reach": {
+      "name": "Alcance Ameaçador",
+      "description": "Quando você Imbuir sua arma com a fúria de seu patrono, você pode marcar 1 Ponto de Fadiga adicional para aumentar o alcance em um passo (Corpo-a-Corpo para Muito Próximo, Muito Próximo para Próximo, etc.)."
+    },
+    "Diminish My Foes": {
+      "name": "Desprezo Pelo Inimigo",
+      "description": "Quando fizer um ataque bemsucedido com Esperança, você pode gastar 1 Ponto de Esperança para fazer o alvo marcar 1 Ponto de Fadiga."
+    },
+    "Fearsome Attack": {
+      "name": "Ataque Temível",
+      "description": "Você sempre pode gastar 1 Ponto de Favor para rolar novamente qualquer quantidade de seus dados de dano. Você pode gastar seus Pontos de Favor para rolar novamente os mesmos dados quantas vezes quiser."
+    },
+    "Divine Ire": {
+      "name": "Ira Divina",
+      "description": "Uma vez por descanso, quando você sofrer dano, você pode gastar qualquer quantidade de Pontos de Favor para afetar essa mesma quantidade de adversários em alcance Muito Próximo. Cada alvo afetado deve marcar 1 Ponto de Vida."
+    },
+    "": {
+      "name": "",
+      "description": ""
+    },
+    "Blood Maledict": {
+      "name": "Maldição de Sangue",
+      "description": "Gaste 3 de Esperança para escolher como alvo uma criatura a longa distância ou que esteja em uma visão da sua Psicometria Sombria. Até terminar um descanso, sofrer dano grave ou usar esta habilidade novamente, você tem vantagem em todas as rolagens de ação contra o alvo."
+    },
+    "Grim Psychometry": {
+      "name": "Psicometria Sombria",
+      "description": "Quando estiver inspecionando uma criatura, um local ou um objeto em alcance Muito Próximo, faça um Teste de Conjuração (12). Em um sucesso, marque 1 Ponto de Fadiga para visualizar o ato de violência mais recente envolvendo o alvo, e até o final do descanso, você tem vantagem em qualquer teste para recordar informações sobre coisas na visão."
+    },
+    "Crimson Rite": {
+      "name": "Ritual Carmessim",
+      "description": "Você pode enfeitiçar seus ataques com poder sedento de sangue ao custo de sua vitalidade. Marque 1 Ponto de Vida para enfeitiçar uma de suas armas ativas. Até o fim do seu próximo descanso, sua arma causa dano físico ou mágico (escolhido quando você usar essa habilidade) e 1d6 de dano extra quando você acertar ataques com ela. Esse dano extra aumenta para 2d6 no nível 5 e 3d6 no nível 8."
+    },
+    "Steel Needle": {
+      "name": "Agulha de Aço",
+      "description": ""
+    },
+    "Vial of Blood": {
+      "name": "Frasco de Sangue",
+      "description": ""
+    },
+    "Patron's Boon": {
+      "name": "Bênção do Patrono",
+      "description": "Gaste 3 de Esperança para clamar por ajuda ao seu patrono, ganhando 1d4 de Favor."
+    },
+    "Warlock Patron": {
+      "name": "Patrono Oculto",
+      "description": "Você comprometeu sua vida a um patrono (deus, demônio, entidade feérica ou qualquer outra entidade sobrenatural) em troca de poder. Escolha um nome para o seu patrono. Então, escolha suas esferas de influência, a critério do GM (Natureza & Trapaça, Amor & Guerra, Conhecimento & Sombras, etc). Anote isso também na sua ficha e dê a cada esfera um bônus de +2. Sempre que subir de Patamar, essas esferas de influência ganham um bônus permanente de +1. Antes de fazer um teste que tenha relação com uma das esferas de influência do seu patrono, você pode gastar um Favor para interceder por ele e adicionar o valor do bônus à rolagem."
+    },
+    "Favor": {
+      "name": "Favor",
+      "description": "Você começa com 3 Pontos de Favor e tem um máximo de 6 Espaços de Favor. Durante um descanso, você pode gastar uma ação de repouso para pagar tributo ao seu patrono. Quando fizer, você recupera Favor igual à sua Presença. Se você escolher renunciar esse tributo, o GM ganha 1 Ponto de Medo."
+    },
+    "Carving": {
+      "name": "Escultura",
+      "description": ""
+    },
+    "Ring": {
+      "name": "Anel",
+      "description": ""
+    },
+    "": {
+      "name": "",
+      "description": ""
+    },
+    "": {
+      "name": "",
+      "description": ""
+    },
+    "": {
+      "name": "",
+      "description": ""
+    },
+    "": {
+      "name": "",
+      "description": ""
+    },
+    "": {
+      "name": "",
+      "description": ""
+    },
+    "": {
+      "name": "",
+      "description": ""
+    },
+    "": {
+      "name": "",
+      "description": ""
+    },
+    "": {
+      "name": "",
+      "description": ""
+    },
+    "": {
+      "name": "",
+      "description": ""
+    },
+    "": {
+      "name": "",
+      "description": ""
+    },
+    "": {
+      "name": "",
+      "description": ""
+    },
+    "": {
+      "name": "",
+      "description": ""
+    },
+    "": {
+      "name": "",
+      "description": ""
+    }
+  }
+}

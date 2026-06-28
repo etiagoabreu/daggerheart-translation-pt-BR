@@ -1,0 +1,64 @@
+{
+  "label": "Transformações",
+  "mapping": {
+    "description": "system.description"
+  },
+  "folders": {
+    "Demigod": "Semi-Deus",
+    "Ghost": "Fantasma",
+    "Reanimated": "Reanimado",
+    "Shapeshifter": "Metamorfo",
+    "Vampire": "Vampiro",
+    "Werewolf": "Lobisomen"
+  },
+  "entries": {
+    "Spirit Form": {
+      "name": "Forma Espíritual",
+      "description": "Sua forma física pode alternar entre corpórea e incorpórea. Marque 1 Ponto de Fadiga para assumir ou desfazer sua Forma Espiritual. Enquanto estiver em sua Forma Espiritual, você pode atravessar objetos sólidos. Você também fica imune a dano físico, mas sofre o dobro de dano mágico. Você pode gastar 2 Pontos de Esperança para atacar ou interagir com o mundo material."
+    },
+    "Ephemeral": {
+      "name": "Efêmero",
+      "description": "Marque permanentemente 1 Ponto de Vida quando adquirir a carta Fantasma e quando subir de Patamar. Quando você marcar seu último Ponto de Vida, você deve escolher Sacrifício Glorioso como seu movimento de morte."
+    },
+"Wolf Form": {
+      "name": "Forma Lupina",
+      "description": "Quando marcar 1 ou mais Pontos de Vida, você pode também marcar 1 Ponto de Fadiga para assumir sua Forma Lupina. Enquanto estiver nessa forma, você ganha o Dado do Lobo, um d10 que você adiciona às suas rolagens de ataque e dano. Sempre que ganhar Esperança quando estiver na forma Lupina, em vez disso, você marca 1 Ponto de Fadiga."
+    },
+"Frenzy": {
+      "name": "Frenesi",
+      "description": "Quando marcar seu último Ponto de Fadiga na Forma Lupina, você entra em Frenesi. Role uma quantidade de d20 igual ao seu Patamar atual. Com o resultado dessa rolagem, você causa dano físico automático a todas as criaturas em alcance Muito Próximo a você. Após isso, sua Forma Lupina se desfaz e você volta à sua forma normal."
+    },
+"Change Shape": {
+      "name": "Alterar Forma",
+      "description": "Durante um Descanso Longo, você pode usar uma de suas ações de repouso para alternar entre a sua ancestralidade atual para uma outra ancestralidade. Quando fizer isso, você descreve como sua aparência muda."
+    },
+"Only Skin Deep": {
+      "name": "Superficial",
+      "description": "Quando você Alterar Forma, você só ganha o benefícios de uma das habilidades de ancestralidade, que você escolhe quando se transforma na ancestralidade escolhida. Você pode usar uma ação de repouso para alternar de um benefício de ancestralidade para outra."
+    },
+"Corpse": {
+      "name": "Cadáver",
+      "description": "Em caso de falha num teste de Arriscar Tudo, em vez de falhar você pode marcar permanentemente um Ponto de Vida para garantir um sucesso. Quando fizer isso, você ainda usa o valor do Dado de Esperança para distribuir entre seus Pontos de Vida e Pontos de Fadiga."
+    },
+"Stitch Up": {
+      "name": "Todo Costurado",
+      "description": "Durante um descanso, você só pode recuperar Pontos de Vida se tiver acesso aos restos mortais de um cadáver recém falecido. Descreva como usar esses materiais afeta a sua aparência. Você não pode recuperar Pontos de Vida de nenhuma outra forma que não seja com uma ação de repouso ou o movimento de morte Arrisca Tudo."
+    },
+"Ichor of the Gods": {
+      "name": "Elixir dos Deuses",
+      "description": "Seu dado de vantagem é um d10 em vez de um d6."
+    },
+"Weight of Divinity": {
+      "name": "O Peso da Divindade",
+      "description": "Quando tiver um fracasso com Medo, você deve marcar 1 Ponto de Fadiga ou conceder ao GM 1 Ponto de Medo adicional."
+    },
+"Fangs": {
+      "name": "Presas",
+      "description": "Faça um teste de Força para morder alguém em alcance Corpo-a-Corpo, causando d8 de Dano Físico usando sua Proficiência."
+    },
+"Feed": {
+      "name": "Alimentar-se",
+      "description": "Em um sucesso no ataque de Presas contra uma criatura viva, você pode marcar 1 Ponto de Fadiga para Alimentar-se. Coloque uma quantidade de marcadores na carta Vampiro igual à quantidade de Pontos de Vida que o alvo marcar. Você pode armazenar até um máximo de 5 marcadores por vez. Gaste 1 marcador antes de um teste de ataque para transformar seu Dado de Medo em um d20 em vez de um d12. Quando faz um Descanso Longo, remova 1 marcador. Se não houver nenhum marcador na sua carta Vampiro, todos seus testes de ação e reação são feitos com desvantagem."
+    }
+  }
+}

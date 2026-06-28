@@ -8,7 +8,7 @@
 ![Art for Daggerheart](https://img.shields.io/badge/Art_for_Daggerheart-v1.1.4-pink)
 ![Babele](https://img.shields.io/badge/Babele-v2.7.7-yellow)
 ![License](https://img.shields.io/badge/License-MIT-green)
-![Version](https://img.shields.io/badge/Version-v0.0.1-gray)
+![Version](https://img.shields.io/badge/Version-v0.1.1-gray)
 ![Status](https://img.shields.io/badge/Status-em%20desenvolvimento-gray)
 
 </div>

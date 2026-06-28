@@ -1,0 +1,59 @@
+{
+  "label": "Comunidades",
+  "mapping": {
+    "description": "system.description"
+  },
+  "folders": {
+    "Features": "Habilidades de Comunidade"
+  },
+  "entries": {
+    "Duneborne": {
+      "name": "Desértica",
+      "description": "Integrar uma comunidade desértica significa que você foi criado entre as dunas e clima árido do deserto."
+    },
+"Freeborne": {
+      "name": "Liberta",
+      "description": "Integrar uma comunidade liberta significa que você faz parte de um grupo de pessoas que vivia sob forte tirania e agora está livre."
+    },
+"Frostborne": {
+      "name": "Gélida",
+      "description": "Integrar uma comunidade gélida significa que você vem de um lugar com neve e gelo em abundância."
+    },
+"Hearthborne": {
+      "name": "Pacata",
+      "description": "Integrar uma comunidade pacata significa que você vem de um lugar de origem humilde, tendo vivido em um pequeno vilarejo no interior."
+    },
+"Reborne": {
+      "name": "Sem Comunidade",
+      "description": "Em algum momento da vida você fez parte de uma comunidade, mas você não se lembra mais disso."
+    },
+"Warborne": {
+      "name": "Devastada",
+      "description": "Integrar uma comunidade devastada significa que você vem de um lugar que é, ou foi, devastado pela guerra."
+    },
+"Oasis": {
+      "name": "Oasis",
+      "description": "Durante um descanso curto, você ou um aliado podem rolar novamente um dado usado em uma ação de repouso."
+    },
+"Found Family": {
+      "name": "Família Adotada",
+      "description": "Uma vez por sessão, você pode gastar 1 Ponto de Esperança para usar as habilidades de comunidade de um aliado. Quando fizer isso, ganhe 1 Ponto de Esperança."
+    },
+"Brave Face": {
+      "name": "Semblante Corajoso",
+      "description": "Uma vez por sessão, quando um ataque fizer com que você marque 1 Ponto de Fadiga, em vez disso você pode gastar 1 Ponto de Esperança."
+    },
+"Close-Knit": {
+      "name": "A União Faz a Força",
+      "description": "Uma vez por Descanso Longo, você pode gastar qualquer quantidade de Pontos de Esperança para dar a um aliado a mesma quantidade de Esperança."
+    },
+"Hardy": {
+      "name": "Resistente",
+      "description": "Uma vez por descanso, você pode ajudar um aliado a atravessar um terreno difícil sem gastar 1 Ponto de Esperança."
+    },
+"Unbound": {
+      "name": "Desgarrado",
+      "description": "Uma vez por sessão, quando rolar um Teste com Medo, você pode mudar o resultado para Esperança."
+    }
+  }
+}

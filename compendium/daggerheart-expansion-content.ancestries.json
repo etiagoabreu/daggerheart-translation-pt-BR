@@ -1,0 +1,83 @@
+{
+  "label": "Ancestralidades",
+  "mapping": {
+    "description": "system.description"
+  },
+  "folders": {
+    "Features": "Habilidades de Ancestralidade"
+  },
+  "entries": {
+	"Aetheris": {
+      		"name": "Angelis",
+      		"description": "Angelis são humanoides que possuem auras pulsantes e olhos brilhantes. Eles são descendentes de celestiais vindos dos Planos Superiores"
+    	},
+	"Earthkin": {
+      		"name": "Terrenal",
+      		"description": "Terrenais são descendentes dos elementais da terra. São humanoides cujos corpos são compostos de carne e barro."
+    	},
+	"Emberkin": {
+      		"name": "Calidar",
+      		"description": "Calidares são descendentes de elementais do fogo. Eles são humanoides cujos corpos são compostos de carne e fogo."
+    	},
+	"Gnome": {
+      		"name": "Gnomo",
+      		"description": "Gnomos são pequenos humanoides facilmente reconhecidos por sua densa musculatura e braços longos e estrutura facial alongada"
+    	},
+	"Skykin": {
+      		"name": "Celestino",
+      		"description": "Celestinos são descendentes de elementais do ar. Eles são humanoides cujos corpos são compostos de carne e ar."
+    	},
+	"Tidekin": {
+      		"name": "Maresial",
+      		"description": "Maresiais são descendentes dos elementais da água. Eles são humanoides, cujos corpos são compostos de carne e água."
+    	},
+	"Amphibious": {
+      		"name": "Anfíbio",
+      		"description": "Você pode respirar e mover-se naturalmente debaixo dágua."
+    	},
+	"Divine Countenance": {
+      		"name": "Semblante Divino",
+      		"description": "Você tem vantagem em rolagens para comandar ou persuadir."
+    	},
+	"Eye of the Storm": {
+      		"name": "Olho da Tempestade",
+      		"description": "Gaste 2 Pontos de Esperança para conceder +1 de bônus de Evasão a você ou a um aliado até que sofra um Dano Grave ou que use Olho da Tempestade novamente."
+    	},
+	"Fireproof": {
+      		"name": "À Prova de Fogo",
+      		"description": "Você é imune a dano de fogo mundano ou mágico."
+    	},
+	"Gale Force": {
+      		"name": "Vendaval",
+      		"description": "Marque 1 Ponto de Fadiga para conjurar uma rajada de vento que carrega você ou um aliado a até uma distância Muito Distante. Além disso, você sempre pode controlar a velocidade da queda."
+    	},
+	"Hallowed Aura": {
+      		"name": "Aura Sagrada",
+      		"description": "Uma vez por descanso, quando um aliado em alcance Próximo rolar com Medo, você pode transformar em uma rolagem com Esperança."
+    	},
+	"Ignition": {
+      		"name": "Ignição",
+      		"description": "Marque 1 Ponto de Fadiga para cingir sua arma primária com chamas até o fim da cena. Enquanto estiver em chamas, a arma emite luz brilhante e ganha um bônus de 1d6 em rolagens de dano contra inimigos em alcance Corpo-a-Corpo."
+    	},
+	"Immovable": {
+      		"name": "Irremovível",
+      		"description": "Enquanto seus pés estiverem tocando o chão, você não pode ser levantado ou movido contra sua vontade."
+    	},
+	"Lifespring": {
+      		"name": "Fonte Vital",
+      		"description": "Uma vez por descanso, quando você tiver acesso a pequenas porções de água, você pode marcar 2 Pontos de Fadiga para curar a si mesmo ou a um aliado em 1 Ponto de Vida."
+    	},
+	"Nimble Fingers": {
+      		"name": "Dedos Ágeis",
+      		"description": "Quando fizer um teste de Acuidade, você pode gastar 2 Ponto de Esperança para rolar novamente seu Dado de Esperança."
+    	},
+	"Stoneskin": {
+      		"name": "Duro Feito Pedra",
+      		"description": "Você ganha +1 de bônus nos seus Pontos de Armadura e limiares de dano."
+    	},
+	"True Sight": {
+      		"name": "Visão Verdadeira",
+      		"description": "Você tem vantagem em rolagens para enxergar através de ilusões."
+    	}
+  }
+}

@@ -2,7 +2,7 @@
   "id": "daggerheart-translation-pt-BR",
   "title": "Daggerheart: Tradução Português-BR",
   "description": "Tradução NÃO OFICIAL do SRD em Português do Brasil do sistema de RPG Daggerheart da Darrington Press e Critical Role adaptada pela Foundryborne no FoundryVTT. Utilizando os melhores léxicos sugeridos pela comunidade ou popularizados por empresas licenciadas no Brasil.",
-      "version": "0.0.1",
+      "version": "0.1.1",
   "compatibility": {
     "minimum": "13",
     "verified": "14"
