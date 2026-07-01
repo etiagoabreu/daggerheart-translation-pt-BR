@@ -286,7 +286,7 @@
       "description": "Faça um <b>teste de conjuração (10)</b>. Em um sucesso, <b>marque um Fadiga</b> e deixe você ou um aliado Adjacente <i>Invisível</i>. Uma criatura <i>Invisível</i> só pode ser vista por meios mágicos e testes de ataque contra ela são feitos com desvantagem. Coloque um número de marcadores igual ao seu atributo de conjuração nesta carta. Quando a criatura <i>Invisível</i> faz um movimento, gaste um marcador desta carta. Após o término da ação que consumiu o último marcador, o efeito termina.<br>Você pode manter apenas uma criatura <i>Invisível</i> por vez."
     },
     "I Am Your Shield": {
-      "name": "Sou Seu Fadiga",
+      "name": "Sou Seu Escudo",
       "description": "Quando um aliado Muito Próximo for sofrer dano, você pode <b>marcar um Fadiga</b> para prostrar-se no caminho e virar o alvo do ataque no lugar dele. Ao sofrer dano desse ataque, você pode marcar um número qualquer de Armadura."
     },
     "I See It Coming": {
